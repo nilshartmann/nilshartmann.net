@@ -1,9 +1,9 @@
 ---
-title: 'React Anwendungen mit Webpack bauen'
+title: "React Anwendungen mit Webpack bauen"
 date: '2015-07-05T13:53:30.000Z'
-image_position: 'undefined'
-image_expanded: 'true'
 summaryMarkdown: 'Seit einigen Tagen gibt es eine erste [deutschsprachige Community-Seite](http://reactjs.de/) rund um die JavaScript Bibliothek [React](http://facebook.github.io/react). Dort haben ich einen Artikel geschrieben, in dem an Hand eines React/ES6-Beispiels beschrieben wird, wie sich mit [Webpack](http://webpack.github.io/) React Anwendungen bauen lassen.'
+image: '/uploads/019_00_150119-265.jpg'
+image_expanded: 'true'
 tags:
  - Artikel und Vorträge
  - JavaScript

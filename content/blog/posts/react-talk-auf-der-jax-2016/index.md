@@ -1,9 +1,10 @@
 ---
-title: 'React-Talk auf der Jax 2016'
+title: "React-Talk auf der Jax 2016"
 date: '2016-04-26T22:00:00.000Z'
+summaryMarkdown: 'Auf der Jax in Mainz habe ich einen Talk über React gehalten. Die Folien dazu kannst Du hier bekommen.'
+image: '/uploads/1461759348763_react-talk.png'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'Auf der Jax in Mainz habe ich einen Talk über React gehalten. Die Folien dazu kannst Du hier bekommen.'
 tags:
  - JavaScript
  - React

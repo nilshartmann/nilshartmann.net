@@ -1,9 +1,10 @@
 ---
-title: 'React Buch erschienen!'
+title: "React Buch erschienen!"
 date: '2016-06-16T22:00:00.000Z'
+summaryMarkdown: 'Das Warten hat ein Ende: Unser Buch "React - Die praktische Einführung in React, React Router und Redux" ist heute erschienen und ab sofort erhältlich. Hier gibt es Leseproben.'
+image: '/uploads/1466184595716_react-buch-titel-klein.jpg'
 image_position: 'left'
 image_expanded: 'true'
-summaryMarkdown: 'Das Warten hat ein Ende: Unser Buch "React - Die praktische Einführung in React, React Router und Redux" ist heute erschienen und ab sofort erhältlich. Hier gibt es Leseproben.'
 tags:
  - React
  - Buch

@@ -1,9 +1,9 @@
 ---
-title: 'Fifty Ways to build your Bundle'
+title: "Fifty Ways to build your Bundle"
 date: '2009-11-05T18:28:54.000Z'
-image_position: 'left'
-image_expanded: 'undefined'
 summaryMarkdown: 'Auf dem Eclipse Democamp in Hamburg haben wir verschiedene Möglichkeiten vorgestellt, wie sich Eclipse Plug-ins bauen lassen'
+image: '/uploads/ebernezer.png'
+image_position: 'left'
 tags:
  - ant4eclipse
  - Artikel und Vorträge

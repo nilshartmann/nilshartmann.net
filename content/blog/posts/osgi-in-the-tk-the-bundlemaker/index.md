@@ -1,8 +1,6 @@
 ---
-title: 'OSGi in the TK: The BundleMaker'
+title: "OSGi in the TK: The BundleMaker"
 date: '2011-09-21T18:16:36.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Bei der Techniker Krankenkasse sind wir gerade dabei, unsere Anwendung zu modularisieren und auf OSGi zu portieren. Da diese Modularisierung während der laufenden Weiterentwicklung erfolgen muss, haben wir ein Tool entwickelt, mit dem wir die Abhängigkeiten analysieren und an Hand von Regeln in neue Module transformieren können - den BundleMaker, der mittlerweile als Open-Source-Tool zur Verfügung steht.'
 tags:
  - Artikel und Vorträge

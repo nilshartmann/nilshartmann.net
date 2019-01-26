@@ -1,9 +1,8 @@
 ---
-title: 'Von Wordpress nach React...'
+title: "Von Wordpress nach React..."
 date: '2015-08-16T20:32:04.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Schon seit einer ganzen Weile wollte ich meine Wordpress-basierte Homepage auf ein "leichtgewichtigeres" System umstellen. Ursprünglich hatte ich dazu Jekyll vorgesehen, doch dann kam React...'
+image: '/uploads/blaubeeren.jpg'
 tags:
  - JavaScript
  - React

@@ -1,9 +1,9 @@
 ---
-title: 'Zum Herbstbeginn: Herbst-Anemone'
+title: "Zum Herbstbeginn: Herbst-Anemone"
 date: '2013-09-23T21:53:46.000Z'
-image_position: 'skip'
-image_expanded: 'undefined'
 summaryMarkdown: 'Einen Tag nach Herbstbeginn habe ich heute - bei grauem Himmel, milden Temperaturen aber nur wenig Wind - eine Herbst-Anemone (Anemone hupehensis) mit dem Makro fotografiert'
+image: '/uploads/20130923-130923-022.jpg'
+image_position: 'skip'
 tags:
  - Anemone hupehensis
  - Fotografie

@@ -1,9 +1,8 @@
 ---
-title: '"Erfolgreich mit Git - ein Erfahrungsbericht"'
+title: "\"Erfolgreich mit Git - ein Erfahrungsbericht\""
 date: '2014-02-11T22:11:02.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Gestern habe ich auf dem "IT Talk" der Firma ConceptPeople einen Vortrag über die Einführung von Git bei der Techniker Krankenkasse gehalten'
+image: '/uploads/Git-Topic-Branches.png'
 tags:
  - Artikel und Vorträge
  - Git

@@ -1,9 +1,8 @@
 ---
-title: 'Aufgeschmissen ohne Aspirin? Modularisierung in der Praxis'
+title: "Aufgeschmissen ohne Aspirin? Modularisierung in der Praxis"
 date: '2013-05-17T22:00:00.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Wenn Sie schon einmal versucht haben, ein bestehendes System zu modularisieren, wissen Sie, wie schmerzhaft das ist. Die internen Abhängigkeiten sind komplex - wo und wie sollen Sie das System in Module aufteilen?'
+image: '/uploads/bundlemaker-puzzle.png'
 tags:
  - Artikel und Vorträge
  - BundleMaker

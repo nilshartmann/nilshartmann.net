@@ -1,9 +1,8 @@
 ---
-title: 'Ruhe vor dem Sturm...'
+title: "Ruhe vor dem Sturm..."
 date: '2015-07-25T18:53:30.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Die Ruhe vor dem herannahenden Sommer-Sturm *Zeljko* habe ich genutzt, um noch ein paar Makro-Aufnahmen zu machen...'
+image: '/uploads/150725-003-2.jpg'
 tags:
  - Fotografieren
  - Makro

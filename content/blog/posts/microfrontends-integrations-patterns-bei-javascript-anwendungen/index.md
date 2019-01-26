@@ -1,9 +1,10 @@
 ---
-title: 'Microfrontends: Integrations-Patterns bei JavaScript-Anwendungen'
+title: "Microfrontends: Integrations-Patterns bei JavaScript-Anwendungen"
 date: '2018-02-15T23:00:00.000Z'
+summaryMarkdown: 'Webanwendungen werden heutzutage üblicherweise als Single-Page-Anwendung gebaut, um das bestmögliche Verhalten hinsichtlich UI und UX zu erhalten. Gerade bei größeren Anwendungen kann es sinnvoll sein, die Anwendung in kleinere Teile aufzuspalten.'
+image: '/uploads/1541346675530_microfrontends.png'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'Webanwendungen werden heutzutage üblicherweise als Single-Page-Anwendung gebaut, um das bestmögliche Verhalten hinsichtlich UI und UX zu erhalten. Gerade bei größeren Anwendungen kann es sinnvoll sein, die Anwendung in kleinere Teile aufzuspalten.'
 tags:
  - JavaScript
  - micro frontends

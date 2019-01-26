@@ -1,60 +1,66 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import NavButton from '../components/NavButton'
+import FullPost from '../components/FullPost'
+
+function fullPostUrl(postOrNull) {
+  return postOrNull ? postOrNull.fields.slug : null
+}
+
+function postTitle(postOrNull) {
+  return postOrNull ? postOrNull.frontmatter.title : null
+}
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
+    // next.fields.slug next.frontmatter.title
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.summaryMarkdown}
         />
-        <h1>{post.frontmatter.title}</h1>
         <div>
-          <p>SUMMARY</p>
-          <div dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
-        </div>
-        <p
-          style={{
-            display: `block`,
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
+          <div className="Row Small">
+            <div className="NavBar">
+              <NavButton
+                url={fullPostUrl(previous)}
+                title={`Vorheriger Artikel: ${postTitle(previous)}`}
+                icon="angle-left"
+              />
+              <NavButton url="/" title="Home" icon="home" />
+              <NavButton
+                url={fullPostUrl(next)}
+                title={`Nächster Artikel: ${postTitle(next)}`}
+                icon="angle-right"
+              />
+            </div>
+          </div>
 
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
+          <FullPost post={post} />
+
+          <div className="Row Small">
+            <div className="NavBar">
+              <NavButton
+                url={fullPostUrl(previous)}
+                title={`Vorheriger Artikel: ${postTitle(previous)}`}
+                icon="angle-left"
+              />
+              <NavButton url="/" title="Home" icon="home" />
+              <NavButton
+                url={fullPostUrl(post.next)}
+                title={`Nächster Artikel: ${postTitle(post.next)}`}
+                icon="angle-right"
+              />
+            </div>
+          </div>
+        </div>
       </Layout>
     )
   }
@@ -71,15 +77,18 @@ export const pageQuery = graphql`
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      id
       fields {
+        slug
         summary
       }
       html
       frontmatter {
-        summaryMarkdown
+        date(formatString: "DD.MM.YYYY")
         title
-        date(formatString: "MMMM DD, YYYY")
+        image
+        image_position
+        image_expanded
+        tags
       }
     }
   }

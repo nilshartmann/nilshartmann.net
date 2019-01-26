@@ -1,8 +1,6 @@
 ---
-title: 'Wer will noch Git-Experte werden?'
+title: "Wer will noch Git-Experte werden?"
 date: '2015-03-15T15:31:24.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Gemeinsam mit [Rene Preissel](http://etosquare.de) biete ich auf der diesjährigen Jax im April einen ganztägigen Workshop rund um das Thema Git an'
 tags:
  - Allgemein

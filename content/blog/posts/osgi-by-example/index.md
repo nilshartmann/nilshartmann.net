@@ -1,8 +1,6 @@
 ---
-title: 'OSGi by Example'
+title: "OSGi by Example"
 date: '2009-06-27T18:26:14.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Am 25. Juni habe ich zusammen mit Gerd Wütherich im Rahmen der Regionalgruppe Hamburg der Gesellschaft für Informatik (GI) beim Hamburger Berater Team (HBT) einen OSGi-Vortrag mit dem Titel "OSGi by Example" gehalten. Die Folien gibt es jetzt als PDF-Dateien zum download.
 '
 tags:

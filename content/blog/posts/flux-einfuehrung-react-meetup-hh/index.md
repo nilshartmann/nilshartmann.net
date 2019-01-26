@@ -1,9 +1,9 @@
 ---
-title: 'Einführung in Flux auf dem React Meetup in Hamburg'
+title: "Einführung in Flux auf dem React Meetup in Hamburg"
 date: '2015-08-18T20:32:04.000Z'
-image_position: 'undefined'
-image_expanded: 'true'
 summaryMarkdown: 'Flux ist ein Architektur-Muster für die Entwicklung großer React-Anwendungen'
+image: '/uploads/flux.png'
+image_expanded: 'true'
 tags:
  - JavaScript
  - React

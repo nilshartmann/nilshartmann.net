@@ -1,9 +1,10 @@
 ---
-title: 'GraphQL mit Java-Anwendungen'
+title: "GraphQL mit Java-Anwendungen"
 date: '2018-11-08T23:00:00.000Z'
+summaryMarkdown: 'Alle reden von GraphQL: Dass die Abfragesprache auch mit Java-Anwendungen funktioniert, zeigt dieser Artikel.'
+image: '/uploads/1541950361950_screenshot-graphiql.png'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'Alle reden von GraphQL: Dass die Abfragesprache auch mit Java-Anwendungen funktioniert, zeigt dieser Artikel.'
 tags:
  - Java
  - GraphQL

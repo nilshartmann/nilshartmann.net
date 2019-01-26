@@ -124,11 +124,7 @@ export default class Layout extends React.Component {
                   <p>
                     <b>Vergangene Talks</b>
                   </p>
-                  <a
-                    className="ReadMore"
-                    href="https://nilshartmann.net/posts/vergangene-talks"
-                    target="_blank"
-                  >
+                  <a className="ReadMore" href="/posts/vergangene-talks">
                     Übersicht über vergangene Talks
                   </a>
                 </div>

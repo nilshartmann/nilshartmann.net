@@ -1,9 +1,10 @@
 ---
-title: 'Vergangene Talks'
+title: "Vergangene Talks"
 date: '2013-06-24T22:00:00.000Z'
+summaryMarkdown: 'Eine Auswahl meiner bisherigen Talks und Workshops'
+image: '/uploads/1498424152641_nils-im-workshop.jpeg'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'Eine Auswahl meiner bisherigen Talks und Workshops'
 tags:
  - React
  - Vortrag

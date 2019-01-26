@@ -1,9 +1,10 @@
 ---
-title: 'Hilfe, ich muss JavaScript programmieren!'
+title: "Hilfe, ich muss JavaScript programmieren!"
 date: '2018-09-04T22:00:00.000Z'
+summaryMarkdown: 'Wer professionelle Webanwendungen bauen will, kommt an JavaScript nicht vorbei. Für viele Nicht-JavaScript-Entwicklerinnen und -Entwickler ist die Vorstellung, mit JavaScript programmieren zu müssen, aber immer noch ein Graus. Zum einen bringt die Sprache selber einige Fallstricke und „Kuriositäten“ mit. Darüber hinaus erscheint aber auch das Ökosystem, das um die Sprache herum existiert, also Frameworks, Libraries und Tools, unüberschaubar groß und wenig nachhaltig. Der richtige Einstieg ist dadurch oftmals sehr schwierig. Dieser Artikel soll eine Orientierung geben, in dem er die wichtigsten Werkzeuge grob vorstellt und einordnet.'
+image: '/uploads/1541347504132_abb-03-linter.png'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'Wer professionelle Webanwendungen bauen will, kommt an JavaScript nicht vorbei. Für viele Nicht-JavaScript-Entwicklerinnen und -Entwickler ist die Vorstellung, mit JavaScript programmieren zu müssen, aber immer noch ein Graus. Zum einen bringt die Sprache selber einige Fallstricke und „Kuriositäten“ mit. Darüber hinaus erscheint aber auch das Ökosystem, das um die Sprache herum existiert, also Frameworks, Libraries und Tools, unüberschaubar groß und wenig nachhaltig. Der richtige Einstieg ist dadurch oftmals sehr schwierig. Dieser Artikel soll eine Orientierung geben, in dem er die wichtigsten Werkzeuge grob vorstellt und einordnet.'
 tags:
  - JavaScript
  - Artikel und Vorträge

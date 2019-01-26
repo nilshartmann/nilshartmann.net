@@ -1,8 +1,6 @@
 ---
-title: 'Building OSGi based applications'
+title: "Building OSGi based applications"
 date: '2010-04-16T18:32:04.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Das OSGi Users Forum Germany hat am 15. April 2010 in Darmstadt einen ganztägigen Workshop zum Themenschwerpunkt "Building OSGi based applications" veranstaltet.
 Gerd und ich haben auf diesem Workshop Ant4Eclipse vorgestellt.'
 tags:
@@ -18,5 +16,5 @@ Um einen Praxisbezug und eine Vergleichbarkeit herzustellen, wurde in allen Vort
 
 Gerd und ich haben auf diesem Workshop Ant4Eclipse vorgestellt.
 
-* [Vortragsfolien (PDF)](/uploads/ant4eclipse_osgi_2010.pdf)
-* [Beispiel Source Code](https://github.com/OSGiUsersGermany/osgi-kasse-example/tree/ant4eclipse-build)  
+- [Vortragsfolien (PDF)](/uploads/ant4eclipse_osgi_2010.pdf)
+- [Beispiel Source Code](https://github.com/OSGiUsersGermany/osgi-kasse-example/tree/ant4eclipse-build)

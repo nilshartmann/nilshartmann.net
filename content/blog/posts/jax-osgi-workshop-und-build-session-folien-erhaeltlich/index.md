@@ -1,8 +1,6 @@
 ---
-title: 'JAX OSGi Workshop und Build Session: Folien erhältlich'
+title: "JAX OSGi Workshop und Build Session: Folien erhältlich"
 date: '2009-05-01T18:23:35.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Die Folien meiner Vorträge auf der JAX 2009 in können hier heruntergeladen werden'
 tags:
  - ant4eclipse

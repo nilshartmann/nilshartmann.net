@@ -1,9 +1,9 @@
 ---
-title: 'W-Jax Workshop "Werden Sie Git Experte"'
+title: "W-Jax Workshop \"Werden Sie Git Experte\""
 date: '2014-09-17T19:39:35.000Z'
-image_position: 'left'
-image_expanded: 'undefined'
 summaryMarkdown: 'Gemeinsam mit [René Preißel](http://www.etosquare.de) werde ich auf der diesjährigen W-Jax am 7. November einen ganztägigen Experten-Workshop über Git anbieten'
+image: '/uploads/WJAX2014_Speakerbutton__Rectangle_.jpg'
+image_position: 'left'
 tags:
  - Artikel und Vorträge
  - Git

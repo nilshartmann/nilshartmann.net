@@ -1,9 +1,9 @@
 ---
-title: 'Das OSGi Buch'
+title: "Das OSGi Buch"
 date: '2008-04-05T18:18:47.000Z'
-image_position: 'left'
-image_expanded: 'undefined'
 summaryMarkdown: 'Im April 2008 ist das Buch "Die OSGi Service Platform - eine Einfühung mit Eclipse Equinox" erschienen, das ich gemeinsam mit Gerd Wütherich, Bernd Kolb und Matthias Lübken geschrieben habe.'
+image: '/uploads/die_osgi_service_platform_01.jpg'
+image_position: 'left'
 tags:
  - Artikel und Vorträge
  - Buch

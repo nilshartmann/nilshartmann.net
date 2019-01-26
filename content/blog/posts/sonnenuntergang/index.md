@@ -1,9 +1,9 @@
 ---
-title: 'Sonnenuntergang'
+title: "Sonnenuntergang"
 date: '2013-08-21T20:30:15.000Z'
-image_position: 'skip'
-image_expanded: 'undefined'
 summaryMarkdown: 'Neuer Versuch, den Sonnenuntergang zu fotografieren: diesmal sollte es vor den Heu-Rundballen sein, an denen ich vor [ein paar Tagen](/#/posts/heu-rundballen-2) vorbei gekommen war. Leider ging die Rechnung erneut nicht auf...'
+image: '/uploads/20130820-130820-035.jpg'
+image_position: 'skip'
 tags:
  - Fotografie
  - Sonnenuntergang

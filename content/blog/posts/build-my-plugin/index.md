@@ -1,9 +1,9 @@
 ---
-title: 'Build my Plugin'
+title: "Build my Plugin"
 date: '2007-11-01T18:14:53.000Z'
-image_position: 'left'
-image_expanded: 'undefined'
 summaryMarkdown: 'In wenigen Schritten zum automatisierten PDE Build'
+image: '/uploads/eclipsemagazin_13_2007.gif'
+image_position: 'left'
 tags:
  - Artikel und Vorträge
  - build

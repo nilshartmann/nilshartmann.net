@@ -1,9 +1,9 @@
 ---
-title: 'Fünf Gründe für React'
+title: "Fünf Gründe für React"
 date: '2015-08-11T22:00:00.000Z'
+summaryMarkdown: 'React ist ein JavaScript-Framework für die Entwicklung von UI-Komponenten. Dabei lassen sich die Komponenten sowohl im Web als auch nativ auf Mobilgeräten darstellen. Für die Website JAXenter habe ich fünf Gründe aufgeschrieben, warum es sich lohnt, sich React genauer anzusehen.'
 image_position: 'before_summary'
 image_expanded: 'true'
-summaryMarkdown: 'React ist ein JavaScript-Framework für die Entwicklung von UI-Komponenten. Dabei lassen sich die Komponenten sowohl im Web als auch nativ auf Mobilgeräten darstellen. Für die Website JAXenter habe ich fünf Gründe aufgeschrieben, warum es sich lohnt, sich React genauer anzusehen.'
 tags:
  - JavaScript
  - React

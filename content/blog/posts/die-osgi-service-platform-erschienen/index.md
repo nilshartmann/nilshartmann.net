@@ -1,9 +1,8 @@
 ---
-title: '"Die OSGi Service Platform" erschienen'
+title: "\"Die OSGi Service Platform\" erschienen"
 date: '2008-04-01T18:18:47.000Z'
-image_position: 'undefined'
-image_expanded: 'undefined'
 summaryMarkdown: 'Das Buch, das ich gemeinsam mit Gerd Wütherich, Bernd Kolb, Matthias Lübken zusammen geschrieben haben, bietet einen fundierten Überblick über die OSGi Service Platform'
+image: '/uploads/osgi-service-platform.jpg'
 tags:
  - Artikel und Vorträge
  - Buch
