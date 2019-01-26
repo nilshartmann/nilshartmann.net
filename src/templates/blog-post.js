@@ -80,6 +80,10 @@ export const pageQuery = graphql`
       fields {
         slug
         summary
+        tags {
+          tag
+          slug
+        }
       }
       html
       frontmatter {
@@ -88,7 +92,6 @@ export const pageQuery = graphql`
         image
         image_position
         image_expanded
-        tags
       }
     }
   }

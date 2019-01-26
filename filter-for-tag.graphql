@@ -1,0 +1,27 @@
+query {
+  site {
+    siteMetadata {
+      title
+    }
+  }
+  allMarkdownRemark(filter: { frontmatter: { tags: { eq: "React" } } }) {
+    edges {
+      node {
+        html
+
+        excerpt
+        fields {
+          slug
+          summary
+        }
+        frontmatter {
+          date(formatString: "DD.MM.YYYY")
+          title
+          image
+          image_position
+          image_expanded
+        }
+      }
+    }
+  }
+}

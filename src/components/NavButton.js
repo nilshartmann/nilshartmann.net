@@ -13,9 +13,6 @@ export default class NavButton extends React.Component {
   }
 
   render() {
-    // https://github.com/reach/router/issues/44
-    const goBack = window && window.history ? window.history.back : null
-
     const iconOrLabel = this.props.icon ? (
       <i className={`fa fa-${this.props.icon} fa-${this.props.scale}`} />
     ) : (
@@ -31,7 +28,9 @@ export default class NavButton extends React.Component {
         <div
           className="NavButton"
           title={this.props.title || 'Back'}
-          onClick={goBack}
+          onClick={() => {
+            window.history.back()
+          }}
         >
           {iconOrLabel}
         </div>

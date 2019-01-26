@@ -7,7 +7,7 @@ import React from 'react'
 import Button from './Button'
 
 function tagUrl(r) {
-  console.log('WARN - implement tagUrl for ', r)
+  return `/tags/${r}`
 }
 
 export default class FullPost extends React.Component {
@@ -86,10 +86,10 @@ export default class FullPost extends React.Component {
           />
         </div>
         <div className="Tags">
-          {post.frontmatter.tags.map(tag => {
+          {post.fields.tags.map(tag => {
             return (
-              <Button key={tag} linkTo={tagUrl(tag)}>
-                {tag}
+              <Button key={tag.slug} linkTo={tag.slug}>
+                {tag.tag}
               </Button>
             )
           })}
