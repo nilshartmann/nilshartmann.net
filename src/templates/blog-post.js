@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
@@ -13,8 +12,15 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.summaryMarkdown}
+        />
         <h1>{post.frontmatter.title}</h1>
+        <div>
+          <p>SUMMARY</p>
+          <div dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
+        </div>
         <p
           style={{
             display: `block`,
@@ -24,7 +30,6 @@ class BlogPostTemplate extends React.Component {
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
-        <Bio />
 
         <ul
           style={{
@@ -67,9 +72,12 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
-      excerpt(pruneLength: 160)
+      fields {
+        summary
+      }
       html
       frontmatter {
+        summaryMarkdown
         title
         date(formatString: "MMMM DD, YYYY")
       }

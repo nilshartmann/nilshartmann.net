@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
@@ -15,9 +14,16 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[
+            `react`,
+            `typescript`,
+            `javascript`,
+            `java`,
+            `spring boot`,
+            `software development`,
+          ]}
         />
-        <Bio />
+        <h1>HAAAAALLLOOO</h1>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -28,7 +34,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
-              <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <p dangerouslySetInnerHTML={{ __html: node.fields.summary }} />
             </div>
           )
         })}
@@ -52,6 +58,7 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
+            summary
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
