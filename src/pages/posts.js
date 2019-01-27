@@ -5,10 +5,12 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import About from '../components/About'
 import PostList from '../components/PostList'
+import NavButton from '../components/NavButton'
 
-class IndexPage extends React.Component {
+class AllPostPage extends React.Component {
   render() {
     const { data } = this.props
+    const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
 
     return (
@@ -25,15 +27,11 @@ class IndexPage extends React.Component {
           ]}
         />
 
-        <About />
         <PostList posts={posts} />
-        <div className="Row">
-          <div className="Center">
-            <div className="Title">
-              <Link to="/posts" title="Alle Beiträge anzeigen">
-                Alle Beiträge anzeigen
-              </Link>
-            </div>
+
+        <div className="Row Narrow">
+          <div className="NavBar Center">
+            <NavButton url="/" label="Home" />
           </div>
         </div>
       </Layout>
@@ -41,7 +39,7 @@ class IndexPage extends React.Component {
   }
 }
 
-export default IndexPage
+export default AllPostPage
 
 export const pageQuery = graphql`
   query {
@@ -50,10 +48,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt

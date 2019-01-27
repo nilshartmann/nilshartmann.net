@@ -23,6 +23,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
+          keywords={post.fields.tags.map(t => t.tag)}
           title={post.frontmatter.title}
           description={post.frontmatter.summaryMarkdown}
         />
