@@ -11,9 +11,12 @@ export default class Layout extends React.Component {
     return (
       <div className="Background">
         <div className="Header">
-          <Link className="Title" to="/">
-            Nils Hartmann
-          </Link>
+          <div className="HeaderInner">
+            <Link className="Title" to="/">
+              Nils Hartmann
+            </Link>
+            <div>Software-Entwicklung | Software-Architektur</div>
+          </div>
           <SocialIcons />
         </div>
         <div className="Main">

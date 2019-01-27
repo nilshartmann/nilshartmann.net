@@ -1,12 +1,10 @@
 html {
   line-height: 1.5;
   font-size: 18px;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
-
-
 
 .Header {
   margin: 0 0 20px 0;
@@ -15,15 +13,32 @@ html {
 
   color: $whiteColor;
   background-color: $textColor;
-  text-align: center;
+  // text-align: center;
+
+  .HeaderInner {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    padding-left: 20px;
+
+    > div {
+      @media screen and (min-width: $largeDisplay) {
+        display: inline;
+        margin-left: 10px;
+      }
+
+      font-size: 16px;
+      letter-spacing: 1px;
+    }
+  }
 
   .Title {
-    font-family: "PT Sans", sans-serif;
-    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
 
   a,
@@ -43,9 +58,7 @@ html {
   max-width: 1200px;
 }
 
-
 .Container {
-
   @media screen and (min-width: $largeDisplay) {
     float: left;
     width: 75%;
@@ -54,7 +67,6 @@ html {
 
 .Sidebar {
   text-align: center;
-
 
   @media screen and (min-width: $largeDisplay) {
     float: left;
@@ -74,16 +86,15 @@ html {
 
     .ReadMore {
       font-weight: normal;
-      font-family: "PT Sans", sans-serif;
+      font-family: 'PT Sans', sans-serif;
       font-style: normal;
       font-size: 14px;
       line-height: 1.2;
     }
 
     a.ReadMore:hover {
-        text-decoration: underline;
-      }
-
+      text-decoration: underline;
+    }
   }
 
   .Image {
@@ -104,7 +115,6 @@ html {
     }
   }
 }
-
 
 .Footer {
   margin-top: 30px;
@@ -150,14 +160,12 @@ html {
   overflow-y: scroll;
 }
 
-
-
 .Fullwidth {
   max-width: 100%;
 }
 
 .Column-2 {
-  float:left;
+  float: left;
   box-sizing: border-box;
   width: 50%;
   max-width: 910px;
@@ -165,10 +173,9 @@ html {
   padding-right: 10px;
 }
 
-
 .SocialIcons {
   display: block;
-  vertical-align: middle;
+  text-align: center;
   padding: 0 0 10px 0;
   @media screen and (min-width: $largeDisplay) {
     position: absolute;
@@ -189,5 +196,3 @@ html {
     }
   }
 }
-
-
