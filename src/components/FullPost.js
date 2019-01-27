@@ -18,7 +18,7 @@ export default class FullPost extends React.Component {
   }
 
   toggleExpandedImage() {
-    this.setState({ imageExpanded: !this.state.imageExpanded })
+    //  this.setState({ imageExpanded: !this.state.imageExpanded })
   }
 
   renderPostImage(post) {
@@ -39,19 +39,20 @@ export default class FullPost extends React.Component {
       )
     }
 
+    const imgUrl = withPrefix(image)
     if (this.state.imageExpanded) {
       return (
         <div className="ImageFullWidth-Full">
           <img
             className="ImageFullWidth-Full"
-            src={`${withPrefix(image)}`}
+            src={`${imgUrl}`}
             onClick={this.toggleExpandedImage}
           />
         </div>
       )
     }
 
-    const postImageStyle = { backgroundImage: `url(${withPrefix(image)})` }
+    const postImageStyle = { backgroundImage: `url(${imgUrl})` }
     return (
       <div
         className="ImageFullWidth"

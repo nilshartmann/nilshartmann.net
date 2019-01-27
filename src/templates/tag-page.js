@@ -38,6 +38,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: { fields: { tags: { elemMatch: { slug: { eq: $slug } } } } }
+      sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {
         node {

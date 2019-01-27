@@ -1,7 +1,5 @@
 import AllFlickrImages from './flicker-images'
 
-console.log(AllFlickrImages)
-
 function shuffle(array) {
   let currentIndex = array.length
   let temporaryValue
