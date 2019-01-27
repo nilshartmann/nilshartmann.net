@@ -6,6 +6,7 @@ import React from 'react'
 
 import FlickrBar from './FlickrBar'
 import { getFlickrImages } from './flicker'
+import { Link } from 'gatsby'
 
 export default function About() {
   const imgStyle = {
@@ -43,14 +44,18 @@ export default function About() {
           veröffentlicht.
         </p>
         <p style={pStyle}>
-          Ich unterstütze dich gerne in deinem Projekt, sei es beim
+          Ich unterstütze dich und dein Team gerne in eurem Projekt, sei es beim
           programmieren, in Architektur-Fragen oder zum Beispiel durch
           gemeinsame Code-Reviews (auch Remote). Rund um die Themen React,
           JavaScript, TypeScript und GraphQL biete ich auch individuelle{' '}
           <b>Trainings und Workshops</b> (auch In-House) an. Wenn Du Interesse
           hast, schreibe mir doch einfach eine{' '}
           <a href="mailto:nils@nilshartmann.net">E-Mail</a>, dann schauen wir
-          gemeinsam, was am besten passt.
+          gemeinsam, was am besten passt. Hier findest Du{' '}
+          <Link to="/dienstleistungen">
+            <b>weitere Informationen</b>
+          </Link>
+          .
         </p>
         <p style={pStyle}>
           Regelmäßig halte ich auch <b>Vorträge</b>:

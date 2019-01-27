@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, withPrefix } from 'gatsby'
 
 import SocialIcons from './SocialIcons'
+import Contact from './Contact'
 
 export default class Layout extends React.Component {
   render() {
@@ -21,18 +22,25 @@ export default class Layout extends React.Component {
 
             <div className="Sidebar">
               <div className="Section">
-                <h1 className="Title">Mein Angebot</h1>
+                <Link className="ReadMore" to="/dienstleistungen">
+                  <h1 className="Title">Mein Angebot</h1>
+                </Link>
                 <span className="ReadMore">
-                  Ich unterstütze dich gerne in deinem Projekt, sei es beim
-                  programmieren, in Architektur-Fragen oder zum Beispiel durch
-                  gemeinsame Code-Reviews (auch Remote). Rund um die Themen
-                  React, JavaScript, TypeScript und GraphQL biete ich auch
-                  individuelle <b>Trainings und Workshops</b> (auch In-House)
-                  an. Wenn Du Interesse hast, schreibe mir doch einfach eine{' '}
-                  <a href="mailto:nils@nilshartmann.net">E-Mail</a>, dann
-                  schauen wir gemeinsam, was am besten passt.
+                  Ich unterstütze euch gerne in eurem Projekt, sei es durch
+                  gemeinsame Code-Reviews, Architektur-Diskussionen oder beim
+                  programmieren. Rund um die Themen React, TypeScript und
+                  GraphQL biete ich auch individuelle{' '}
+                  <b>Trainings und Workshops</b> an.
+                  <p>
+                    <Link className="ReadMore" to="/dienstleistungen">
+                      <i>
+                        <b>Mehr...</b>
+                      </i>
+                    </Link>
+                  </p>
                 </span>
               </div>
+
               <div className="Section">
                 <h1 className="Title">Bücher</h1>
                 <div className="Image">
@@ -129,8 +137,37 @@ export default class Layout extends React.Component {
                   </a>
                 </div>
               </div>
+              <div className="Section">
+                <h1 className="Title">Kontakt</h1>
+                <div className="Image">
+                  <p className="ReadMore">Nils Hartmann</p>
+                  <p className="ReadMore">Buckhorn 41b</p>
+                  <p className="ReadMore">22359 Hamburg</p>
+                  <p className="ReadMore" style={{ marginTop: '5px' }}>
+                    Tel: 0173 / 286 30 76
+                  </p>
+                  <p className="ReadMore" style={{ marginTop: '5px' }}>
+                    E-Mail:{' '}
+                    <a href="mailto:nils@nilshartmann.net">
+                      nils@nilshartmann.net
+                    </a>
+                  </p>
+                  <p className="ReadMore" style={{ marginTop: '5px' }}>
+                    <a href="https://twitter.com/nilshmann">Twitter</a>
+                  </p>
+                  <p className="ReadMore" style={{ marginTop: '5px' }}>
+                    <a href="https://www.xing.com/profile/Nils_Hartmann2">
+                      Xing
+                    </a>
+                  </p>
+                  <p className="ReadMore" style={{ marginTop: '5px' }}>
+                    <a href="https://github.com/nilshmann">GitHub</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+
           <div className="Footer">
             <Link to="/pages/impressum">Impressum</Link>&nbsp;|&nbsp;
             <Link to="/pages/datenschutzerklaerung">Datenschutzerklärung</Link>

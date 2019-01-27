@@ -14,7 +14,7 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO
-          title="All posts"
+          title="Nils Hartmann - Software-Entwickler aus Hamburg (Java/JavaScript)"
           keywords={[
             `react`,
             `typescript`,
@@ -52,7 +52,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 4
     ) {
       edges {
         node {

@@ -1,0 +1,30 @@
+.Contact {
+  i {
+    visibility: hidden;
+    width: 0;
+  }
+  @media screen and (min-width: $largeDisplay) {
+    display: flex;
+    > div {
+      flex-grow: 1;
+    }
+
+    i {
+      visibility: visible;
+      width: 45px;
+    }
+  }
+}
+
+.Dienstleistungen {
+  img {
+    max-width: 100%;
+  }
+  @media screen and (min-width: $largeDisplay) {
+    img {
+      float: left;
+      max-width: 210px;
+      margin-right: 10px;
+    }
+  }
+}

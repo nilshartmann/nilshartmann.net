@@ -16,7 +16,7 @@ class AllPostPage extends React.Component {
     return (
       <Layout>
         <SEO
-          title="All posts"
+          title="Alle Beiträge"
           keywords={[
             `react`,
             `typescript`,
