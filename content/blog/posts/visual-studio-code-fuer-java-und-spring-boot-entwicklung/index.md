@@ -3,7 +3,7 @@ title: 'Visual Studio Code für Java und Spring Boot Entwicklung'
 date: '2018-10-12T13:53:30.000Z'
 summaryMarkdown: 'Mit dem Open-Source-Editor *Visual Studio Code* lässt sich auch Java entwickeln. Wie das funktioniert, demonstriere ich in einem kurzen Video'
 image: '/uploads/using-vscode-for-java-and-spring.png'
-image_expanded: true
+image_expanded: 'true'
 tags:
   - Video
   - Java
