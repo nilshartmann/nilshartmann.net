@@ -7,7 +7,6 @@ import Layout from '../components/Layout'
 
 class TagPage extends React.Component {
   render() {
-    console.log('props', this.props)
     const { tag } = this.props.pageContext
     const posts = this.props.data.allMarkdownRemark.edges
     return (
