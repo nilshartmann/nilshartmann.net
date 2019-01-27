@@ -17,7 +17,7 @@ class TagsPage extends React.Component {
       <Layout>
         <div>
           <div className="Row Narrow">
-            Find below a list of all tags used in posts on this blog:{' '}
+            Hier findest Du alle Tags, die auf meiner Seite verwendet werden:{' '}
           </div>
 
           <div className="Row Narrow TagCloud">

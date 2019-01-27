@@ -172,6 +172,8 @@ export default class Layout extends React.Component {
           </div>
 
           <div className="Footer">
+            <Link to="/dienstleistungen">Dienstleistungen</Link>
+            &nbsp;|&nbsp;
             <Link to="/pages/impressum">Impressum</Link>&nbsp;|&nbsp;
             <Link to="/pages/datenschutzerklaerung">Datenschutzerklärung</Link>
           </div>

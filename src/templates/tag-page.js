@@ -13,9 +13,9 @@ class TagPage extends React.Component {
       <Layout>
         <div>
           <div className="Row Narrow">
-            Find below a list of all posts tagged with{' '}
-            <span className="TagName">{tag.tag}</span> (or see a list of{' '}
-            <Link to="/tags">all tags</Link>)
+            Hier findest Du alle Artikel, die mit dem Tag{' '}
+            <span className="TagName">{tag.tag}</span> versehen sind. <br />
+            (Du kannst auch <Link to="/tags">alle Tags anzeigen</Link>)
             <div className="Right">
               <NavButton url={NavButton.BACK} icon="close" scale="lg" />
             </div>
