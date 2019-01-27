@@ -5,10 +5,7 @@
 import React from 'react'
 
 import Button from './Button'
-
-function tagUrl(r) {
-  return `/tags/${r}`
-}
+import { withPrefix } from 'gatsby'
 
 export default class FullPost extends React.Component {
   constructor(props) {
@@ -25,20 +22,19 @@ export default class FullPost extends React.Component {
   }
 
   renderPostImage(post) {
-    console.log('post - imageExpanded:', this.state.imageExpanded)
+    const { image_position = 'before_summary', image } = post.frontmatter
 
-    const imagePosition = post.image_position || 'before_summary'
-    if (!post.image || imagePosition === 'skip') {
+    if (!image || image_position === 'skip') {
       return null
     }
 
-    if (imagePosition === 'left' || imagePosition === 'right') {
+    if (image_position === 'left' || image_position === 'right') {
       const positionClassName =
-        imagePosition.charAt(0).toUpperCase() + imagePosition.substring(1)
+        image_position.charAt(0).toUpperCase() + image_position.substring(1)
       return (
         <img
           className={`ImageFloating ${positionClassName}`}
-          src={`${post.image}`}
+          src={`${withPrefix(image)}`}
         />
       )
     }
@@ -48,14 +44,14 @@ export default class FullPost extends React.Component {
         <div className="ImageFullWidth-Full">
           <img
             className="ImageFullWidth-Full"
-            src={`${post.image}`}
+            src={`${withPrefix(image)}`}
             onClick={this.toggleExpandedImage}
           />
         </div>
       )
     }
 
-    const postImageStyle = { backgroundImage: `url(${post.image})` }
+    const postImageStyle = { backgroundImage: `url(${withPrefix(image)})` }
     return (
       <div
         className="ImageFullWidth"

@@ -6,8 +6,8 @@ import { Link, withPrefix, navigate } from 'gatsby'
 import {} from 'gatsby'
 
 export default function PostTeaser({ post }) {
-  const image = post.image ? (
-    <img className="Image" src={withPrefix(post.image)} />
+  const image = post.frontmatter.image ? (
+    <img className="Image" src={withPrefix(post.frontmatter.image)} />
   ) : (
     false
   )
