@@ -47,14 +47,14 @@ export default class Layout extends React.Component {
 
               <section className="Section">
                 <h1 className="Title">Bücher</h1>
-                <div className="Image">
+                <div className="Item">
                   <a className="ReadMore" href="/posts/react-buch-erschienen">
                     <img src={withPrefix('/uploads/react-buch-titel.jpg')} />
                     React - Die praktische Einf&uuml; hrung in React, React
                     Router und Redux (Juni 2016){' '}
                   </a>
                 </div>
-                <div className="Image">
+                <div className="Item">
                   <Link className="ReadMore" to="/posts/das-osgi-buch">
                     <img
                       src={withPrefix(
@@ -67,7 +67,7 @@ export default class Layout extends React.Component {
               </section>
               <section className="Section">
                 <h1 className="Title">Workshops</h1>
-                <div className="Image">
+                <div className="Item">
                   <a
                     className="Abstract"
                     href="https://www.oose.de/seminar/web-apps/"
@@ -81,7 +81,7 @@ export default class Layout extends React.Component {
                     <br /> 07./08. März 2019
                   </p>
                 </div>
-                <div className="Image">
+                <div className="Item">
                   <p className="Abstract">
                     Interne Workshops u.a. zu React, TypeScript, GraphQL
                   </p>
@@ -92,7 +92,7 @@ export default class Layout extends React.Component {
               </section>
               <section className="Section">
                 <h1 className="Title">Talks</h1>
-                <div className="Image">
+                <div className="Item">
                   <p>
                     <b>JavaLand, Brühl, März 2019</b>
                   </p>
@@ -106,7 +106,7 @@ export default class Layout extends React.Component {
                     </a>
                   </p>
                 </div>
-                <div className="Image">
+                <div className="Item">
                   <p>
                     <b>JAX, Mainz, Mai 2019</b>
                   </p>
@@ -129,7 +129,7 @@ export default class Layout extends React.Component {
                     </a>
                   </p>
                 </div>
-                <div className="Image">
+                <div className="Item">
                   <p>
                     <b>Magdeburger Developer Days, Mai 2019</b>
                   </p>
@@ -152,7 +152,7 @@ export default class Layout extends React.Component {
                     </a>
                   </p>
                 </div>
-                <div className="Image">
+                <div className="Item">
                   <img
                     src={withPrefix(
                       '/uploads/1498424152641_nils-im-workshop.jpeg'
@@ -168,7 +168,7 @@ export default class Layout extends React.Component {
               </section>
               <section className="Section">
                 <h1 className="Title">Kontakt</h1>
-                <div className="Image">
+                <div className="Item">
                   <p className="ReadMore">Nils Hartmann</p>
                   <p className="ReadMore">Buckhorn 41b</p>
                   <p className="ReadMore">22359 Hamburg</p>
