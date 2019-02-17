@@ -14,7 +14,7 @@ export default function PostTeaser({ post }) {
   const postUrl = post.fields.slug
 
   return (
-    <article
+    <div
       onClick={() => navigate(postUrl)}
       className="Row PostTeaser Selectable"
     >
@@ -25,13 +25,13 @@ export default function PostTeaser({ post }) {
           <h1 className="Title">{post.frontmatter.title}</h1>
         </div>
       </header>
-      <p>
+      <div>
         <span dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
         &nbsp;
         <Link className="ReadMore" to={postUrl}>
           Mehr...
         </Link>
-      </p>
-    </article>
+      </div>
+    </div>
   )
 }
