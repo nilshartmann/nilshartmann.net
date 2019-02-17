@@ -134,8 +134,18 @@ aside {
 }
 
 footer {
+  display: block;
+
+  margin-bottom: 15px;
+  width: auto;
+  display: inline-block;
+
+  @media screen and (min-width: $largeDisplay) {
+    width: 100%;
+    padding: 0;
+  }
+
   //border-top: 1px solid $headerColor;
-  width: 100%;
   text-align: center;
   text-transform: uppercase;
   font-size: 14px;
@@ -163,7 +173,7 @@ footer {
 }
 
 .Background {
-  height: 100vh;
+  height: 100%;
   background-color: lighten($lightBackgroundColor, 5%);
   width: 100%;
   min-height: 100%;
