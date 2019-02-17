@@ -66,7 +66,32 @@ export default class Layout extends React.Component {
                 </div>
               </section>
               <section className="Section">
-                <h1 className="Title">Talks und Workshops</h1>
+                <h1 className="Title">Workshops</h1>
+                <div className="Image">
+                  <a
+                    className="Abstract"
+                    href="https://www.oose.de/seminar/web-apps/"
+                    target="_blank"
+                  >
+                    Single-Page-Anwendungen mit React, Redux und TypeScript
+                    entwickeln
+                  </a>
+                  <p className="Location">
+                    OOSE, Hamburg,
+                    <br /> 07./08. März 2019
+                  </p>
+                </div>
+                <div className="Image">
+                  <p className="Abstract">
+                    Interne Workshops u.a. zu React, TypeScript, GraphQL
+                  </p>
+                  <p className="Location">
+                    <a href="mailto:nils@nilshartmann.net">Auf Anfrage</a>
+                  </p>
+                </div>
+              </section>
+              <section className="Section">
+                <h1 className="Title">Talks</h1>
                 <div className="Image">
                   <p>
                     <b>JavaLand, Brühl, März 2019</b>
