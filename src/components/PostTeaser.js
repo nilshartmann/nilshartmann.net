@@ -14,15 +14,17 @@ export default function PostTeaser({ post }) {
   const postUrl = post.fields.slug
 
   return (
-    <div
+    <article
       onClick={() => navigate(postUrl)}
       className="Row PostTeaser Selectable"
     >
-      <div className="TitlePanel Clearfix">
-        {image}
-        {post.frontmatter.date}
-        <h1 className="Title">{post.frontmatter.title}</h1>
-      </div>
+      <header>
+        <div className="TitlePanel Clearfix">
+          {image}
+          {post.frontmatter.date}
+          <h1 className="Title">{post.frontmatter.title}</h1>
+        </div>
+      </header>
       <p>
         <span dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
         &nbsp;
@@ -30,6 +32,6 @@ export default function PostTeaser({ post }) {
           Mehr...
         </Link>
       </p>
-    </div>
+    </article>
   )
 }

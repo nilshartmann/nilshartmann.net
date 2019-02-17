@@ -29,7 +29,7 @@ class BlogPostTemplate extends React.Component {
         />
         <div>
           <div className="Row Small">
-            <div className="NavBar">
+            <nav className="NavBar">
               <NavButton
                 url={fullPostUrl(previous)}
                 title={`Vorheriger Artikel: ${postTitle(previous)}`}
@@ -41,7 +41,7 @@ class BlogPostTemplate extends React.Component {
                 title={`Nächster Artikel: ${postTitle(next)}`}
                 icon="angle-right"
               />
-            </div>
+            </nav>
           </div>
 
           <FullPost post={post} />

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, withPrefix } from 'gatsby'
 
 import SocialIcons from './SocialIcons'
-import Contact from './Contact'
 
 export default class Layout extends React.Component {
   render() {
@@ -10,7 +9,7 @@ export default class Layout extends React.Component {
 
     return (
       <div className="Background">
-        <div className="Header">
+        <header className="PageHeader">
           <div className="HeaderInner">
             <Link className="Title" to="/">
               Nils Hartmann
@@ -18,13 +17,15 @@ export default class Layout extends React.Component {
             <div>Software-Entwicklung | Software-Architektur</div>
           </div>
           <SocialIcons />
-        </div>
+        </header>
         <div className="Main">
           <div className="Clearfix">
-            <div className="Container">{children}</div>
+            <main>
+              <div className="Container">{children}</div>
+            </main>
 
-            <div className="Sidebar">
-              <div className="Section">
+            <aside>
+              <section className="Section">
                 <Link className="ReadMore" to="/dienstleistungen">
                   <h1 className="Title">Mein Angebot</h1>
                 </Link>
@@ -42,9 +43,9 @@ export default class Layout extends React.Component {
                     </Link>
                   </p>
                 </span>
-              </div>
+              </section>
 
-              <div className="Section">
+              <section className="Section">
                 <h1 className="Title">Bücher</h1>
                 <div className="Image">
                   <a className="ReadMore" href="/posts/react-buch-erschienen">
@@ -63,8 +64,8 @@ export default class Layout extends React.Component {
                     Die OSGi Service Platform (April 2008){' '}
                   </Link>
                 </div>
-              </div>
-              <div className="Section">
+              </section>
+              <section className="Section">
                 <h1 className="Title">Talks und Workshops</h1>
                 <div className="Image">
                   <p>
@@ -139,8 +140,8 @@ export default class Layout extends React.Component {
                     Übersicht über vergangene Talks
                   </a>
                 </div>
-              </div>
-              <div className="Section">
+              </section>
+              <section className="Section">
                 <h1 className="Title">Kontakt</h1>
                 <div className="Image">
                   <p className="ReadMore">Nils Hartmann</p>
@@ -167,16 +168,20 @@ export default class Layout extends React.Component {
                     <a href="https://github.com/nilshmann">GitHub</a>
                   </p>
                 </div>
-              </div>
-            </div>
+              </section>
+            </aside>
           </div>
 
-          <div className="Footer">
-            <Link to="/dienstleistungen">Dienstleistungen</Link>
-            &nbsp;|&nbsp;
-            <Link to="/pages/impressum">Impressum</Link>&nbsp;|&nbsp;
-            <Link to="/pages/datenschutzerklaerung">Datenschutzerklärung</Link>
-          </div>
+          <footer>
+            <nav>
+              <Link to="/dienstleistungen">Dienstleistungen</Link>
+              &nbsp;|&nbsp;
+              <Link to="/pages/impressum">Impressum</Link>&nbsp;|&nbsp;
+              <Link to="/pages/datenschutzerklaerung">
+                Datenschutzerklärung
+              </Link>
+            </nav>
+          </footer>
         </div>
       </div>
     )

@@ -6,7 +6,7 @@ html {
   color: rgba(0, 0, 0, 0.87);
 }
 
-.Header {
+header.PageHeader {
   margin: 0 0 20px 0;
   min-height: 46px;
   padding: 14px 14px 0 14px;
@@ -65,7 +65,7 @@ html {
   }
 }
 
-.Sidebar {
+aside {
   text-align: center;
 
   @media screen and (min-width: $largeDisplay) {
@@ -116,7 +116,7 @@ html {
   }
 }
 
-.Footer {
+footer {
   //border-top: 1px solid $headerColor;
   width: 100%;
   text-align: center;

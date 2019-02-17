@@ -66,11 +66,11 @@ export default class FullPost extends React.Component {
     const { post } = this.props
 
     return (
-      <div className="Row FullPost">
-        <p className="Date">{post.frontmatter.date}</p>
-
-        <h1 className="Title">{post.frontmatter.title}</h1>
-
+      <article className="Row FullPost">
+        <header>
+          <p className="Date">{post.frontmatter.date}</p>
+          <h1 className="Title">{post.frontmatter.title}</h1>
+        </header>
         <div>
           {this.renderPostImage(post)}
           <div
@@ -91,7 +91,7 @@ export default class FullPost extends React.Component {
             )
           })}
         </div>
-      </div>
+      </article>
     )
   }
 }
