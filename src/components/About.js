@@ -71,15 +71,6 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.oose.de/abendvortrag/neues-jahr-alles-neu-in-react/"
-                  target="_blank"
-                >
-                  Neues Jahr, alles neu in React?
-                </a>{' '}
-                (OOSE Abendveranstaltung, Hamburg, Januar 2019)
-              </li>
-              <li>
-                <a
                   href="https://programm.javaland.eu/2019/#/scheduledEvent/569601"
                   target="_blank"
                 >
