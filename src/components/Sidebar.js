@@ -53,7 +53,7 @@ export default function Sidebar() {
           </a>
           <p className="Location">
             OOSE, Hamburg,
-            <br /> 07./08. März 2019
+            <br /> 25./25. Oktober 2019
           </p>
         </div>
         <div className="Item">

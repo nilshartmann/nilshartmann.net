@@ -78,17 +78,6 @@ export default function About() {
                 </a>{' '}
                 (JavaLand, Brühl, März 2019)
               </li>
-
-              <li>
-                <a
-                  href="https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/"
-                  target="_blank"
-                >
-                  {' '}
-                  GraphQL für Java Anwendungen
-                </a>{' '}
-                (JAX, Mainz, Mai 2019)
-              </li>
               <li>
                 <a
                   href="https://jax.de/web-development-javascript/moderne-frontend-architektur-mit-javascript/"
@@ -106,6 +95,16 @@ export default function About() {
                   Modernes React
                 </a>{' '}
                 (Magdeburger Developer Days, Mai 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react"
+                  target="_blank"
+                >
+                  {' '}
+                  Hooks, Concurrent Rendering, Suspense API: Alles neu in React?
+                </a>{' '}
+                (EnterJS, Darmstadt, Juni 2019)
               </li>
             </ul>
           </section>
