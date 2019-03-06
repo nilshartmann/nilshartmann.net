@@ -19,6 +19,13 @@ export default function Angebot() {
         keywords={[
           'Java',
           'JavaScript',
+          'Spring Boot',
+          'React',
+          'TypeScript',
+          'GraphQL',
+          'Backend Entwicklung',
+          'Frontend Entwicklung',
+          'Fullstack Entwicklung',
           'Dienstleistungen',
           'Software-Architektur',
           'Software-Entwicklung',
@@ -37,19 +44,18 @@ export default function Angebot() {
           übernommen, <b>Schulungen und Traninings</b> gegeben und andere
           Entwickler gecoached.
         </div>
-        <p>
-          Mein derzeitiger Schwerpunkt liegt auf der Entwicklung von
-          Webanwendungen und konkret <b>Single-Page-Applications</b>. Diesen
-          Bereich finde ich einerseits sehr herausfordernd (zum Beispiel weil
-          sich Technologien und Methoden sehr schnell wandeln und
-          weiterentwickeln) andererseits aber auch sehr spannend, hier soviel
-          Neues entsteht und das "Web als Applikationsplatform" sehr viel
-          potential hat. Ich mache aber auch <b>Backendentwicklung</b> und
-          beschäftige mich mit Themen Rund um <b>Versionsverwaltung</b>,{' '}
-          <b>Build- und Deploymentprozessen</b>.
+        <p style={{ marginTop: '1.2rem' }}>
+          Mein Schwerpunkt liegt auf der Entwicklung von Webanwendungen und
+          konkret <b>Single-Page-Applications</b>. Diesen Bereich finde ich
+          einerseits sehr herausfordernd (zum Beispiel weil sich Technologien
+          und Methoden sehr schnell wandeln und weiterentwickeln) andererseits
+          aber auch sehr spannend, hier soviel Neues entsteht und das "Web als
+          Applikationsplatform" sehr viel potential hat. Ich mache aber auch{' '}
+          <b>Backendentwicklung</b> und beschäftige mich mit Themen Rund um{' '}
+          <b>Versionsverwaltung</b>, <b>Build- und Deploymentprozessen</b>.
         </p>
-        <p>
-          Grunsätzlich ist es mir wichtig, für Kunden Lösungen zu finden, die
+        <p style={{ marginTop: '1.2rem' }}>
+          Grundsätzlich ist es mir wichtig, für Kunden Lösungen zu finden, die
           den <b>individuellen Bedürfnisse und Anforderungen</b> gerecht werden
           und die die konkreten Gegebenheiten im Projekt nicht aus den Augen
           lassen. Dazu ist es meiner Meinung nach notwendig immer zu schauen,
@@ -58,6 +64,13 @@ export default function Angebot() {
           ein Vorgehen hat. Etwas nur zu machen, weil "man das so macht" führt
           häufig in die Irre. Im Zweifel plädiere ich dafür, lieber klein
           anfangen und dann skalieren bzw anpassen.
+        </p>
+        <p style={{ marginTop: '1.2rem' }}>
+          <b>Ich suche</b> Aufgaben im Bereich der Frontend- und/oder
+          Backend-Entwicklung, wobei ich mich mit den unten stehenden
+          Technologien besonders gut auskenne (meine ich jedenfalls...). Da ich
+          gerne remote arbeite, bevorzuge ich besonders Aufträge, bei denen es
+          nicht erforderlich ist, (ständig) vor Ort zu sein.
         </p>
         <h2>Java-Entwicklung</h2>
         <ul>
@@ -121,12 +134,12 @@ export default function Angebot() {
         </p>
         <ul>
           <li>
-            Trainings und Schulungen rund um <b>React</b>, <b>Redux</b>,
+            Trainings und Schulungen rund u.a. um <b>React</b>, <b>Redux</b>,{' '}
             <b>JavaScript/TypeScript</b> und <b>GraphQL</b>
-            <li>Workshops zu Architektur-Themen (Frontend und Backend)</li>
-            <li>
-              Durchführung von <b>Code Reviews</b> (auch remote)
-            </li>
+          </li>
+          <li>Workshops zu Architektur-Themen (Frontend und Backend)</li>
+          <li>
+            Durchführung von <b>Code Reviews</b> (auch remote)
           </li>
         </ul>
         <h1 className="Title">Kontakt</h1>
