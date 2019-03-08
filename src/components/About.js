@@ -54,10 +54,12 @@ export default function About() {
               beim programmieren, in Architektur-Fragen oder zum Beispiel durch
               gemeinsame Code-Reviews (auch Remote). Rund um die Themen React,
               JavaScript, TypeScript und GraphQL biete ich auch individuelle{' '}
-              <b>Trainings und Workshops</b> (auch In-House) an. Wenn Du
-              Interesse hast, schreibe mir doch einfach eine{' '}
-              <a href="mailto:nils@nilshartmann.net">E-Mail</a>, dann schauen
-              wir gemeinsam, was am besten passt. Hier findest Du{' '}
+              <Link to="/react-workshops">
+                <b>Trainings und Workshops</b>
+              </Link>{' '}
+              (auch In-House) an. Wenn Du Interesse hast, schreibe mir doch
+              einfach eine <a href="mailto:nils@nilshartmann.net">E-Mail</a>,
+              dann schauen wir gemeinsam, was am besten passt. Hier findest Du{' '}
               <Link to="/dienstleistungen">
                 <b>weitere Informationen</b>
               </Link>

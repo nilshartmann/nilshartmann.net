@@ -57,12 +57,16 @@ export default function Sidebar() {
           </p>
         </div>
         <div className="Item">
-          <p className="Abstract">
-            Interne Workshops u.a. zu React, TypeScript, GraphQL
-          </p>
-          <p className="Location">
-            <a href="mailto:nils@nilshartmann.net">Auf Anfrage</a>
-          </p>
+          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
+            <p className="Abstract">
+              Interne Workshops u.a. zu React, TypeScript, GraphQL
+            </p>
+          </Link>
+          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
+            <p className="Location">
+              <b>Weitere Informationen</b>
+            </p>
+          </Link>
         </div>
       </section>
       <section className="Section">

@@ -5,6 +5,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import { Link } from '@reach/router'
 
 const imgStyle = {
   float: 'left',
@@ -110,7 +111,10 @@ export default function Angebot() {
             React-Anwendungen unter Unterstützung bei der Einführung von React
             in neuen Projekten
           </li>
-          <li>Schulung, Trainings, Code-Review</li>
+          <li>
+            Schulung, Trainings, Code-Review (
+            <Link to="/react-workshops">Weitere Informationen hier)</Link>
+          </li>
         </ul>
         <h2>Build-, Deployment- und Automatisierungsprozesse</h2>
         <ul>
