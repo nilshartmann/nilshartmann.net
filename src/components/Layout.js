@@ -34,6 +34,8 @@ export default class Layout extends React.Component {
             <nav>
               <Link to="/dienstleistungen">Dienstleistungen</Link>
               {' | '}
+              <Link to="/react-workshops">Workshops</Link>
+              {' | '}
               <Link to="/pages/impressum">Impressum</Link> {' | '}
               <Link to="/pages/datenschutzerklaerung">
                 Datenschutzerklärung

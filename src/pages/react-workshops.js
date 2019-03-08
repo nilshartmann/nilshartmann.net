@@ -34,8 +34,9 @@ export default function Angebot() {
           Ich biete individuelle In-House-Workshops und Trainings rund um das
           Thema React an, um dich und dein Team beim Einstieg und der Arbeit mit
           React zu unterstützen. Falls ihr schon React ein Einsatz habt, führe
-          ich auch Code-Reviews oder Beratung zu konkreten Frasgestellungen
-          durch.
+          ich auch Code-Reviews mit Euch durch (auch remote) oder berate Euch
+          bei konkreten Fragestellungen, zum Beispiel zur Architektur oder
+          Technologieauswahl.
         </div>
         <div class="title">
           <h2>Mögliche Inhalte einer Schulung</h2>

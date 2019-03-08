@@ -145,6 +145,9 @@ export default function Angebot() {
           <li>
             Durchführung von <b>Code Reviews</b> (auch remote)
           </li>
+          <li>
+            <Link to="/react-workshops">Weitere Informationen hier</Link>
+          </li>
         </ul>
         <h1 className="Title">Kontakt</h1>
         <div className="Contact">

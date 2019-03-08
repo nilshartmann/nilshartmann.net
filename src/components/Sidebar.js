@@ -6,7 +6,7 @@ export default function Sidebar() {
     <>
       <section className="Section">
         <Link className="ReadMore" to="/dienstleistungen">
-          <h1 className="Title">Mein Angebot</h1>
+          <h1 className="Title">Leistungen</h1>
         </Link>
         <span className="ReadMore">
           Ich unterstütze euch gerne in eurem Projekt, sei es durch gemeinsame
