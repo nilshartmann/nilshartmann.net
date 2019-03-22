@@ -73,12 +73,12 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://programm.javaland.eu/2019/#/scheduledEvent/569601"
+                  href="https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/"
                   target="_blank"
                 >
-                  GraphQL für Java-Entwickler
+                  GraphQL für Java-Anwendungen
                 </a>{' '}
-                (JavaLand, Brühl, März 2019)
+                (Jax, Mainz, Mai 2019)
               </li>
               <li>
                 <a

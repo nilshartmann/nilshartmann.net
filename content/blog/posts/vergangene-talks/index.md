@@ -14,6 +14,7 @@ tags:
   - JavaScript
 ---
 
+- [GraphQL für Java-Entwickler](https://programm.javaland.eu/2019/#/scheduledEvent/569601), JavaLand Brühl, März 2019 [[PDF]](https://github.com/nilshartmann/graphql-examples/raw/master/java/talk/javaland-2019.pdf)
 - [Neues Jahr, alles neu? React 2019](https://bit.ly/oose-react-2019), Abendvortrag OOSE Hamburg, Januar 2019
 - [React 2018 - Context API, Suspense, Time Slicing & mehr](https://speakerdeck.com/nilshartmann/react-2018-context-api-suspense-time-slicing-and-mehr), W-JAX München, November 2018
 - [GraphQL für Java Anwendungen](https://speakerdeck.com/nilshartmann/graphql-fur-java-anwendungen), Java User Group, Hamburg, 28. August 2018
