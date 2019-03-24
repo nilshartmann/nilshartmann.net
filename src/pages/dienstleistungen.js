@@ -50,10 +50,10 @@ export default function Angebot() {
           konkret <b>Single-Page-Applications</b>. Diesen Bereich finde ich
           einerseits sehr herausfordernd (zum Beispiel weil sich Technologien
           und Methoden sehr schnell wandeln und weiterentwickeln) andererseits
-          aber auch sehr spannend, hier soviel Neues entsteht und das "Web als
-          Applikationsplatform" sehr viel potential hat. Ich mache aber auch{' '}
-          <b>Backendentwicklung</b> und beschäftige mich mit Themen Rund um{' '}
-          <b>Versionsverwaltung</b>, <b>Build- und Deploymentprozessen</b>.
+          aber auch sehr spannend, da hier soviel Neues entsteht und das "Web
+          als Applikationsplatform" sehr viel potential hat. Ich mache aber auch{' '}
+          <b>Backend-Entwicklung</b> und beschäftige mich mit Themen Rund um{' '}
+          <b>Versionsverwaltung</b> sowie <b>Build- und Deploymentprozessen</b>.
         </p>
         <p style={{ marginTop: '1.2rem' }}>
           Grundsätzlich ist es mir wichtig, für Kunden Lösungen zu finden, die
@@ -64,30 +64,8 @@ export default function Angebot() {
           Entscheidung für oder gegen eine Technologie, eine Architektur oder
           ein Vorgehen hat. Etwas nur zu machen, weil "man das so macht" führt
           häufig in die Irre. Im Zweifel plädiere ich dafür, lieber klein
-          anfangen und dann skalieren bzw anpassen.
+          anzufangen und dann skalieren bzw anpassen.
         </p>
-        <p style={{ marginTop: '1.2rem' }}>
-          <b>Ich suche</b> Aufgaben im Bereich der Frontend- und/oder
-          Backend-Entwicklung, wobei ich mich mit den unten stehenden
-          Technologien besonders gut auskenne (meine ich jedenfalls...). Da ich
-          gerne remote arbeite, bevorzuge ich besonders Aufträge, bei denen es
-          nicht erforderlich ist, (ständig) vor Ort zu sein.
-        </p>
-        <h2>Java-Entwicklung</h2>
-        <ul>
-          <li>
-            Schwerpunkte: <b>Spring</b> / <b>Spring Boot</b>, <b>GraphQL</b>,{' '}
-            <b>JEE</b>, <b>JPA</b>, <b>OSGi</b>
-          </li>
-          <li>
-            Konzeption und Entwicklung von Java-basierten (Backend-)Anwendungen
-          </li>
-          <li>Unterstützung bei technischen Fragestellungen und Problemen</li>
-          <li>
-            Beratung und Diskussion von Architektur-Fragen insbesondere auch
-            rund um das Thema Modularisierung großer Anwendungen
-          </li>
-        </ul>
         <h2>JavaScript-Entwicklung</h2>
         <ul>
           <li>
@@ -100,7 +78,7 @@ export default function Angebot() {
           </li>
           <li>
             Beratung hinsichtlich der Architektur von React-Anwendungen und
-            Microfrontends
+            Microfrontends und Entwicklung von Prototypen
           </li>
           <li>
             Erarbeitung von Migrationsszenarien zu React (z.B. von einer
@@ -116,6 +94,22 @@ export default function Angebot() {
             <Link to="/react-workshops">Weitere Informationen hier)</Link>
           </li>
         </ul>
+        <h2>Java-Entwicklung</h2>
+        <ul>
+          <li>
+            Schwerpunkte: <b>Spring</b> / <b>Spring Boot</b>, <b>GraphQL</b>,{' '}
+            <b>JEE</b>, <b>JPA</b>, <b>OSGi</b>
+          </li>
+          <li>
+            Konzeption und Entwicklung von Java-basierten (Backend-)Anwendungen
+          </li>
+          <li>Unterstützung bei technischen Fragestellungen und Problemen</li>
+          <li>
+            Beratung und Diskussion von Architektur-Fragen insbesondere auch
+            rund um das Thema Modularisierung großer Anwendungen
+          </li>
+        </ul>
+
         <h2>Build-, Deployment- und Automatisierungsprozesse</h2>
         <ul>
           <li>
@@ -149,6 +143,36 @@ export default function Angebot() {
             <Link to="/react-workshops">Weitere Informationen hier</Link>
           </li>
         </ul>
+        <h1>Was ich bevorzugt suche</h1>
+
+        <p style={{ marginTop: '1.2rem' }}>
+          Ich suche spannende Aufgaben im Bereich der Frontend- und/oder
+          Backend-Entwicklung, wobei ich mich mit den oben genannten
+          Technologien besonders gut auskenne (meine ich jedenfalls...).
+          <ul>
+            <li>
+              Tätigkeiten/Beratung mit <b>klarem Schwerpunkt und Zielsetzung</b>{' '}
+              in einem der oben genannten Bereiche.
+            </li>
+            <li>
+              Ein <b>nettes Team</b>, in dem man sich gegenseitig wertschätzt
+              und einen persönlichen Umgang miteinander pflegt ist mir sehr
+              wichtig.
+            </li>
+            <li>
+              Ich <b>arbeite gerne remote</b>, deswegen bevorzuge ich besonders
+              Aufträge, bei denen es nicht erforderlich ist, (ständig) vor Ort
+              zu sein.
+            </li>
+            <li>
+              Da ich auch Trainings und Schulungen gebe sowie auf Konferenzen
+              und Meetups spreche, kann ich auf Grund von Vorbereitungs- und
+              Reisezeit im Schnitt <b>maximal 3-4 Tage/Woche</b> im Projekt
+              mitarbeiten.
+            </li>
+          </ul>
+        </p>
+        <p>Wenn das für Euch passt, meldet Euch gerne bei mir!</p>
         <h1 className="Title">Kontakt</h1>
         <div className="Contact">
           <div>
