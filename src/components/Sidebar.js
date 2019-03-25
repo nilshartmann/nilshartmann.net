@@ -46,6 +46,19 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
+            href="https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react"
+            target="_blank"
+          >
+            Fullstack GraphQL mit Apollo und React
+          </a>
+          <p className="Location">
+            EnterJS, Darmstadt,
+            <br /> 25. Juni 2019
+          </p>
+        </div>
+        <div className="Item">
+          <a
+            className="Abstract"
             href="https://www.oose.de/seminar/web-apps/"
             target="_blank"
           >
