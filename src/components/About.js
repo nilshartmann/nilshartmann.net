@@ -73,6 +73,15 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://www.meetup.com/de-DE/RheinMainJS/events/260643716/"
+                  target="_blank"
+                >
+                  Moderne React-Anwendungen mit Hooks und Suspense
+                </a>{' '}
+                (RheinMainJS, Mainz, 7. Mai 2019)
+              </li>
+              <li>
+                <a
                   href="https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/"
                   target="_blank"
                 >
