@@ -15,7 +15,11 @@ export default class Layout extends React.Component {
             <Link className="Title" to="/">
               Nils Hartmann
             </Link>
-            <div>Software-Entwicklung | Software-Architektur</div>
+            <div>
+              <Link to="/dienstleistungen">
+                Software-Entwicklung | Software-Architektur | Trainings
+              </Link>
+            </div>
           </div>
           <SocialIcons />
         </header>

@@ -64,8 +64,11 @@ export default function Sidebar() {
           >
             Single-Page-Anwendungen mit React, Redux und TypeScript entwickeln
           </a>
+
           <p className="Location">
             OOSE, Hamburg,
+            <br />
+            29./30. August 2019
             <br /> 25./25. Oktober 2019
           </p>
         </div>
@@ -77,7 +80,7 @@ export default function Sidebar() {
           </Link>
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
             <p className="Location">
-              <b>Weitere Informationen</b>
+              <b>Auf Anfrage, hier weitere Informationen</b>
             </p>
           </Link>
         </div>
