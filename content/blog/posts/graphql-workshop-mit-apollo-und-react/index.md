@@ -7,13 +7,13 @@ image_position: 'before_summary'
 image_expanded: 'true'
 tags:
   - JavaScript
+  - Java
   - Workshop
   - GraphQL
-  - Apollo
   - React
 ---
 
-#### Workshop: Fullstack GraphQL mit Apollo und React
+### Workshop: Fullstack GraphQL mit Apollo und React
 
 Auf der EnterJS in Darmstadt biete ich am 25. Juni einen **eintägigen Workshop zum Thema GraphQL für JavaScript-Anwendungen** an. Dabei werden wir die Grundlagen und Konzepte von GraphQL lernen,
 um einschätzen zu können, für welche Anwendungen und Anwendungsfälle GraphQL überhaupt geignet ist. Im praktischen Teil sehen wir uns an, wie
@@ -28,14 +28,14 @@ auch mit anderen Framework wie Angular oder Vue einsetzbar.
 
 Weitere **Infos und Anmeldung** direkt auf der Seite der [EnterJS](https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react).
 
-#### GraphQL für Java-Anwendungen
+### GraphQL für Java-Anwendungen
 
 Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist vielleicht einer meiner folgenden Vorträge für dich relevant:
 
 - [GraphQL für Java-Anwendungen](https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/) auf der JAX Mainz (9. Mai)
 - [Einführung in GraphQL mit Java](https://www.md-devdays.de/Act?id=1000026) auf den Magdeburger Developer Days (21. Mai)
 - GraphQL mit Java, JavaUserGroup Münster, (5. Juni - tba)
-- [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/) als kostenloser Abendvortrag bei OOSE in Hamburg (11. Juni)
+- [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
 
 Darüberhinaus findest Du meinen zweiteiligen **Artikel zu GraphQL** auf "heise developer":
 
