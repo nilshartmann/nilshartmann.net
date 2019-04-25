@@ -1,6 +1,6 @@
 ---
 title: 'Neu: Workshop und Vorträge zu GraphQL'
-date: '2019-04-22T09:00:00.000Z'
+date: '2019-04-25T07:30:00.000Z'
 summaryMarkdown: 'Im Mai und Juni halte ich verschiedene Vorträge zu GraphQL und biete im Juni einen öffentlichen GraphQL Workshop auf der EnterJS in Darmstadt an. Vielleicht ist ja auch für dich etwas interessantes dabei'
 image: '/uploads/graphql-900x450.jpg'
 image_position: 'before_summary'
