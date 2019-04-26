@@ -14,7 +14,7 @@ tags:
  - micro frontends
  - Architektur
  - SPA
- - Artikel und Vorträge
+ - Artikel
 ---
 
 **Diesen Artikel habe ich gemeinsam mit Oliver Zeigermann geschrieben. Er erschien im Objekt Spektrum 2/2019.**

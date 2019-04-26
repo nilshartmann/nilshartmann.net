@@ -5,7 +5,7 @@ summaryMarkdown: 'Das OSGi Users Forum Germany hat am 15. April 2010 in Darmstad
 Gerd und ich haben auf diesem Workshop Ant4Eclipse vorgestellt.'
 tags:
  - ant4eclipse
- - Artikel und Vorträge
+ - Vortrag
  - build
  - OSGi
  - Softwareentwicklung

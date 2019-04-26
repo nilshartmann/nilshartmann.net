@@ -1,11 +1,11 @@
 ---
-title: "Wer will noch Git-Experte werden?"
+title: 'Wer will noch Git-Experte werden?'
 date: '2015-03-15T15:31:24.000Z'
 summaryMarkdown: 'Gemeinsam mit [Rene Preissel](http://etosquare.de) biete ich auf der diesjährigen Jax im April einen ganztägigen Workshop rund um das Thema Git an'
 tags:
- - Allgemein
- - Artikel und Vorträge
- - Softwareentwicklung
+  - Allgemein
+  - Vortrag
+  - Softwareentwicklung
 ---
 
 Der Workshop richtet sich an Interessierte, die bereits erste Schritte mit Git gemacht haben und jetzt ein tieferes Verständnis von der Versionsverwaltung bekommen möchten.
@@ -18,4 +18,4 @@ Den ganzen Tag über ist natürlich auch genügend Zeit, um Eure eigenen Fragen 
 
 Weitere Informationen findet ihr auf der Jax Homepage: https://jax.de/2015/sessions/werden-sie-git-experte
 
-Wir freuen uns auf Eure Teilnahme!﻿  
+Wir freuen uns auf Eure Teilnahme!
