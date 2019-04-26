@@ -174,7 +174,7 @@ footer {
 
 .Background {
   height: 100%;
-  background-color: lighten($lightBackgroundColor, 5%);
+  background-color: $pageBackgroundColor;
   width: 100%;
   min-height: 100%;
   position: fixed;

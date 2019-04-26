@@ -250,3 +250,11 @@ a.NavButton {
     border: 1px solid $lightBackgroundColor;
   }
 }
+
+.gatsby-highlight {
+  background-color: $pageBackgroundColor;
+}
+
+.gatsby-highlight pre[class*='language-'] {
+  background-color: transparent;
+}

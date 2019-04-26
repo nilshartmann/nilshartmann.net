@@ -1,5 +1,13 @@
 {
   "trailingComma": "es5",
   "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "content/**/*.md",
+      "options": {
+        "semi": true
+      }
+    }
+  ]
 }

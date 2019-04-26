@@ -17,6 +17,8 @@ $textColor: #7f5e38;
 $textColorDisabled: lighten(#7f5e38, 30%);
 $largeDisplay: 1024px;
 
+$pageBackgroundColor: lighten($lightBackgroundColor, 5%);
+
 // -------------------------------------------------------------------------------
 // -- Components
 // -------------------------------------------------------------------------------
