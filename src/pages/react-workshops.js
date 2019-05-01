@@ -5,6 +5,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import { Link } from '@reach/router'
 
 const imgStyle = {
   float: 'left',
@@ -25,18 +26,23 @@ export default function Angebot() {
           'Training',
           'React Workshop',
         ]}
-        title="React Workshops und Trainings"
+        title="React und TypeScript Schulungen und Beratung"
         description="Ich biete Dienstleistungen im Bereich Software-Entwicklung und Software-Architektur an. Schwerpunkte: Java, JavaScript, TypeScript, React, GraphQL"
       />
       <div className="Row FullPost">
-        <h1 className="Title">React Workshops und Trainings</h1>
+        <h1 className="Title">
+          React und TypeScript Schulungen, Workshops und Beratung
+        </h1>
         <div className="Summary Clearfix Dienstleistungen">
-          Ich biete individuelle In-House-Workshops und Trainings rund um das
-          Thema React an, um dich und dein Team beim Einstieg und der Arbeit mit
-          React zu unterstützen. Falls ihr schon React ein Einsatz habt, führe
-          ich auch Code-Reviews mit Euch durch (auch remote) oder berate Euch
-          bei konkreten Fragestellungen, zum Beispiel zur Architektur oder
-          Technologieauswahl.
+          Im Juni 2016 erschien die 1. Auflage meines{' '}
+          <Link to="/posts/react-buch-erschienen/">React-Buches</Link>, in dem
+          ihr einen Einstieg in die Entwicklung von React-Anwendungen bekommt.
+          Ich biete aber auch individuelle In-House-Schulungen und Workshops
+          rund um das Thema React an, um dich und dein Team beim Einstieg und
+          der Arbeit mit React zu unterstützen. Falls ihr schon React ein
+          Einsatz habt, führe ich auch Code-Reviews mit Euch durch (auch remote)
+          oder berate Euch bei konkreten Fragestellungen, zum Beispiel zur
+          Architektur oder Technologieauswahl.
         </div>
         <div class="title">
           <h2>Mögliche Inhalte einer Schulung</h2>
@@ -196,6 +202,51 @@ export default function Angebot() {
           </li>
           <li>Einbinden von Dritt-Bibliotheken, z.B. jQuery oder d3.js</li>
         </ul>
+
+        <div class="title">
+          <h2>Workshops und Beratungen</h2>
+        </div>
+        <p>
+          Neben den Schulungen biete ich auch Workshops und Beratung rund um die
+          Entwicklung von React-basierten Single-Page-Anwendungen an. Dabei
+          können wir zum Beispiel über mögliche Architekturen für Eure
+          Anwendungen sprechen, Code-Reviews durchführen oder uns einen
+          Überblick über das JavaScript-/React-Ökosystem verschaffen, um du
+          diskutieren, wie ein passender Technologie-Stack für aussehen kann.
+        </p>
+
+        <div class="title">
+          <h2>Unterstützung bei Migrationen</h2>
+        </div>
+        <p>
+          <em>
+            Ihr habt ein bestehende Anwendung, zum Beispiel auf{' '}
+            <b>Java/JEE/Spring MVC</b>-Basis und wollt nun dafür ein Frontend
+            als React Single-Page-Anwendung bauen?
+          </em>{' '}
+          Da ich ursprünglich auch aus der Java-Entwicklung komme, habe ich
+          Erfahrung darin, welche Bedenken hinsichtlich der
+          JavaScript-Entwicklung bestehen und welche Schmerzen ein Umstieg
+          bereiten kann. Ich kann euch aber dabei helfen, die Umstellung so
+          reibungslos wie möglich zu machen:
+          <ul>
+            <li>
+              Wie könnte eine tragfähige und zukunftssichere Architektur für
+              Eure konkreten Anforderungen aussehen?
+            </li>
+            <li>
+              Was muss beim Deployment beachtet werden? Wie können Build- und
+              CI-Prozess aussehen?
+            </li>
+            <li>
+              Wie kann die eigentliche Migration aussehen und welche Schrite
+              sind dafür notwendig?
+            </li>
+          </ul>
+          All das sind Themen, die wir besprechen und dafür gemeinsam praxisnahe
+          Lösungen für Euer Produkt erarbeiten können. Bei Bedarf meldet euch
+          gerne.
+        </p>
 
         <h1 className="Title">Kontakt</h1>
         <div className="Contact">

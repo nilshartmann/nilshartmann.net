@@ -73,21 +73,23 @@ export default function Angebot() {
             <b>React</b>, <b>Redux</b>, <b>GraphQL</b>, <b>HTML/CSS</b>
           </li>
           <li>
-            Konzeption und Implementierung von Single-Page-Applications auf
-            Basis von React
+            Beratung hinsichtlich der <b>Architektur</b> von React-Anwendungen
+            und
+            <b>Microfrontends</b> und Entwicklung von Prototypen
           </li>
           <li>
-            Beratung hinsichtlich der Architektur von React-Anwendungen und
-            Microfrontends und Entwicklung von Prototypen
-          </li>
-          <li>
-            Erarbeitung von Migrationsszenarien zu React (z.B. von einer
-            serverseitig gerenderten Web-Anwendung)
+            Unterstützung bei der <b>Migration</b> bestehender Anwendungen, z.B.
+            von einer <b>Java/JEE/Spring MVC</b>-basierten Anwendung hin zu
+            einer Single-Page-Anwendung auf Basis von React.
           </li>
           <li>
             Hilfe bei der Auswahl eines geeigneten Technologie Stacks für
             React-Anwendungen unter Unterstützung bei der Einführung von React
             in neuen Projekten
+          </li>
+          <li>
+            Konzeption und Implementierung von Single-Page-Applications auf
+            Basis von React
           </li>
           <li>
             Schulung, Trainings, Code-Review (
@@ -146,10 +148,19 @@ export default function Angebot() {
         <h1>Was ich bevorzugt suche</h1>
 
         <p style={{ marginTop: '1.2rem' }}>
-          Ich suche spannende Aufgaben im Bereich der Frontend- und/oder
-          Backend-Entwicklung, wobei ich mich mit den oben genannten
-          Technologien besonders gut auskenne (meine ich jedenfalls...).
+          Zum einen biete ich{' '}
+          <Link to="/react-workshops">Schulungen, Trainings und Workshops</Link>
+          . Darüberhinaus suche ich aber auch spannende Aufgaben im Bereich der
+          Frontend- und/oder Backend-Entwicklung, wobei ich mich mit den oben
+          genannten Technologien besonders gut auskenne (meine ich
+          jedenfalls...).
           <ul>
+            <li>
+              <b>Migrations- und Evaluationsprojekte</b>, in denen ich Euch zum
+              Beispiel helfen kann, von einer "klassischen" Web-Architektur
+              (Java, JEE, Spring MVC) zu einer Single-Page-Anwendung mit React
+              und TypeScript zu kommen.
+            </li>
             <li>
               Tätigkeiten/Beratung mit <b>klarem Schwerpunkt und Zielsetzung</b>{' '}
               in einem der oben genannten Bereiche.
