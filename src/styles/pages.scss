@@ -1,3 +1,17 @@
+.About {
+  padding-bottom: 10px;
+
+  .ProfilePic {
+    max-width: 100%;
+
+    @media screen and (min-width: $largeDisplay) {
+      float: right;
+      max-width: 160px;
+      margin-left: 10px;
+    }
+  }
+}
+
 .Contact {
   i {
     visibility: hidden;

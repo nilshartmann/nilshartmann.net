@@ -4,16 +4,10 @@
 
 import React from 'react'
 
-import FlickrBar from './FlickrBar'
-import { getFlickrImages } from './flicker'
 import { Link } from 'gatsby'
 
 export default function About() {
-  const imgStyle = {
-    float: 'right',
-    maxWidth: '160px',
-    marginLeft: '10px',
-  }
+  const imgStyle = {}
 
   const divStyle = {
     float: 'left',
@@ -28,7 +22,7 @@ export default function About() {
   }
 
   return (
-    <div>
+    <div className="About">
       <article>
         <div className="Row Clearfix">
           <header>
@@ -36,39 +30,41 @@ export default function About() {
           </header>
           <section>
             <p style={pStyle}>
-              <img style={imgStyle} src="/uploads/nh.jpg" />
+              <img className="ProfilePic" src="/uploads/nh.jpg" />
               Ich bin Nils Hartmann, freiberuflicher Softwareentwickler und
               -Architekt aus Hamburg und beschäftige mich mit <b>
                 Java
               </b> und <b>JavaScript/TypeScript</b> (insbesondere{' '}
-              <b>Spring Boot</b>, <b>GraphQL</b>, <b>React</b>). 2016 habe ich
-              ein{' '}
-              <a href="/posts/react-buch-erschienen">
-                <b>Buch über React</b>
-              </a>{' '}
-              veröffentlicht.
-            </p>
-
-            <p style={pStyle}>
-              Ich unterstütze dich und dein Team gerne in eurem Projekt, sei es
-              beim programmieren, in Architektur-Fragen oder zum Beispiel durch
-              gemeinsame Code-Reviews (auch Remote). Rund um die Themen React,
-              JavaScript, TypeScript und GraphQL biete ich auch individuelle{' '}
-              <Link to="/react-workshops">
-                <b>Trainings und Workshops</b>
-              </Link>{' '}
-              (auch In-House) an. Wenn Du Interesse hast, schreibe mir doch
-              einfach eine <a href="mailto:nils@nilshartmann.net">E-Mail</a>,
-              dann schauen wir gemeinsam, was am besten passt. Hier findest Du{' '}
-              <Link to="/dienstleistungen">
-                <b>weitere Informationen</b>
-              </Link>
-              .
+              <b>Spring Boot</b>, <b>GraphQL</b>, <b>React</b>). Hier findest Du
+              meine <Link to="/dienstleistungen">Dienstleistungen</Link> und
+              meine <Link to="/contact">Kontaktdaten</Link>.
             </p>
           </section>
-          <section>
+          <section style={{ marginBottom: '2rem' }}>
             <p style={pStyle}>
-              Regelmäßig halte ich auch <b>Vorträge</b>:
+              <b>Buch</b>:
+            </p>
+            <img
+              style={{
+                marginRight: '20px',
+                width: '60px',
+                float: 'left',
+              }}
+              src="/uploads/react-buch-titel.jpg"
+            />
+            <p>
+              React - Die praktische Einführung
+              <br />
+              dpunkt-Verlag, 2016
+              <br />
+              <Link to="/posts/react-buch-erschienen">
+                Weitere Informationen
+              </Link>
+            </p>
+          </section>
+          <section style={{ clear: 'both' }} className="Clearfix">
+            <p style={pStyle}>
+              <b>Aktuelle Vorträge</b>:
             </p>
             <ul style={ulStyle}>
               <li>
@@ -117,11 +113,75 @@ export default function About() {
                 </a>{' '}
                 (EnterJS, Darmstadt, Juni 2019)
               </li>
+              <li style={{ marginTop: '1rem' }}>
+                <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
+              </li>
             </ul>
           </section>
-        </div>
-        <div className="Row NoSidePadding">
-          <FlickrBar flickrImages={getFlickrImages(10)} />
+          <section>
+            <p style={pStyle}>
+              <b>Schulungen</b>:
+            </p>
+            <ul style={ulStyle}>
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React, Redux und TypeScript
+                  entwickeln
+                </a>{' '}
+                (OOSE, Hamburg, 29./30. August 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react"
+                  target="_blank"
+                >
+                  Fullstack GraphQL mit Apollo und React
+                </a>{' '}
+                (EnterJS, Darmstadt, 25. Juni 2019)
+              </li>
+              <li style={{ marginTop: '1rem' }}>
+                <Link to="/react-workshops">
+                  Individuelle In-House Workshops: Informationen und Anfrage
+                </Link>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <p style={pStyle}>
+              <b>Artikel</b>:
+            </p>
+
+            <ul style={ulStyle}>
+              <li>
+                <Link to="/posts/microfrontends/">
+                  Frontend-Architektur mit JavaScript: Micro-Frontends als
+                  Integration-Pattern
+                </Link>
+                (ObjektSpektrum, 2/2019)
+              </li>
+              <li>
+                <Link to="/posts/react-in-enterprise-anwendungen/">
+                  React in Enterprise Anwendungen
+                </Link>{' '}
+                (JavaMagazin, 1/2019)
+              </li>
+              <li>
+                <Link to="/posts/graphql-mit-java-anwendungen/">
+                  GraphQL mit JavaAnwendungen
+                </Link>{' '}
+                (heise developer, November 2018)
+              </li>
+              <li>
+                <Link to="/posts/hilfe-ich-muss-javascript-programmieren">
+                  Hilfe, ich muss JavaScript programmieren!
+                </Link>{' '}
+                (Java Aktuell, 5/2018)
+              </li>
+              <li style={{ marginTop: '1rem' }}>
+                <Link to="/tags/Artikel">Artikel Übersicht</Link>
+              </li>
+            </ul>
+          </section>
         </div>
       </article>
     </div>

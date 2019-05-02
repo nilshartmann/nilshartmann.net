@@ -64,21 +64,38 @@ export default function Angebot() {
           Entscheidung für oder gegen eine Technologie, eine Architektur oder
           ein Vorgehen hat. Etwas nur zu machen, weil "man das so macht" führt
           häufig in die Irre. Im Zweifel plädiere ich dafür, lieber klein
-          anzufangen und dann skalieren bzw anpassen.
+          anzufangen und dann später zu skalieren bzw anzupassen.
         </p>
-        <h2>JavaScript-Entwicklung</h2>
+        <h2>Trainings und Coaching</h2>
+        <p>
+          Ich gebe zu unterschiedlichen Themen sowohl öffentliche als auch
+          nicht-öffentliche Schulungen, Workshops und Trainings.
+        </p>
         <ul>
           <li>
+            Trainings und Schulungen rund u.a. um <b>React</b>, <b>Redux</b>,{' '}
+            <b>JavaScript/TypeScript</b> und <b>GraphQL</b>
+          </li>
+          <li>Workshops zu Architektur-Themen (Frontend und Backend)</li>
+          <li>
+            Durchführung von <b>Code Reviews</b> (auch remote)
+          </li>
+          <li>
+            <Link to="/react-workshops">Weitere Informationen hier</Link>
+          </li>
+        </ul>
+        <h2>JavaScript-Entwicklung</h2>
+        <ul>
+          <li style={{ marginBottom: '0.5rem' }}>
             Schwerpunkte: <b>JavaScript/ES6+</b>, <b>TypeScript</b>,{' '}
             <b>React</b>, <b>Redux</b>, <b>GraphQL</b>, <b>HTML/CSS</b>
           </li>
           <li>
             Beratung hinsichtlich der <b>Architektur</b> von React-Anwendungen
-            und
-            <b>Microfrontends</b> und Entwicklung von Prototypen
+            und <b>Microfrontends</b> und Entwicklung von Prototypen
           </li>
           <li>
-            Unterstützung bei der <b>Migration</b> bestehender Anwendungen, z.B.
+            Unterstützung bei der <b>Migration bestehender Anwendungen</b>, z.B.
             von einer <b>Java/JEE/Spring MVC</b>-basierten Anwendung hin zu
             einer Single-Page-Anwendung auf Basis von React.
           </li>
@@ -98,7 +115,7 @@ export default function Angebot() {
         </ul>
         <h2>Java-Entwicklung</h2>
         <ul>
-          <li>
+          <li style={{ marginBottom: '0.5rem' }}>
             Schwerpunkte: <b>Spring</b> / <b>Spring Boot</b>, <b>GraphQL</b>,{' '}
             <b>JEE</b>, <b>JPA</b>, <b>OSGi</b>
           </li>
@@ -114,7 +131,7 @@ export default function Angebot() {
 
         <h2>Build-, Deployment- und Automatisierungsprozesse</h2>
         <ul>
-          <li>
+          <li style={{ marginBottom: '0.5rem' }}>
             Schwerpunkte: <b>Git</b>, <b>Jenkins</b>, <b>Docker</b>
           </li>
           <li>Konzeption von CI/CD-Prozessen</li>
@@ -127,24 +144,7 @@ export default function Angebot() {
             Projekt-Anforderungen angemessen sind
           </li>
         </ul>
-        <h2>Trainings und Coaching</h2>
-        <p>
-          Seit einigen Jahren gebe ich zu unterschiedlichen Themen sowohl
-          öffentliche als auch nicht-öffentliche Workshops und Trainings.
-        </p>
-        <ul>
-          <li>
-            Trainings und Schulungen rund u.a. um <b>React</b>, <b>Redux</b>,{' '}
-            <b>JavaScript/TypeScript</b> und <b>GraphQL</b>
-          </li>
-          <li>Workshops zu Architektur-Themen (Frontend und Backend)</li>
-          <li>
-            Durchführung von <b>Code Reviews</b> (auch remote)
-          </li>
-          <li>
-            <Link to="/react-workshops">Weitere Informationen hier</Link>
-          </li>
-        </ul>
+
         <h1>Was ich bevorzugt suche</h1>
 
         <p style={{ marginTop: '1.2rem' }}>
@@ -154,35 +154,33 @@ export default function Angebot() {
           Frontend- und/oder Backend-Entwicklung, wobei ich mich mit den oben
           genannten Technologien besonders gut auskenne (meine ich
           jedenfalls...).
-          <ul>
-            <li>
-              <b>Migrations- und Evaluationsprojekte</b>, in denen ich Euch zum
-              Beispiel helfen kann, von einer "klassischen" Web-Architektur
-              (Java, JEE, Spring MVC) zu einer Single-Page-Anwendung mit React
-              und TypeScript zu kommen.
-            </li>
-            <li>
-              Tätigkeiten/Beratung mit <b>klarem Schwerpunkt und Zielsetzung</b>{' '}
-              in einem der oben genannten Bereiche.
-            </li>
-            <li>
-              Ein <b>nettes Team</b>, in dem man sich gegenseitig wertschätzt
-              und einen persönlichen Umgang miteinander pflegt ist mir sehr
-              wichtig.
-            </li>
-            <li>
-              Ich <b>arbeite gerne remote</b>, deswegen bevorzuge ich besonders
-              Aufträge, bei denen es nicht erforderlich ist, (ständig) vor Ort
-              zu sein.
-            </li>
-            <li>
-              Da ich auch Trainings und Schulungen gebe sowie auf Konferenzen
-              und Meetups spreche, kann ich auf Grund von Vorbereitungs- und
-              Reisezeit im Schnitt <b>maximal 3-4 Tage/Woche</b> im Projekt
-              mitarbeiten.
-            </li>
-          </ul>
         </p>
+        <ul>
+          <li style={{ marginBottom: '0.5rem' }}>
+            <b>Migrations- und Evaluationsprojekte</b>, in denen ich Euch zum
+            Beispiel helfen kann, von einer "klassischen" Web-Architektur (Java,
+            JEE, Spring MVC) zu einer Single-Page-Anwendung mit React und
+            TypeScript zu kommen.
+          </li>
+          <li style={{ marginBottom: '0.5rem' }}>
+            Tätigkeiten/Beratung mit <b>klarem Schwerpunkt und Zielsetzung</b>{' '}
+            in einem der oben genannten Bereiche.
+          </li>
+          <li style={{ marginBottom: '0.5rem' }}>
+            Ein <b>nettes Team</b>, in dem man sich gegenseitig wertschätzt und
+            einen persönlichen Umgang miteinander pflegt ist mir sehr wichtig.
+          </li>
+          <li style={{ marginBottom: '0.5rem' }}>
+            Ich <b>arbeite gerne remote</b>, deswegen bevorzuge ich besonders
+            Aufträge, bei denen es nicht erforderlich ist, (ständig) vor Ort zu
+            sein.
+          </li>
+          <li style={{ marginBottom: '0.5rem' }}>
+            Da ich auch Trainings und Schulungen gebe sowie auf Konferenzen und
+            Meetups spreche, kann ich auf Grund von Vorbereitungs- und Reisezeit
+            im Schnitt <b>maximal 3-4 Tage/Woche</b> im Projekt mitarbeiten.
+          </li>
+        </ul>
         <p>Wenn das für Euch passt, meldet Euch gerne bei mir!</p>
         <h1 className="Title">Kontakt</h1>
         <div className="Contact">

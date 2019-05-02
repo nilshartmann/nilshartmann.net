@@ -4,7 +4,12 @@
 
 import React from 'react'
 
-export default function Contact() {
+const DEFAULT_TITLE =
+  'Wenn Du Fragen hast oder an meinen Dienstleistungen interessiert bist, melde dich gerne bei mir.'
+
+// <Link to="/dienstleistungen">Dienstleistungen</Link>
+
+export default function Contact({ title = DEFAULT_TITLE }) {
   const pStyle = {
     marginBottom: '8px',
   }
@@ -18,10 +23,7 @@ export default function Contact() {
       <header className="TitlePanel ">
         <h1 className="Title ">Kontakt</h1>
 
-        <p>
-          Wenn Du Fragen hast oder an meinen Dienstleistungen interessiert bist,
-          melde dich gerne bei mir.{' '}
-        </p>
+        <p>{title}</p>
       </header>
 
       <main className="Contact">
