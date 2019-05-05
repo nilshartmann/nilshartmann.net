@@ -37,9 +37,10 @@ Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist viell
 - GraphQL mit Java, JavaUserGroup Münster, (5. Juni - tba)
 - [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
 
-Darüberhinaus findest Du meinen zweiteiligen **Artikel zu GraphQL** auf "heise developer":
+Darüberhinaus findest Du **Artikel zu GraphQL** von mir online:
 
-- [Teil 1: Java Anwendungen mit GraphQL](https://www.heise.de/developer/artikel/Java-Anwendungen-mit-GraphQL-Teil-1-4205852.html)
-- [Teil 2: GraphQL-Clients mit React und Apollo](https://www.heise.de/developer/artikel/GraphQL-Clients-mit-React-und-Apollo-Teil-2-4273017.html)
+- [Java Anwendungen mit GraphQL](https://www.heise.de/developer/artikel/Java-Anwendungen-mit-GraphQL-Teil-1-4205852.html) (heise developer, Teil 1)
+- [GraphQL-Clients mit React und Apollo](https://www.heise.de/developer/artikel/GraphQL-Clients-mit-React-und-Apollo-Teil-2-4273017.html) (heise developer, Teil 2)
+- [GraphQL für Java-Anwendungen](https://www.doag.org/de/home/news/java-aktuell-032019-ist-online-java-verbindet-1/detail/) (Java aktuell, 03/2019)
 
-Wenn ich dich oder dein Team beim Thema GraphQL unterstützen kann, [melde dich gerne bei mir](/contact).
+Wenn ich dich und dein Team beim Einstieg in GraphQL oder bei der Entwicklung von GraphQL-basierten Anwendungen unterstützen kann, [melde dich gerne bei mir](/contact).

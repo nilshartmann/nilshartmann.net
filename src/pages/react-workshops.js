@@ -25,9 +25,10 @@ export default function Angebot() {
           'Workshop',
           'Training',
           'React Workshop',
+          'Seminar',
         ]}
         title="React und TypeScript Schulungen und Beratung"
-        description="Ich biete Dienstleistungen im Bereich Software-Entwicklung und Software-Architektur an. Schwerpunkte: Java, JavaScript, TypeScript, React, GraphQL"
+        description="Ich biete Dienstleistungen im Bereich Software-Entwicklung und Software-Architektur an. Schwerpunkte: Java, JavaScript, TypeScript, React, GraphQL, Redux"
       />
       <div className="Row FullPost">
         <h1 className="Title">
@@ -39,9 +40,9 @@ export default function Angebot() {
           ihr einen Einstieg in die Entwicklung von React-Anwendungen bekommt.
           Ich biete aber auch individuelle In-House-Schulungen und Workshops
           rund um das Thema React an, um dich und dein Team beim Einstieg und
-          der Arbeit mit React zu unterstützen. Falls ihr schon React ein
-          Einsatz habt, führe ich auch Code-Reviews mit Euch durch (auch remote)
-          oder berate Euch bei konkreten Fragestellungen, zum Beispiel zur
+          der Arbeit mit React zu unterstützen. Falls ihr schon React im Einsatz
+          habt, führe ich auch Code-Reviews mit Euch durch (auch remote) oder
+          berate Euch bei konkreten Fragestellungen, zum Beispiel zur
           Architektur oder Technologieauswahl.
         </div>
         <div class="title">
