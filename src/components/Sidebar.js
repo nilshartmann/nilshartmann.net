@@ -12,7 +12,11 @@ export default function Sidebar() {
           Ich unterstütze euch gerne in eurem Projekt, sei es durch gemeinsame
           Code-Reviews, Architektur-Diskussionen oder beim programmieren. Rund
           um die Themen React, TypeScript und GraphQL biete ich auch
-          individuelle <b>Trainings und Workshops</b> an.
+          individuelle{' '}
+          <b>
+            <Link to="/react-workshops">Trainings und Workshops</Link>
+          </b>{' '}
+          an.
           <p>
             <Link className="ReadMore" to="/dienstleistungen">
               <i>

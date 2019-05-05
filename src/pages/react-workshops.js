@@ -12,7 +12,9 @@ const imgStyle = {
   maxWidth: '210px',
   marginRight: '10px',
 }
-
+const ulStyle = {
+  marginTop: 0,
+}
 export default function Angebot() {
   return (
     <Layout>
@@ -39,14 +41,142 @@ export default function Angebot() {
           <Link to="/posts/react-buch-erschienen/">React-Buches</Link>, in dem
           ihr einen Einstieg in die Entwicklung von React-Anwendungen bekommt.
           Ich biete aber auch individuelle In-House-Schulungen und Workshops
-          rund um das Thema React an, um dich und dein Team beim Einstieg und
-          der Arbeit mit React zu unterstützen. Falls ihr schon React im Einsatz
-          habt, führe ich auch Code-Reviews mit Euch durch (auch remote) oder
-          berate Euch bei konkreten Fragestellungen, zum Beispiel zur
-          Architektur oder Technologieauswahl.
+          rund um das Thema Single-Page-Anwendungen mit React an, um dich und
+          dein Team beim Einstieg und der Arbeit mit React zu unterstützen.
+          Falls ihr schon React im Einsatz habt, führe ich auch Code-Reviews mit
+          Euch durch (auch remote) oder berate Euch bei konkreten
+          Fragestellungen, zum Beispiel zur Architektur oder Technologieauswahl.
         </div>
         <div class="title">
-          <h2>Mögliche Inhalte einer Schulung</h2>
+          <h2>Individuelle In-House-Schulungen</h2>
+        </div>
+        <p>
+          Ich biete Schulungen für dich und dein Team zur Entwicklung von{' '}
+          <b>Frontends</b> und <b>Single-Page-Applications (SPAs)</b> mit{' '}
+          <b>React</b>, <b>TypeScript</b>, und <b>GraphQL</b> an (weitere Themen
+          auf Anfrage). Im Vorwege legen wir gemeinsam eine für Euch passende
+          Agenda fest, je nachdem, wie lange das Training dauern soll, welche
+          Vorkenntnisse vorhanden sind und welche Inhalte euch besonders wichtig
+          sind. Beispielhafte Inhalte einer React Schulung findest Du{' '}
+          <Link to="/react-workshops#react-schulungen-inhalte">unten</Link>.
+        </p>
+        <div class="title">
+          <h2>Workshops und Beratungen</h2>
+        </div>
+        <p>
+          Neben den Schulungen biete ich auch Workshops und Beratung rund um die
+          Entwicklung von React-basierten Single-Page-Anwendungen an. Dabei
+          können wir zum Beispiel über mögliche Architekturen für Eure
+          Anwendungen sprechen, Code-Reviews durchführen oder uns einen
+          Überblick über das JavaScript-/React-Ökosystem verschaffen, um du
+          diskutieren, wie ein passender Technologie-Stack für aussehen kann.
+        </p>
+
+        <div class="title">
+          <h2>
+            Unterstützung beim Einstieg in die Entwicklung von
+            Single-Page-Anwendungen
+          </h2>
+        </div>
+        <p>
+          <em>
+            Ihr habt ein bestehende Anwendung, zum Beispiel auf{' '}
+            <b>Java/JEE/Spring MVC</b>-Basis oder als Fat-Client (Swing, JavaFX)
+            und wollt nun dafür ein Frontend als Single-Page-Anwendung bauen?
+          </em>{' '}
+          Da ich ursprünglich auch aus der Java-Entwicklung komme, habe ich
+          Erfahrung darin, welche Bedenken hinsichtlich der
+          JavaScript-Entwicklung bestehen und welche Schmerzen ein Umstieg
+          bereiten kann. Ich kann euch aber dabei helfen, die Umstellung so
+          reibungslos wie möglich zu machen:
+          <ul>
+            <li>
+              <b>Was sind Single-Page-Anwendungen</b>, welche Features lassen
+              sich damit umsetzen und wo sind ihre Grenzen?
+            </li>
+            <li>
+              Wie kann eine <b>schrittweise Migration</b> von Eurer bestehenden
+              Anwendung aussehen und welche Schrite sind dafür notwendig?
+            </li>
+            <li>
+              Wie könnte eine tragfähige und zukunftssichere <b>Architektur</b>{' '}
+              für Eure konkreten Anforderungen aussehen?
+            </li>
+            <li>
+              Was muss beim <b>Deployment</b> beachtet werden? Wie können Build-
+              und CI-Prozess aussehen?
+            </li>
+          </ul>
+          All das sind Themen, die wir besprechen und dafür gemeinsam praxisnahe
+          Lösungen für Euer Produkt erarbeiten können. Bei Bedarf meldet euch
+          gerne.
+        </p>
+
+        <div class="title">
+          <h2>Mehr zum Thema Frontend-Entwicklung</h2>
+
+          <p>
+            Neben dem React-Buch und den Schulungen habe ich Artikel zur
+            Entwicklung von React-basierten Frontends geschrieben und mehrere
+            Vorträge dazu gehalten. Hier findest Du eine Auswahl:
+          </p>
+
+          <ul style={ulStyle}>
+            <li>
+              <Link to="/posts/microfrontends/">
+                Frontend-Architektur mit JavaScript: Micro-Frontends als
+                Integration-Pattern
+              </Link>{' '}
+              (ObjektSpektrum, 2/2019)
+            </li>
+            <li>
+              <Link to="/posts/react-in-enterprise-anwendungen/">
+                React in Enterprise Anwendungen
+              </Link>{' '}
+              (JavaMagazin, 1/2019)
+            </li>
+            <li>
+              <Link to="/posts/graphql-clients-mit-react-und-apollo">
+                GraphQL-Clients mit React und Apollo
+              </Link>{' '}
+              (heise developer, November 2018)
+            </li>
+            <li>
+              <Link to="/posts/hilfe-ich-muss-javascript-programmieren">
+                Hilfe, ich muss JavaScript programmieren!
+              </Link>{' '}
+              (Java Aktuell, 5/2018)
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=IadZyDwfwWI"
+                target="_blank"
+              >
+                Let’s type! A practical introduction to TypeScript (Video)
+              </a>{' '}
+              (Voxxed Vienna, März 2018)
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/watch?v=g4Q9M9mrVDY"
+                target="_blank"
+              >
+                W-JAX Interview zur JavaScript-Session auf einer Java-Konferenz
+                (Video)
+              </a>{' '}
+              (W-JAX München, November 2017)
+            </li>
+            <li>
+              <a href="https://vimeo.com/161760971" target="blank">
+                Mit React UI Komponenten für das Web entwickeln (Video)
+              </a>{' '}
+              (W-Jax München, November 2015)
+            </li>
+          </ul>
+        </div>
+
+        <div class="title" id="react-schulungen-inhalte">
+          <h2>Mögliche Inhalte einer React Schulung</h2>
         </div>
         <p>
           Hier findest Du beispielhaft mögliche Inhalte einer React Schulung.
@@ -203,51 +333,6 @@ export default function Angebot() {
           </li>
           <li>Einbinden von Dritt-Bibliotheken, z.B. jQuery oder d3.js</li>
         </ul>
-
-        <div class="title">
-          <h2>Workshops und Beratungen</h2>
-        </div>
-        <p>
-          Neben den Schulungen biete ich auch Workshops und Beratung rund um die
-          Entwicklung von React-basierten Single-Page-Anwendungen an. Dabei
-          können wir zum Beispiel über mögliche Architekturen für Eure
-          Anwendungen sprechen, Code-Reviews durchführen oder uns einen
-          Überblick über das JavaScript-/React-Ökosystem verschaffen, um du
-          diskutieren, wie ein passender Technologie-Stack für aussehen kann.
-        </p>
-
-        <div class="title">
-          <h2>Unterstützung bei Migrationen</h2>
-        </div>
-        <p>
-          <em>
-            Ihr habt ein bestehende Anwendung, zum Beispiel auf{' '}
-            <b>Java/JEE/Spring MVC</b>-Basis und wollt nun dafür ein Frontend
-            als React Single-Page-Anwendung bauen?
-          </em>{' '}
-          Da ich ursprünglich auch aus der Java-Entwicklung komme, habe ich
-          Erfahrung darin, welche Bedenken hinsichtlich der
-          JavaScript-Entwicklung bestehen und welche Schmerzen ein Umstieg
-          bereiten kann. Ich kann euch aber dabei helfen, die Umstellung so
-          reibungslos wie möglich zu machen:
-          <ul>
-            <li>
-              Wie könnte eine tragfähige und zukunftssichere Architektur für
-              Eure konkreten Anforderungen aussehen?
-            </li>
-            <li>
-              Was muss beim Deployment beachtet werden? Wie können Build- und
-              CI-Prozess aussehen?
-            </li>
-            <li>
-              Wie kann die eigentliche Migration aussehen und welche Schrite
-              sind dafür notwendig?
-            </li>
-          </ul>
-          All das sind Themen, die wir besprechen und dafür gemeinsam praxisnahe
-          Lösungen für Euer Produkt erarbeiten können. Bei Bedarf meldet euch
-          gerne.
-        </p>
 
         <h1 className="Title">Kontakt</h1>
         <div className="Contact">
