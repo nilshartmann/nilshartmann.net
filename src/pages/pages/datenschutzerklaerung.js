@@ -14,14 +14,13 @@ export default function PrivacyPage() {
         <p>
           Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und
           Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz
-          „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen
-          Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie
-          z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet
-          als „Onlineangebot“). Im Hinblick auf die verwendeten
-          Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“
-          verweisen wir auf die Definitionen im Art. 4 der
-          Datenschutzgrundverordnung (DSGVO).
-          <br />
+          „Daten“) im Rahmen der Erbringung unserer Leistungen sowie innerhalb
+          unseres Onlineangebotes und der mit ihm verbundenen Webseiten,
+          Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser
+          Social Media Profile auf (nachfolgend gemeinsam bezeichnet als
+          „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten,
+          wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die
+          Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO). <br />
           <br />
         </p>
         <h3 id="dsg-general-controller">Verantwortlicher</h3>
@@ -33,15 +32,14 @@ export default function PrivacyPage() {
             <br />
             22359 Hamburg
             <br />
-            <br />
             E-Mail: kontakt (at) nilshartmann (punkt) net
             <br />
             Impressum: https://nilshartmann.net/pages/impressum
           </span>
         </p>
-        <h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3>
+        <h3 id="dsg-general-datatype">Arten der verarbeiteten Daten</h3>
         <p>
-          - Bestandsdaten (z.B., Namen, Adressen).
+          - Bestandsdaten (z.B., Personen-Stammdaten, Namen oder Adressen).
           <br />
           - Kontaktdaten (z.B., E-Mail, Telefonnummern).
           <br />
@@ -49,9 +47,8 @@ export default function PrivacyPage() {
           <br />
           - Nutzungsdaten (z.B., besuchte Webseiten, Interesse an Inhalten,
           Zugriffszeiten).
-          <br />
-          - Meta-/Kommunikationsdaten (z.B., Geräte-Informationen, IP-Adressen).
-          <br />
+          <br />- Meta-/Kommunikationsdaten (z.B., Geräte-Informationen,
+          IP-Adressen).
         </p>
         <h3 id="dsg-general-datasubjects">Kategorien betroffener Personen</h3>
         <p>
@@ -126,29 +123,46 @@ export default function PrivacyPage() {
         <h3 id="dsg-general-legalbasis">Maßgebliche Rechtsgrundlagen</h3>
         <p>
           Nach Maßgabe des Art. 13 DSGVO teilen wir Ihnen die Rechtsgrundlagen
-          unserer Datenverarbeitungen mit. Sofern die Rechtsgrundlage in der
-          Datenschutzerklärung nicht genannt wird, gilt Folgendes: Die
-          Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6 Abs. 1
-          lit. a und Art. 7 DSGVO, die Rechtsgrundlage für die Verarbeitung zur
-          Erfüllung unserer Leistungen und Durchführung vertraglicher Maßnahmen
-          sowie Beantwortung von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO, die
-          Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer rechtlichen
-          Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO, und die
-          Rechtsgrundlage für die Verarbeitung zur Wahrung unserer berechtigten
-          Interessen ist Art. 6 Abs. 1 lit. f DSGVO. Für den Fall, dass
-          lebenswichtige Interessen der betroffenen Person oder einer anderen
-          natürlichen Person eine Verarbeitung personenbezogener Daten
-          erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als
-          Rechtsgrundlage.
+          unserer Datenverarbeitungen mit. Für Nutzer aus dem Geltungsbereich
+          der Datenschutzgrundverordnung (DSGVO), d.h. der EU und des EWG gilt,
+          sofern die Rechtsgrundlage in der Datenschutzerklärung nicht genannt
+          wird, Folgendes: <br />
+          Die Rechtsgrundlage für die Einholung von Einwilligungen ist Art. 6
+          Abs. 1 lit. a und Art. 7 DSGVO;
+          <br />
+          Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer
+          Leistungen und Durchführung vertraglicher Maßnahmen sowie Beantwortung
+          von Anfragen ist Art. 6 Abs. 1 lit. b DSGVO;
+          <br />
+          Die Rechtsgrundlage für die Verarbeitung zur Erfüllung unserer
+          rechtlichen Verpflichtungen ist Art. 6 Abs. 1 lit. c DSGVO;
+          <br />
+          Für den Fall, dass lebenswichtige Interessen der betroffenen Person
+          oder einer anderen natürlichen Person eine Verarbeitung
+          personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit.
+          d DSGVO als Rechtsgrundlage.
+          <br />
+          Die Rechtsgrundlage für die erforderliche Verarbeitung zur Wahrnehmung
+          einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung
+          öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde
+          ist Art. 6 Abs. 1 lit. e DSGVO. <br />
+          Die Rechtsgrundlage für die Verarbeitung zur Wahrung unserer
+          berechtigten Interessen ist Art. 6 Abs. 1 lit. f DSGVO. <br />
+          Die Verarbeitung von Daten zu anderen Zwecken als denen, zu denen sie
+          erhoben wurden, bestimmt sich nach den Vorgaben des Art 6 Abs. 4
+          DSGVO. <br />
+          Die Verarbeitung von besonderen Kategorien von Daten (entsprechend
+          Art. 9 Abs. 1 DSGVO) bestimmt sich nach den Vorgaben des Art. 9 Abs. 2
+          DSGVO. <br />
         </p>
         <h3 id="dsg-general-securitymeasures">Sicherheitsmaßnahmen</h3>
         <p>
-          Wir treffen nach Maßgabe des Art. 32 DSGVO unter Berücksichtigung des
-          Stands der Technik, der Implementierungskosten und der Art, des
-          Umfangs, der Umstände und der Zwecke der Verarbeitung sowie der
-          unterschiedlichen Eintrittswahrscheinlichkeit und Schwere des Risikos
-          für die Rechte und Freiheiten natürlicher Personen, geeignete
-          technische und organisatorische Maßnahmen, um ein dem Risiko
+          Wir treffen nach Maßgabe der gesetzlichen Vorgabenunter
+          Berücksichtigung des Stands der Technik, der Implementierungskosten
+          und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung
+          sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere
+          des Risikos für die Rechte und Freiheiten natürlicher Personen,
+          geeignete technische und organisatorische Maßnahmen, um ein dem Risiko
           angemessenes Schutzniveau zu gewährleisten.
           <br />
           <br />
@@ -162,85 +176,110 @@ export default function PrivacyPage() {
           berücksichtigen wir den Schutz personenbezogener Daten bereits bei der
           Entwicklung, bzw. Auswahl von Hardware, Software sowie Verfahren,
           entsprechend dem Prinzip des Datenschutzes durch Technikgestaltung und
-          durch datenschutzfreundliche Voreinstellungen (Art. 25 DSGVO).
+          durch datenschutzfreundliche Voreinstellungen.
           <br />
         </p>
         <h3 id="dsg-general-coprocessing">
-          Zusammenarbeit mit Auftragsverarbeitern und Dritten
+          Zusammenarbeit mit Auftragsverarbeitern, gemeinsam Verantwortlichen
+          und Dritten
         </h3>
         <p>
           Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen
-          Personen und Unternehmen (Auftragsverarbeitern oder Dritten)
-          offenbaren, sie an diese übermitteln oder ihnen sonst Zugriff auf die
-          Daten gewähren, erfolgt dies nur auf Grundlage einer gesetzlichen
-          Erlaubnis (z.B. wenn eine Übermittlung der Daten an Dritte, wie an
-          Zahlungsdienstleister, gem. Art. 6 Abs. 1 lit. b DSGVO zur
-          Vertragserfüllung erforderlich ist), Sie eingewilligt haben, eine
+          Personen und Unternehmen (Auftragsverarbeitern, gemeinsam
+          Verantwortlichen oder Dritten) offenbaren, sie an diese übermitteln
+          oder ihnen sonst Zugriff auf die Daten gewähren, erfolgt dies nur auf
+          Grundlage einer gesetzlichen Erlaubnis (z.B. wenn eine Übermittlung
+          der Daten an Dritte, wie an Zahlungsdienstleister, zur
+          Vertragserfüllung erforderlich ist), Nutzer eingewilligt haben, eine
           rechtliche Verpflichtung dies vorsieht oder auf Grundlage unserer
           berechtigten Interessen (z.B. beim Einsatz von Beauftragten,
           Webhostern, etc.). <br />
           <br />
-          Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines
-          sog. „Auftragsverarbeitungsvertrages“ beauftragen, geschieht dies auf
-          Grundlage des Art. 28 DSGVO.
+          Sofern wir Daten anderen Unternehmen unserer Unternehmensgruppe
+          offenbaren, übermitteln oder ihnen sonst den Zugriff gewähren, erfolgt
+          dies insbesondere zu administrativen Zwecken als berechtigtes
+          Interesse und darüberhinausgehend auf einer den gesetzlichen Vorgaben
+          entsprechenden Grundlage. <br />
         </p>
         <h3 id="dsg-general-thirdparty">Übermittlungen in Drittländer</h3>
         <p>
           Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen
-          Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) verarbeiten
-          oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder
-          Offenlegung, bzw. Übermittlung von Daten an Dritte geschieht, erfolgt
-          dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten,
-          auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen
-          Verpflichtung oder auf Grundlage unserer berechtigten Interessen
-          geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse,
-          verarbeiten oder lassen wir die Daten in einem Drittland nur beim
-          Vorliegen der besonderen Voraussetzungen der Art. 44 ff. DSGVO
-          verarbeiten. D.h. die Verarbeitung erfolgt z.B. auf Grundlage
-          besonderer Garantien, wie der offiziell anerkannten Feststellung eines
-          der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das
-          „Privacy Shield“) oder Beachtung offiziell anerkannter spezieller
-          vertraglicher Verpflichtungen (so genannte
-          „Standardvertragsklauseln“).
+          Union (EU), des Europäischen Wirtschaftsraums (EWR) oder der Schweizer
+          Eidgenossenschaft) verarbeiten oder dies im Rahmen der Inanspruchnahme
+          von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an
+          andere Personen oder Unternehmen geschieht, erfolgt dies nur, wenn es
+          zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage
+          Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf
+          Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich
+          ausdrücklicher Einwilligung oder vertraglich erforderlicher
+          Übermittlung, verarbeiten oder lassen wir die Daten nur in
+          Drittländern mit einem anerkannten Datenschutzniveau, zu denen die
+          unter dem "Privacy-Shield" zertifizierten US-Verarbeiter gehören oder
+          auf Grundlage besonderer Garantien, wie z.B. vertraglicher
+          Verpflichtung durch sogenannte Standardschutzklauseln der
+          EU-Kommission, dem Vorliegen von Zertifizierungen oder verbindlichen
+          internen Datenschutzvorschriften verarbeiten (Art. 44 bis 49 DSGVO,{' '}
+          <a
+            href="https://ec.europa.eu/info/law/law-topic/data-protection/data-transfers-outside-eu_de"
+            target="blank"
+          >
+            Informationsseite der EU-Kommission
+          </a>
+          ).
         </p>
         <h3 id="dsg-general-rightssubject">Rechte der betroffenen Personen</h3>
         <p>
-          Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob
-          betreffende Daten verarbeitet werden und auf Auskunft über diese Daten
-          sowie auf weitere Informationen und Kopie der Daten entsprechend Art.
-          15 DSGVO.
+          Auskunftsrecht: Sie haben das Recht, eine Bestätigung darüber zu
+          verlangen, ob betreffende Daten verarbeitet werden und auf Auskunft
+          über diese Daten sowie auf weitere Informationen und Kopie der Daten
+          entsprechend den gesetzlichen Vorgaben.
           <br />
           <br />
-          Sie haben entsprechend. Art. 16 DSGVO das Recht, die Vervollständigung
-          der Sie betreffenden Daten oder die Berichtigung der Sie betreffenden
-          unrichtigen Daten zu verlangen.
+          Recht auf Berichtigung: Sie haben entsprechend. den gesetzlichen
+          Vorgaben das Recht, die Vervollständigung der Sie betreffenden Daten
+          oder die Berichtigung der Sie betreffenden unrichtigen Daten zu
+          verlangen.
           <br />
           <br />
-          Sie haben nach Maßgabe des Art. 17 DSGVO das Recht zu verlangen, dass
+          Recht auf Löschung und Einschränkung der Verarbeitung: Sie haben nach
+          Maßgabe der gesetzlichen Vorgaben das Recht zu verlangen, dass
           betreffende Daten unverzüglich gelöscht werden, bzw. alternativ nach
-          Maßgabe des Art. 18 DSGVO eine Einschränkung der Verarbeitung der
-          Daten zu verlangen.
+          Maßgabe der gesetzlichen Vorgaben eine Einschränkung der Verarbeitung
+          der Daten zu verlangen.
           <br />
           <br />
-          Sie haben das Recht zu verlangen, dass die Sie betreffenden Daten, die
-          Sie uns bereitgestellt haben nach Maßgabe des Art. 20 DSGVO zu
-          erhalten und deren Übermittlung an andere Verantwortliche zu fordern.{' '}
+          Recht auf Datenübertragbarkeit: Sie haben das Recht, Sie betreffende
+          Daten, die Sie uns bereitgestellt haben, nach Maßgabe der gesetzlichen
+          Vorgaben in einem strukturierten, gängigen und maschinenlesbaren
+          Format zu erhalten oder deren Übermittlung an einen anderen
+          Verantwortlichen zu fordern.
           <br />
           <br />
-          Sie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der
-          zuständigen Aufsichtsbehörde einzureichen.
+          Beschwerde bei Aufsichtsbehörde: Sie haben ferner nach Maßgabe der
+          gesetzlichen Vorgaben das Recht, eine Beschwerde bei der zuständigen
+          Aufsichtsbehörde einzureichen.
+          <br />
         </p>
         <h3 id="dsg-general-revokeconsent">Widerrufsrecht</h3>
         <p>
-          Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO
-          mit Wirkung für die Zukunft zu widerrufen
+          Sie haben das Recht, erteilte Einwilligungen mit Wirkung für die
+          Zukunft zu widerrufen.
         </p>
         <h3 id="dsg-general-object">Widerspruchsrecht</h3>
         <p>
-          Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach
-          Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch
-          kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung
-          erfolgen.
+          <strong>
+            Widerspruchsrecht: Sie haben das Recht, aus Gründen, die sich aus
+            Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung
+            der Sie betreffenden personenbezogenen Daten, die aufgrund von Art.
+            6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies
+            gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
+            Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um
+            Direktwerbung zu betreiben, haben Sie das Recht, jederzeit
+            Widerspruch gegen die Verarbeitung der Sie betreffenden
+            personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen;
+            dies gilt auch für das Profiling, soweit es mit solcher
+            Direktwerbung in Verbindung steht.
+          </strong>
         </p>
         <h3 id="dsg-general-cookies">
           Cookies und Widerspruchsrecht bei Direktwerbung
@@ -272,6 +311,22 @@ export default function PrivacyPage() {
           hierüber im Rahmen unserer Datenschutzerklärung auf.
           <br />
           <br />
+          Sofern wir die Nutzer um eine Einwilligung in den Einsatz von Cookies
+          bitten (z.B. im Rahmen einer Cookie-Einwilligung), ist die
+          Rechtsgrundlage dieser Verarbeitung Art. 6 Abs. 1 lit. a. DSGVO.
+          Ansonsten werden die personenbezogenen Cookies der Nutzer entsprechend
+          den nachfolgenden Erläuterungen im Rahmen dieser Datenschutzerklärung
+          auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der
+          Analyse, Optimierung und wirtschaftlichem Betrieb unseres
+          Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) oder sofern
+          der Einsatz von Cookies zur Erbringung unserer vertragsbezogenen
+          Leistungen erforderlich ist, gem. Art. 6 Abs. 1 lit. b. DSGVO, bzw.
+          sofern der Einsatz von Cookies für die Wahrnehmung einer Aufgabe, die
+          im öffentlichen Interesse liegt erforderlich ist oder in Ausübung
+          öffentlicher Gewalt erfolgt, gem. Art. 6 Abs. 1 lit. e. DSGVO,
+          verarbeitet.
+          <br />
+          <br />
           Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner
           gespeichert werden, werden sie gebeten die entsprechende Option in den
           Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte
@@ -298,35 +353,30 @@ export default function PrivacyPage() {
         </p>
         <h3 id="dsg-general-erasure">Löschung von Daten</h3>
         <p>
-          Die von uns verarbeiteten Daten werden nach Maßgabe der Art. 17 und 18
-          DSGVO gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern nicht
-          im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben, werden
-          die bei uns gespeicherten Daten gelöscht, sobald sie für ihre
+          Die von uns verarbeiteten Daten werden nach Maßgabe der gesetzlichen
+          Vorgaben gelöscht oder in ihrer Verarbeitung eingeschränkt. Sofern
+          nicht im Rahmen dieser Datenschutzerklärung ausdrücklich angegeben,
+          werden die bei uns gespeicherten Daten gelöscht, sobald sie für ihre
           Zweckbestimmung nicht mehr erforderlich sind und der Löschung keine
-          gesetzlichen Aufbewahrungspflichten entgegenstehen. Sofern die Daten
-          nicht gelöscht werden, weil sie für andere und gesetzlich zulässige
-          Zwecke erforderlich sind, wird deren Verarbeitung eingeschränkt. D.h.
-          die Daten werden gesperrt und nicht für andere Zwecke verarbeitet. Das
-          gilt z.B. für Daten, die aus handels- oder steuerrechtlichen Gründen
-          aufbewahrt werden müssen.
+          gesetzlichen Aufbewahrungspflichten entgegenstehen. <br />
           <br />
-          <br />
-          Nach gesetzlichen Vorgaben in Deutschland, erfolgt die Aufbewahrung
-          insbesondere für 10 Jahre gemäß §§ 147 Abs. 1 AO, 257 Abs. 1 Nr. 1 und
-          4, Abs. 4 HGB (Bücher, Aufzeichnungen, Lageberichte, Buchungsbelege,
-          Handelsbücher, für Besteuerung relevanter Unterlagen, etc.) und 6
-          Jahre gemäß § 257 Abs. 1 Nr. 2 und 3, Abs. 4 HGB (Handelsbriefe).{' '}
-          <br />
-          <br />
-          Nach gesetzlichen Vorgaben in Österreich erfolgt die Aufbewahrung
-          insbesondere für 7 J gemäß § 132 Abs. 1 BAO (Buchhaltungsunterlagen,
-          Belege/Rechnungen, Konten, Belege, Geschäftspapiere, Aufstellung der
-          Einnahmen und Ausgaben, etc.), für 22 Jahre im Zusammenhang mit
-          Grundstücken und für 10 Jahre bei Unterlagen im Zusammenhang mit
-          elektronisch erbrachten Leistungen, Telekommunikations-, Rundfunk- und
-          Fernsehleistungen, die an Nichtunternehmer in EU-Mitgliedstaaten
-          erbracht werden und für die der Mini-One-Stop-Shop (MOSS) in Anspruch
-          genommen wird.
+          Sofern die Daten nicht gelöscht werden, weil sie für andere und
+          gesetzlich zulässige Zwecke erforderlich sind, wird deren Verarbeitung
+          eingeschränkt. D.h. die Daten werden gesperrt und nicht für andere
+          Zwecke verarbeitet. Das gilt z.B. für Daten, die aus handels- oder
+          steuerrechtlichen Gründen aufbewahrt werden müssen.
+        </p>
+        <h3 id="dsg-general-changes">
+          Änderungen und Aktualisierungen der Datenschutzerklärung
+        </h3>
+        <p>
+          Wir bitten Sie sich regelmäßig über den Inhalt unserer
+          Datenschutzerklärung zu informieren. Wir passen die
+          Datenschutzerklärung an, sobald die Änderungen der von uns
+          durchgeführten Datenverarbeitungen dies erforderlich machen. Wir
+          informieren Sie, sobald durch die Änderungen eine Mitwirkungshandlung
+          Ihrerseits (z.B. Einwilligung) oder eine sonstige individuelle
+          Benachrichtigung erforderlich wird.
         </p>
         <p />
         <h3 id="dsg-hostingprovider">Hosting und E-Mail-Versand</h3>
@@ -350,90 +400,91 @@ export default function PrivacyPage() {
           </span>
         </p>
         <p />
-        <h3 id="dsg-logfiles">Erhebung von Zugriffsdaten und Logfiles</h3>
+        <h3 id="dsg-matomo">Reichweitenmessung mit Matomo</h3>
         <p />
         <p>
           <span className="ts-muster-content">
-            Wir, bzw. unser Hostinganbieter, erhebt auf Grundlage unserer
-            berechtigten Interessen im Sinne des Art. 6 Abs. 1 lit. f. DSGVO
-            Daten über jeden Zugriff auf den Server, auf dem sich dieser Dienst
-            befindet (sogenannte Serverlogfiles). Zu den Zugriffsdaten gehören
-            Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs,
-            übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp
-            nebst Version, das Betriebssystem des Nutzers, Referrer URL (die
-            zuvor besuchte Seite), IP-Adresse und der anfragende Provider.
+            Im Rahmen der Reichweitenanalyse von Matomo werden die folgenden
+            Daten verarbeitet: der von Ihnen verwendete Browsertyp und die
+            Browserversion, das von Ihnen verwendete Betriebssystem, Ihr
+            Herkunftsland, Datum und Uhrzeit der Serveranfrage, die Anzahl der
+            Besuche, Ihre Verweildauer auf der Website sowie die von Ihnen
+            betätigten externen Links. Die IP-Adresse der Nutzer wird
+            anonymisiert, bevor sie gespeichert wird. <br />
+            <br />
+            Matomo verwendet Cookies, die auf dem Computer der Nutzer
+            gespeichert werden und die eine Analyse der Benutzung unseres
+            Onlineangebotes durch die Nutzer ermöglichen. Dabei können aus den
+            verarbeiteten Daten pseudonyme Nutzungsprofile der Nutzer erstellt
+            werden. Die Cookies haben eine Speicherdauer von einer Woche. Die
+            durch das Cookie erzeugten Informationen über Ihre Benutzung dieser
+            Webseite werden nur auf unserem Server gespeichert und nicht an
+            Dritte weitergegeben.
             <br />
             <br />
-            Logfile-Informationen werden aus Sicherheitsgründen (z.B. zur
-            Aufklärung von Missbrauchs- oder Betrugshandlungen) für die Dauer
-            von maximal 7 Tagen gespeichert und danach gelöscht. Daten, deren
-            weitere Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur
-            endgültigen Klärung des jeweiligen Vorfalls von der Löschung
-            ausgenommen.
-          </span>
-        </p>
-        <p />
-        <h3 id="dsg-thirdparty-einleitung">
-          Einbindung von Diensten und Inhalten Dritter
-        </h3>
-        <p />
-        <p>
-          <span className="ts-muster-content">
-            Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer
+            Nutzer können der anonymisierten Datenerhebung durch das Programm
+            Matomo jederzeit mit Wirkung für die Zukunft widersprechen, indem
+            sie auf den untenstehenden Link klicken. In diesem Fall wird in
+            ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat,
+            dass Matomo keinerlei Sitzungsdaten mehr erhebt. Wenn Nutzer ihre
+            Cookies löschen, so hat dies jedoch zur Folge, dass auch das
+            Opt-Out-Cookie gelöscht wird und daher von den Nutzern erneut
+            aktiviert werden muss.
+            <br />
+            <br />
+            Die Logs mit den Daten der Nutzer werden nach spätestens 6 Monaten
+            gelöscht.
+            <br />
+            <br />
+            Sofern wir die Nutzer um eine Einwilligung bitten (z.B. im Rahmen
+            einer Cookie-Einwilligung), ist die Rechtsgrundlage dieser
+            Verarbeitung Art. 6 Abs. 1 lit. a. DSGVO. Ansonsten werden die
+            personenbezogenen Daten der Nutzer auf Grundlage unserer
             berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung
             und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des
-            Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von
-            Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos
-            oder Schriftarten einzubinden (nachfolgend einheitlich bezeichnet
-            als “Inhalte”). <br />
+            Art. 6 Abs. 1 lit. f. DSGVO) verarbeitet.
             <br />
-            Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die
-            IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die
-            Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist
-            damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen
-            uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die
-            IP-Adresse lediglich zur Auslieferung der Inhalte verwenden.
-            Drittanbieter können ferner so genannte Pixel-Tags (unsichtbare
-            Grafiken, auch als "Web Beacons" bezeichnet) für statistische oder
-            Marketingzwecke verwenden. Durch die "Pixel-Tags" können
-            Informationen, wie der Besucherverkehr auf den Seiten dieser Website
-            ausgewertet werden. Die pseudonymen Informationen können ferner in
-            Cookies auf dem Gerät der Nutzer gespeichert werden und unter
-            anderem technische Informationen zum Browser und Betriebssystem,
-            verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung
-            unseres Onlineangebotes enthalten, als auch mit solchen
-            Informationen aus anderen Quellen verbunden werden.
-          </span>
-        </p>
-        <p />
-        <h3 id="dsg-thirdparty-googlefonts">Google Fonts</h3>
-        <p />
-        <p>
-          <span className="ts-muster-content">
-            Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
-            LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein.
-            Datenschutzerklärung:{' '}
-            <a target="_blank" href="https://www.google.com/policies/privacy/">
-              https://www.google.com/policies/privacy/
-            </a>
-            , Opt-Out:{' '}
+            <br />
+            <span>
+              <iframe
+                style={{ border: 0, height: '200px', width: '600px' }}
+                src="https://nilshartmann.matomo.cloud/index.php?module=CoreAdminHome&action=optOut&language=de&backgroundColor=fff7ef&fontColor=&fontSize=18px&fontFamily=%22PT%20Sans%22%2C%20sans-serif"
+              />
+            </span>
+            <p />
+            <h3 id="dsg-thirdparty-googlefonts">Google Fonts</h3>
+            <p />
+            <p>
+              <span className="ts-muster-content">
+                Wir binden die Schriftarten ("Google Fonts") des Anbieters
+                Google Ireland Limited, Gordon House, Barrow Street, Dublin 4,
+                Irland, ein. Nach Angaben von Google werden die Daten der Nutzer
+                allein zu Zwecken der Darstellung der Schriftarten im Browser
+                der Nutzer verwendet. Die Einbindung erfolgt auf Grundlage
+                unserer berechtigten Interessen an einer technisch sicheren,
+                wartungsfreien und effizienten Nutzung von Schriftarten, deren
+                einheitlicher Darstellung sowie Berücksichtigung möglicher
+                lizenzrechtlicher Restriktionen für deren Einbindung.
+                Datenschutzerklärung:{' '}
+                <a
+                  target="_blank"
+                  href="https://www.google.com/policies/privacy/"
+                >
+                  https://www.google.com/policies/privacy/
+                </a>
+                .
+              </span>
+            </p>
             <a
+              href="https://datenschutz-generator.de"
+              className="dsg1-6"
+              rel="nofollow"
               target="_blank"
-              href="https://adssettings.google.com/authenticated"
             >
-              https://adssettings.google.com/authenticated
+              Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke
             </a>
-            .
           </span>
         </p>
-        <a
-          href="https://datenschutz-generator.de"
-          className="dsg1-5"
-          rel="nofollow"
-          target="_blank"
-        >
-          Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke
-        </a>
       </div>
     </Layout>
   )
