@@ -34,7 +34,7 @@ Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist viell
 
 - [GraphQL für Java-Anwendungen](https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/) auf der JAX Mainz (9. Mai)
 - [Einführung in GraphQL mit Java](https://www.md-devdays.de/Act?id=1000026) auf den Magdeburger Developer Days (21. Mai)
-- GraphQL mit Java, JavaUserGroup Münster, (5. Juni - tba)
+- [GraphQL mit Java](https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431), JavaUserGroup Münster (5. Juni)
 - [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
 
 Darüberhinaus findest Du **Artikel zu GraphQL** von mir online:
