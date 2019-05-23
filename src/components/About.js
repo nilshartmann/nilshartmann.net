@@ -124,13 +124,6 @@ export default function About() {
             </p>
             <ul style={ulStyle}>
               <li>
-                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
-                  Single-Page-Anwendungen mit React, Redux und TypeScript
-                  entwickeln
-                </a>{' '}
-                (OOSE, Hamburg, 29./30. August 2019)
-              </li>
-              <li>
                 <a
                   href="https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react"
                   target="_blank"
@@ -138,6 +131,23 @@ export default function About() {
                   Fullstack GraphQL mit Apollo und React
                 </a>{' '}
                 (EnterJS, Darmstadt, 25. Juni 2019)
+              </li>
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React, Redux und TypeScript
+                  entwickeln
+                </a>{' '}
+                (OOSE, Hamburg, 29./30. August 2019)
+              </li>
+
+              <li>
+                <a
+                  href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
+                  target="_blank"
+                >
+                  GraphQL für Java-Anwendungen
+                </a>{' '}
+                (Herbstcampus, Nürnberg, 4. September 2019)
               </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
@@ -167,7 +177,7 @@ export default function About() {
               </li>
               <li>
                 <Link to="/posts/graphql-mit-java-anwendungen/">
-                  GraphQL mit JavaAnwendungen
+                  GraphQL mit Java Anwendungen
                 </Link>{' '}
                 (heise developer, November 2018)
               </li>

@@ -1,5 +1,5 @@
 ---
-title: 'Neu: Workshop und Vorträge zu GraphQL'
+title: 'Workshops, Artikel und Vorträge zu GraphQL'
 date: '2019-04-25T07:30:00.000Z'
 summaryMarkdown: 'Im Mai und Juni halte ich verschiedene Vorträge zu GraphQL und biete im Juni auch einen öffentlichen Workshop dazu auf der EnterJS in Darmstadt an. Vielleicht ist ja auch für dich etwas interessantes dabei'
 image: '/uploads/graphql-900x450.jpg'
@@ -32,13 +32,17 @@ Weitere **Infos und Anmeldung** direkt auf der Seite der [EnterJS](https://www.e
 
 Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist vielleicht einer meiner folgenden Vorträge für dich relevant:
 
-- [GraphQL für Java-Anwendungen](https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/) auf der JAX Mainz (9. Mai)
-- [Einführung in GraphQL mit Java](https://www.md-devdays.de/Act?id=1000026) auf den Magdeburger Developer Days (21. Mai)
 - [GraphQL mit Java](https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431), JavaUserGroup Münster (5. Juni)
 - [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
+- [Einführung in GraphQL](https://www.herbstcampus.de/lecture.php?id=8678&source=0), Herbstcampus Nürnberg (5. September)
 
-Darüberhinaus findest Du **Artikel zu GraphQL** von mir online:
+Im Herbst gibt es außerdem einen Workshop von mir zur Entwicklung von GraphQL-Anwendungen mit Java:
 
+- [GraphQL für Java-Anwendungen](https://www.herbstcampus.de/lecture.php?id=8680&source=0), Herbstcampus Nürnber (4. September)
+
+### Artikel zu GraphQL
+
+- [Gezielte Auswahl - Typsichere GraphQL-APIs mit Java und React](https://www.heise.de/select/ix/2019/6/1909808311106276205) (ix, 6/2019)
 - [Java Anwendungen mit GraphQL](https://www.heise.de/developer/artikel/Java-Anwendungen-mit-GraphQL-Teil-1-4205852.html) (heise developer, Teil 1)
 - [GraphQL-Clients mit React und Apollo](https://www.heise.de/developer/artikel/GraphQL-Clients-mit-React-und-Apollo-Teil-2-4273017.html) (heise developer, Teil 2)
 - [GraphQL für Java-Anwendungen](https://www.doag.org/de/home/news/java-aktuell-032019-ist-online-java-verbindet-1/detail/) (Java aktuell, 03/2019)
