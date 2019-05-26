@@ -185,7 +185,7 @@ export default function Angebot() {
         </p>
 
         <div class="title">
-          <h3>Wiederverwendbare Komponenten mit React antwickeln</h3>
+          <h3>Wiederverwendbare Komponenten mit React entwickeln</h3>
         </div>
 
         <p>
@@ -319,9 +319,20 @@ export default function Angebot() {
 
         <ul>
           <li>
-            Fortgeschrittene Techniken wie konkurrierendes Rendering, die
-            Context API oder Patterns wie Higher-Order-Components (HOCs) oder
-            Render Properties
+            Fortgeschrittene Techniken wie die Context API oder Patterns wie
+            Higher-Order-Components (HOCs) oder Render Properties
+          </li>
+          <li>
+            Ausblick auf kommende React-Features, wie z.B. konkurrierendes
+            Rendering oder Suspense{' '}
+          </li>
+          <li>
+            Möglichkeiten zur Analyse und Optimierung der Performance (React
+            Profiler, Code-Splitting mit React.lazy, useMemo-Hook etc)
+          </li>
+          <li>
+            Ansätze zum Komponenten-basierten, modularen Styling (CSS Modules,
+            Styled Components, ggf. mit SASS/LESS)
           </li>
           <li>
             ECMAScript 2015ff - Einführung und Vertiefung in die Sprache
