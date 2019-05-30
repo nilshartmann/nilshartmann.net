@@ -82,6 +82,17 @@ p {
   margin: 0;
 }
 
+img[src*='-float'] {
+  float: left;
+  margin: 0 10px 0 0;
+  display: inline-block;
+  width: 120px;
+}
+
+img[src*='-float']:after {
+  clear: both;
+}
+
 .FullPost {
   .Title {
     margin: 0 0 5px 0;

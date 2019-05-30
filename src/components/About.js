@@ -69,49 +69,50 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.meetup.com/de-DE/RheinMainJS/events/260643716/"
+                  href="https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431"
                   target="_blank"
                 >
-                  Moderne React-Anwendungen mit Hooks und Suspense
+                  GraphQL: Einführung, Anwendung und Architektur
                 </a>{' '}
-                (RheinMainJS, Mainz, 7. Mai 2019)
+                (JUG Münster, Münster, 5. Juni 2019)
               </li>
+
               <li>
                 <a
-                  href="https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/"
+                  href="https://www.meetup.com/de-DE/oose-Events-im-Schanzenviertel/events/260666185/"
                   target="_blank"
                 >
-                  GraphQL für Java-Anwendungen
+                  Eine praktische Einführung in GraphQL
                 </a>{' '}
-                (Jax, Mainz, Mai 2019)
+                (OOSE Abendveranstaltung, Hamburg, 11. Juni 2019)
               </li>
-              <li>
-                <a
-                  href="https://jax.de/web-development-javascript/moderne-frontend-architektur-mit-javascript/"
-                  target="_blank"
-                >
-                  Moderne Frontend-Architektur mit JavaScript
-                </a>{' '}
-                (Mit Oliver Zeigermann, JAX, Mainz, Mai 2019)
-              </li>
-              <li>
-                <a
-                  href="https://www.md-devdays.de/Act?id=1000027"
-                  target="_blank"
-                >
-                  Modernes React
-                </a>{' '}
-                (Magdeburger Developer Days, Mai 2019)
-              </li>
+
               <li>
                 <a
                   href="https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react"
                   target="_blank"
                 >
-                  {' '}
                   Hooks, Concurrent Rendering, Suspense API: Alles neu in React?
                 </a>{' '}
-                (EnterJS, Darmstadt, Juni 2019)
+                (EnterJS, Darmstadt, 26. Juni 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.herbstcampus.de/lecture.php?id=8678&source=0"
+                  target="_blank"
+                >
+                  Einführung in GraphQL
+                </a>{' '}
+                (Herbstcampus, Nürnberg, 5. September 2019)
+              </li>
+              <li>
+                <a
+                  href="https://jax.de/web-development-javascript/mit-welchem-framework-soll-ich-meine-single-page-app-bauen/"
+                  target="_blank"
+                >
+                  Mit welchem Framework soll ich meine Single-Page-App bauen?
+                </a>{' '}
+                (Mit Oliver Zeigermann, W-JAX, München, November 2019)
               </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
@@ -149,6 +150,16 @@ export default function About() {
                 </a>{' '}
                 (Herbstcampus, Nürnberg, 4. September 2019)
               </li>
+              <li>
+                <a
+                  href="https://www.web-developer-conference.de/programm/#/talk/einfuhrung-in-react-und-redux"
+                  target="_blank"
+                >
+                  Einführung in React und Redux
+                </a>{' '}
+                (Web Developer Conference, Hamburg, 16. Oktober 2019)
+              </li>
+
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Workshops: Informationen und Anfrage
@@ -163,10 +174,19 @@ export default function About() {
 
             <ul style={ulStyle}>
               <li>
+                <a
+                  href="https://www.heise.de/select/ix/2019/6/1909808311106276205?wt_mc=rss.ix.beitrag.atom"
+                  target="_blank"
+                >
+                  Gezielte Auswahl - Typsichere GraphQL-APIs mit Java und React
+                </a>{' '}
+                (iX, 6/2019)
+              </li>
+              <li>
                 <Link to="/posts/microfrontends/">
                   Frontend-Architektur mit JavaScript: Micro-Frontends als
                   Integration-Pattern
-                </Link>
+                </Link>{' '}
                 (ObjektSpektrum, 2/2019)
               </li>
               <li>

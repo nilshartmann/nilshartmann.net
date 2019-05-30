@@ -63,6 +63,19 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
+            href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
+            target="_blank"
+          >
+            GraphQL für Java-Anwendungen
+          </a>
+          <p className="Location">
+            Herbstcampus, Nürnberg,
+            <br /> 3. September 2019
+          </p>
+        </div>
+        <div className="Item">
+          <a
+            className="Abstract"
             href="https://www.oose.de/seminar/web-apps/"
             target="_blank"
           >
@@ -93,47 +106,43 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>JAX, Mainz, Mai 2019</b>
+            <b>EnterJS, Darmstadt, Juni 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://jax.de/web-development-javascript/moderne-frontend-architektur-mit-javascript/"
+              href="https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react"
               target="_blank"
             >
-              Moderne Frontend-Architektur mit JavaScript
-            </a>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://jax.de/serverside-enterprise-java/graphql-fuer-java-anwendungen/"
-              target="_blank"
-            >
-              GraphQL für Java Anwendungen
+              Hooks, Concurrent Rendering, Suspense API: Alles neu in React?
             </a>
           </p>
         </div>
         <div className="Item">
           <p>
-            <b>Magdeburger Developer Days, Mai 2019</b>
+            <b>Herbstcampus, Nürnberg, September 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.md-devdays.de/Act?id=1000027"
+              href="https://www.herbstcampus.de/lecture.php?id=8678&source=0"
               target="_blank"
             >
-              Modernes React
+              Einführung in GraphQL
             </a>
           </p>
+        </div>
+        <div className="Item">
+          <p>
+            <b>W-JAX München, November 2019</b>
+          </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.md-devdays.de/Act?id=1000026"
+              href="https://jax.de/web-development-javascript/mit-welchem-framework-soll-ich-meine-single-page-app-bauen/"
               target="_blank"
             >
-              Einführung in GraphQL mit Java
+              Mit welchem Framework soll ich meine Single-Page-App bauen?
             </a>
           </p>
         </div>

@@ -1,7 +1,7 @@
 ---
 title: 'Workshops, Artikel und Vorträge zu GraphQL'
 date: '2019-04-25T07:30:00.000Z'
-summaryMarkdown: 'Im Mai und Juni halte ich verschiedene Vorträge zu GraphQL und biete im Juni auch einen öffentlichen Workshop dazu auf der EnterJS in Darmstadt an. Vielleicht ist ja auch für dich etwas interessantes dabei'
+summaryMarkdown: 'In den kommenden Monaten halte ich verschiedene Vorträge zu GraphQL und biete auch öffentliche Workshop dazu an. Wenn Du mehr über GraphQL erfahren möchtest, ist vielleicht etwas interessantes dabei'
 image: '/uploads/graphql-900x450.jpg'
 image_position: 'before_summary'
 image_expanded: 'true'
@@ -11,9 +11,11 @@ tags:
   - Workshop
   - GraphQL
   - React
+  - Apollo
+  - TypeScript
 ---
 
-### Workshop: Fullstack GraphQL mit Apollo und React
+### Workshop: Fullstack GraphQL mit Apollo und React (JavaScript)
 
 Auf der EnterJS in Darmstadt biete ich am 25. Juni einen **eintägigen Workshop zum Thema GraphQL für JavaScript-Anwendungen** an. Dabei werden wir die Grundlagen und Konzepte von GraphQL lernen,
 um einschätzen zu können, für welche Anwendungen und Anwendungsfälle GraphQL überhaupt geignet ist. Im praktischen Teil sehen wir uns an, wie
@@ -41,6 +43,8 @@ Im Herbst gibt es außerdem einen Workshop von mir zur Entwicklung von GraphQL-A
 - [GraphQL für Java-Anwendungen](https://www.herbstcampus.de/lecture.php?id=8680&source=0), Herbstcampus Nürnber (4. September)
 
 ### Artikel zu GraphQL
+
+![iX 6/2019](/uploads/ix-float.jpeg)
 
 - [Gezielte Auswahl - Typsichere GraphQL-APIs mit Java und React](https://www.heise.de/select/ix/2019/6/1909808311106276205) (ix, 6/2019)
 - [Java Anwendungen mit GraphQL](https://www.heise.de/developer/artikel/Java-Anwendungen-mit-GraphQL-Teil-1-4205852.html) (heise developer, Teil 1)
