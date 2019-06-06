@@ -10,15 +10,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-matomo',
-      options: {
-        siteId: '1',
-        matomoUrl: 'https://nilshartmann.matomo.cloud/',
-        siteUrl: 'https://nilshartmann.net',
-        dev: false,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
