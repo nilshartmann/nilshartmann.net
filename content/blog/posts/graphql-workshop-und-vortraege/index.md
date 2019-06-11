@@ -1,6 +1,6 @@
 ---
 title: 'Workshops, Artikel und Vorträge zu GraphQL'
-date: '2019-04-25T07:30:00.000Z'
+date: '2019-06-10T07:30:00.000Z'
 summaryMarkdown: 'In den kommenden Monaten halte ich verschiedene Vorträge zu GraphQL und biete auch öffentliche Workshop dazu an. Wenn Du mehr über GraphQL erfahren möchtest, ist vielleicht etwas interessantes dabei'
 image: '/uploads/graphql-900x450.jpg'
 image_position: 'before_summary'
@@ -34,15 +34,19 @@ Weitere **Infos und Anmeldung** direkt auf der Seite der [EnterJS](https://www.e
 
 Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist vielleicht einer meiner folgenden Vorträge für dich relevant:
 
-- [GraphQL mit Java](https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431), JavaUserGroup Münster (5. Juni)
 - [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
 - [Einführung in GraphQL](https://www.herbstcampus.de/lecture.php?id=8678&source=0), Herbstcampus Nürnberg (5. September)
+- [Moderne APIs mit GraphQL](https://www.ittage.informatik-aktuell.de/fileadmin/docs/IT-Tage_2019_Programm.pdf), IT Tage Frankfurt (10. Dezember)
 
-Im Herbst gibt es außerdem einen Workshop von mir zur Entwicklung von GraphQL-Anwendungen mit Java:
+Im Herbst gebe ich außerdem Workshops zur Entwicklung von GraphQL-Anwendungen mit Java:
 
 - [GraphQL für Java-Anwendungen](https://www.herbstcampus.de/lecture.php?id=8680&source=0), Herbstcampus Nürnber (4. September)
+- [GraphQL für Java – eine praktische Einführung](https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/), W-JAX München (November)
 
 ### Artikel zu GraphQL
+
+Hier findest Du Artikel, die ich als Einführung in GraphQL geschrieben habe. Sie beschäftigen sich jeweils
+mit Java im Backend und React/TypeScript mit Apollo im Frontend:
 
 ![iX 6/2019](/uploads/ix-float.jpeg)
 
