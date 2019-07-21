@@ -50,19 +50,6 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
-            href="https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react"
-            target="_blank"
-          >
-            Fullstack GraphQL mit Apollo und React
-          </a>
-          <p className="Location">
-            EnterJS, Darmstadt,
-            <br /> 25. Juni 2019
-          </p>
-        </div>
-        <div className="Item">
-          <a
-            className="Abstract"
             href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
             target="_blank"
           >
@@ -90,6 +77,20 @@ export default function Sidebar() {
           </p>
         </div>
         <div className="Item">
+          <a
+            className="Abstract"
+            href="https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/"
+            target="_blank"
+          >
+            GraphQL für Java – eine praktische Einführung
+          </a>
+          <p className="Location">
+            W-JAX, München,
+            <br /> November 2019
+          </p>
+        </div>
+
+        <div className="Item">
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
             <p className="Abstract">
               Interne Workshops u.a. zu React, TypeScript, GraphQL
@@ -106,15 +107,15 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>EnterJS, Darmstadt, Juni 2019</b>
+            <b>BED-Con, Berlin, September 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react"
+              href="http://bed-con.org/2019/programm"
               target="_blank"
             >
-              Hooks, Concurrent Rendering, Suspense API: Alles neu in React?
+              React 2019 - alles neu?
             </a>
           </p>
         </div>

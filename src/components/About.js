@@ -68,33 +68,10 @@ export default function About() {
             </p>
             <ul style={ulStyle}>
               <li>
-                <a
-                  href="https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431"
-                  target="_blank"
-                >
-                  GraphQL: Einführung, Anwendung und Architektur
+                <a href="http://bed-con.org/2019/programm" target="_blank">
+                  React 2019 - alles neu?
                 </a>{' '}
-                (JUG Münster, Münster, 5. Juni 2019)
-              </li>
-
-              <li>
-                <a
-                  href="https://www.meetup.com/de-DE/oose-Events-im-Schanzenviertel/events/260666185/"
-                  target="_blank"
-                >
-                  Eine praktische Einführung in GraphQL
-                </a>{' '}
-                (OOSE Abendveranstaltung, Hamburg, 11. Juni 2019)
-              </li>
-
-              <li>
-                <a
-                  href="https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react"
-                  target="_blank"
-                >
-                  Hooks, Concurrent Rendering, Suspense API: Alles neu in React?
-                </a>{' '}
-                (EnterJS, Darmstadt, 26. Juni 2019)
+                (BED Con, Berlin, 6. September 2019)
               </li>
               <li>
                 <a
@@ -121,18 +98,9 @@ export default function About() {
           </section>
           <section>
             <p style={pStyle}>
-              <b>Schulungen</b>:
+              <b>Schulungen und Workshops</b>:
             </p>
             <ul style={ulStyle}>
-              <li>
-                <a
-                  href="https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react"
-                  target="_blank"
-                >
-                  Fullstack GraphQL mit Apollo und React
-                </a>{' '}
-                (EnterJS, Darmstadt, 25. Juni 2019)
-              </li>
               <li>
                 <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
                   Single-Page-Anwendungen mit React, Redux und TypeScript

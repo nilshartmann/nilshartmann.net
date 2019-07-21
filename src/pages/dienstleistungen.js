@@ -46,14 +46,18 @@ export default function Angebot() {
           Entwickler gecoached.
         </div>
         <p style={{ marginTop: '1.2rem' }}>
-          Mein Schwerpunkt liegt auf der Entwicklung von Webanwendungen und
-          konkret <b>Single-Page-Applications</b>. Diesen Bereich finde ich
-          einerseits sehr herausfordernd (zum Beispiel weil sich Technologien
-          und Methoden sehr schnell wandeln und weiterentwickeln) andererseits
-          aber auch sehr spannend, da hier soviel Neues entsteht und das "Web
-          als Applikationsplatform" sehr viel potential hat. Ich mache aber auch{' '}
-          <b>Backend-Entwicklung</b> und beschäftige mich mit Themen Rund um{' '}
-          <b>Versionsverwaltung</b> sowie <b>Build- und Deploymentprozessen</b>.
+          Mein Schwerpunkt liegt auf der Beratung und Unterstützung von
+          Entwickler-Teams, die Webanwendungen und konkret{' '}
+          <b>Single-Page-Applications</b>, bauen wollen. Ich helfe dabei, Teams
+          mit der JavaScript- bzw. Frontend-Entwicklung vertraut zu machen.
+          Dafür biete ich Schulungen und Workshops an. Gemeinsam mit den Teams
+          erarbeite ich, welche Tools, Methoden und Architekturen für ein
+          Projekt am besten passen.
+        </p>{' '}
+        <p style={{ marginTop: '1.2rem' }}>
+          Ich mache aber auch <b>Backend-Entwicklung</b> und beschäftige mich
+          mit Themen Rund um <b>Versionsverwaltung</b> sowie{' '}
+          <b>Build- und Deploymentprozessen</b>.
         </p>
         <p style={{ marginTop: '1.2rem' }}>
           Grundsätzlich ist es mir wichtig, für Kunden Lösungen zu finden, die
@@ -128,7 +132,6 @@ export default function Angebot() {
             rund um das Thema Modularisierung großer Anwendungen
           </li>
         </ul>
-
         <h2>Build-, Deployment- und Automatisierungsprozesse</h2>
         <ul>
           <li style={{ marginBottom: '0.5rem' }}>
@@ -144,9 +147,7 @@ export default function Angebot() {
             Projekt-Anforderungen angemessen sind
           </li>
         </ul>
-
         <h1>Was ich bevorzugt suche</h1>
-
         <p style={{ marginTop: '1.2rem' }}>
           Zum einen biete ich{' '}
           <Link to="/react-workshops">Schulungen, Trainings und Workshops</Link>

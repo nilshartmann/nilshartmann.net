@@ -15,6 +15,10 @@ tags:
   - GraphQL
 ---
 
+- [Hooks, Concurrent Rendering, Suspense API: Alles neu in React?](https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react), EnterJS, Darmstadt, 26. Juni 2019 ([PDF](https://nils.buzz/ejs2019-react))
+- [Workshop: Fullstack GraphQL mit Apollo und React](https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react), EnterJS, Darmstadt, 25. Juni 2019 ([PDF](https://nils.buzz/ejs-graphql-workshop))
+- [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni) ([PDF](https://nils.buzz/oose-graphql))
+- [GraphQL: Einführung, Anwendung und Architektur](https://www.xing.com/events/graphql-einfuhrung-anwendung-architektur-2100431), JUG Münster, Münster, 5. Juni 2019 ([PDF](https://nils.buzz/jugms-graphql))
 - [Modernes React 2019](https://bit.ly/md-dev-days-react-2019), Magdeburger Developer Days, Mai 2019
 - [Einführung in GraphQL für Java](https://bit.ly/md-devdays-graphql), Magdeburger Developer Days, Mai 2019
 - [GraphQL für Java Anwendungen](https://bit.ly/jax-graphql), JAX Mainz, Mai 2019

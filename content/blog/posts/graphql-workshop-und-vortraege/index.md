@@ -34,7 +34,6 @@ Weitere **Infos und Anmeldung** direkt auf der Seite der [EnterJS](https://www.e
 
 Falls Du dich für die **GraphQL-Entwicklung mit Java interessierst**, ist vielleicht einer meiner folgenden Vorträge für dich relevant:
 
-- [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni)
 - [Einführung in GraphQL](https://www.herbstcampus.de/lecture.php?id=8678&source=0), Herbstcampus Nürnberg (5. September)
 - [Moderne APIs mit GraphQL](https://www.ittage.informatik-aktuell.de/fileadmin/docs/IT-Tage_2019_Programm.pdf), IT Tage Frankfurt (10. Dezember)
 
