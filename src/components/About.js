@@ -102,14 +102,6 @@ export default function About() {
             </p>
             <ul style={ulStyle}>
               <li>
-                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
-                  Single-Page-Anwendungen mit React, Redux und TypeScript
-                  entwickeln
-                </a>{' '}
-                (OOSE, Hamburg, 29./30. August 2019)
-              </li>
-
-              <li>
                 <a
                   href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
                   target="_blank"
@@ -127,10 +119,18 @@ export default function About() {
                 </a>{' '}
                 (Web Developer Conference, Hamburg, 16. Oktober 2019)
               </li>
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React, Redux und TypeScript
+                  entwickeln
+                </a>{' '}
+                (OOSE, Hamburg, 24./25. Oktober 2019)
+              </li>
 
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
-                  Individuelle In-House Workshops: Informationen und Anfrage
+                  Individuelle In-House Trainings, Workshops und Coaching:
+                  Informationen und Anfrage
                 </Link>
               </li>
             </ul>

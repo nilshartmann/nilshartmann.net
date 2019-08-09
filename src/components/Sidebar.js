@@ -72,8 +72,9 @@ export default function Sidebar() {
           <p className="Location">
             OOSE, Hamburg,
             <br />
-            29./30. August 2019
-            <br /> 25./25. Oktober 2019
+            25./25. Oktober 2019
+            <br />
+            13./14. Januar 2020
           </p>
         </div>
         <div className="Item">
@@ -93,7 +94,7 @@ export default function Sidebar() {
         <div className="Item">
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
             <p className="Abstract">
-              Interne Workshops u.a. zu React, TypeScript, GraphQL
+              Interne Workshops und Coaching u.a. zu React, TypeScript, GraphQL
             </p>
           </Link>
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
