@@ -50,19 +50,6 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
-            href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
-            target="_blank"
-          >
-            GraphQL für Java-Anwendungen
-          </a>
-          <p className="Location">
-            Herbstcampus, Nürnberg,
-            <br /> 3. September 2019
-          </p>
-        </div>
-        <div className="Item">
-          <a
-            className="Abstract"
             href="https://www.oose.de/seminar/web-apps/"
             target="_blank"
           >
@@ -71,8 +58,6 @@ export default function Sidebar() {
 
           <p className="Location">
             OOSE, Hamburg,
-            <br />
-            25./25. Oktober 2019
             <br />
             13./14. Januar 2020
           </p>
@@ -108,29 +93,29 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>BED-Con, Berlin, September 2019</b>
+            <b>Code Talks, Hamburg, Oktober 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="http://bed-con.org/2019/programm"
+              href="https://www.codetalks.de/program#talk-701?event=5"
               target="_blank"
             >
-              React 2019 - alles neu?
+              State of the Art React 2019
             </a>
           </p>
         </div>
         <div className="Item">
           <p>
-            <b>Herbstcampus, Nürnberg, September 2019</b>
+            <b>OOSE Abendvortrag, Hamburg, 28. Oktober 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.herbstcampus.de/lecture.php?id=8678&source=0"
+              href="https://www.oose.de/abendvortrag/keine-angst-vor-der-single-page-anwendung/"
               target="_blank"
             >
-              Einführung in GraphQL
+              Keine Angst vor der Single-Page-Anwendung!
             </a>
           </p>
         </div>

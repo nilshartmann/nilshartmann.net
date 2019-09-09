@@ -69,27 +69,31 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.herbstcampus.de/lecture.php?id=8678&source=0"
-                  target="_blank"
-                >
-                  Einführung in GraphQL
-                </a>{' '}
-                (Herbstcampus, Nürnberg, 5. September 2019)
-              </li>
-              <li>
-                <a href="http://bed-con.org/2019/programm" target="_blank">
-                  React 2019 - alles neu?
-                </a>{' '}
-                (BED Con, Berlin, 6. September 2019)
-              </li>
-              <li>
-                <a
                   href="https://www.meetup.com/de-DE/Hamburg-React-js-Meetup/events/264375945/"
                   target="_blank"
                 >
                   React Hooks, one year later - A (critical) review
                 </a>{' '}
                 (React Meetup, Hamburg, 8. Oktober 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.codetalks.de/program#talk-701?event=5"
+                  target="_blank"
+                >
+                  State of the Art React 2019
+                </a>{' '}
+                (Code Talks, Hamburg, 24./25. Oktober 2019)
+              </li>
+
+              <li>
+                <a
+                  href="https://www.oose.de/abendvortrag/keine-angst-vor-der-single-page-anwendung/"
+                  target="_blank"
+                >
+                  Keine Angst vor der Single-Page-Anwendung!
+                </a>{' '}
+                (OOSE Abendvortrag, Hamburg, 28. Oktober 2019)
               </li>
               <li>
                 <a
@@ -112,28 +116,12 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.herbstcampus.de/lecture.php?id=8680&source=0"
-                  target="_blank"
-                >
-                  GraphQL für Java-Anwendungen
-                </a>{' '}
-                (Herbstcampus, Nürnberg, 4. September 2019)
-              </li>
-              <li>
-                <a
                   href="https://www.web-developer-conference.de/programm/#/talk/einfuhrung-in-react-und-redux"
                   target="_blank"
                 >
                   Einführung in React und Redux
                 </a>{' '}
                 (Web Developer Conference, Hamburg, 16. Oktober 2019)
-              </li>
-              <li>
-                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
-                  Single-Page-Anwendungen mit React, Redux und TypeScript
-                  entwickeln
-                </a>{' '}
-                (OOSE, Hamburg, 24./25. Oktober 2019)
               </li>
               <li>
                 <a
@@ -144,7 +132,13 @@ export default function About() {
                 </a>{' '}
                 (W-JAX, München, 4. November 2019)
               </li>
-
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React, Redux und TypeScript
+                  entwickeln
+                </a>{' '}
+                (OOSE, Hamburg, Januar 2020)
+              </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:
