@@ -59,7 +59,7 @@ export default function Sidebar() {
           <p className="Location">
             OOSE, Hamburg,
             <br />
-            13./14. Januar 2020
+            27./28. Januar 2020
           </p>
         </div>
         <div className="Item">
