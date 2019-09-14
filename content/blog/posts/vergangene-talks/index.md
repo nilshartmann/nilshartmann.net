@@ -15,6 +15,10 @@ tags:
   - GraphQL
 ---
 
+- [Architektur für Single-Page Applications](https://nils.buzz/jug_saxony_spa.html), JUG Saxony Day, Radebeul, September 2019
+- [React 2019 - Alles neu?](https://nils.buzz/bedcon19-react), BedCon, Berlin, September 2019
+- [Workshop: GraphQL für Java-Anwendungen](https://nils.buzz/hc-graphql-workshop), Herbstcampus, Nürnberg 2019
+- [Einführung in GraphQL am Beispiel Java](https://nils.buzz/hc-graphql), Herbstcampus, Nürnberg September 2019
 - [Hooks, Concurrent Rendering, Suspense API: Alles neu in React?](https://www.enterjs.de/single?id=7955&hooks%2C-concurrent-rendering%2C-suspense-api%3A-alles-neu-in-react), EnterJS, Darmstadt, 26. Juni 2019 ([PDF](https://nils.buzz/ejs2019-react))
 - [Workshop: Fullstack GraphQL mit Apollo und React](https://www.enterjs.de/single?id=8565&fullstack-graphql-mit-apollo-und-react), EnterJS, Darmstadt, 25. Juni 2019 ([PDF](https://nils.buzz/ejs-graphql-workshop))
 - [Eine praktische Einführung in GraphQL](https://www.oose.de/abendvortrag/praktische-einfuehrung-graphql/), Abendvortrag bei OOSE in Hamburg (11. Juni) ([PDF](https://nils.buzz/oose-graphql))

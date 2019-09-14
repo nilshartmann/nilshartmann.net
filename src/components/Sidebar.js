@@ -47,6 +47,23 @@ export default function Sidebar() {
       </section>
       <section className="Section">
         <h1 className="Title">Workshops</h1>
+
+        <div className="Item">
+          <a
+            className="Abstract"
+            href="https://www.web-developer-conference.de/programm/#/talk/einfuhrung-in-react-und-redux"
+            target="_blank"
+          >
+            Einführung in React und Redux
+          </a>
+
+          <p className="Location">
+            Web Developer Conference, Hamburg
+            <br />
+            16. Oktober 2019
+          </p>
+        </div>
+
         <div className="Item">
           <a
             className="Abstract"
