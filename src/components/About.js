@@ -31,13 +31,16 @@ export default function About() {
           <section>
             <p style={pStyle}>
               <img className="ProfilePic" src="/uploads/nh.jpg" />
-              Ich bin Nils Hartmann, freiberuflicher Softwareentwickler und
-              -Architekt aus Hamburg und beschäftige mich mit <b>
-                Java
-              </b> und <b>JavaScript/TypeScript</b> (insbesondere{' '}
-              <b>Spring Boot</b>, <b>GraphQL</b>, <b>React</b>). Hier findest Du
-              meine <Link to="/dienstleistungen">Dienstleistungen</Link> und
-              meine <Link to="/contact">Kontaktdaten</Link>.
+              Ich bin Nils Hartmann, freiberuflicher Softwareentwickler,
+              -Architekt, Trainer und Coach aus Hamburg und habe Erfahrung in
+              der Entwicklung von Client- und Serveranwendungen
+              (JavaScript/TypeScript und Java). Ich biete{' '}
+              <b>Trainings und Beratung</b> rund um die Themen{' '}
+              <b>React/Redux</b>, <b>TypeScript</b>,{' '}
+              <b>Entwicklung von Single-Page-Anwendungen</b> und <b>GraphQL</b>{' '}
+              an. Hier findest Du meine{' '}
+              <Link to="/dienstleistungen">Dienstleistungen</Link> und meine{' '}
+              <Link to="/contact">Kontaktdaten</Link>.
             </p>
           </section>
           <section style={{ marginBottom: '2rem' }}>
