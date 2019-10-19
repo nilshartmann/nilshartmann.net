@@ -1,5 +1,9 @@
 a {
   color: $textColor;
+
+  &.PostTeaser {
+    text-decoration: none;
+  }
 }
 
 .Row {

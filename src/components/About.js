@@ -72,13 +72,14 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.meetup.com/de-DE/Hamburg-React-js-Meetup/events/264375945/"
+                  href="https://www.meetup.com/de-DE/Java-User-Group-Freiburg/events/265652699/"
                   target="_blank"
                 >
-                  React Hooks, one year later - A (critical) review
+                  Einführung in GraphQL für Java
                 </a>{' '}
-                (React Meetup, Hamburg, 8. Oktober 2019)
+                (JUG Freiburg, 21. Oktober 2019)
               </li>
+
               <li>
                 <a
                   href="https://www.codetalks.de/program#talk-701?event=5"
@@ -86,7 +87,7 @@ export default function About() {
                 >
                   State of the Art React 2019
                 </a>{' '}
-                (Code Talks, Hamburg, 24./25. Oktober 2019)
+                (Code Talks, Hamburg, 24. Oktober 2019)
               </li>
 
               <li>
@@ -97,6 +98,15 @@ export default function About() {
                   Keine Angst vor der Single-Page-Anwendung!
                 </a>{' '}
                 (OOSE Abendvortrag, Hamburg, 28. Oktober 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.meetup.com/de-DE/jugbremen/events/265264392/"
+                  target="_blank"
+                >
+                  GraphQL für Java-Anwendungen
+                </a>{' '}
+                (JUG Bremen, 29. Oktober 2019)
               </li>
               <li>
                 <a
@@ -119,21 +129,18 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.web-developer-conference.de/programm/#/talk/einfuhrung-in-react-und-redux"
-                  target="_blank"
-                >
-                  Einführung in React und Redux
-                </a>{' '}
-                (Web Developer Conference, Hamburg, 16. Oktober 2019)
-              </li>
-              <li>
-                <a
                   href="https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/"
                   target="_blank"
                 >
                   GraphQL für Java – eine praktische Einführung
                 </a>{' '}
                 (W-JAX, München, 4. November 2019)
+              </li>
+              <li>
+                <a href="https://jobs.eos-karriere.de/techlab" target="_blank">
+                  Hands-on React Hackathon
+                </a>{' '}
+                (EOS Tech Lab, Hamburg, 15./16. November 2019)
               </li>
               <li>
                 <a href="https://www.oose.de/seminar/web-apps/" target="_blank">

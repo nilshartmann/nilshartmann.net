@@ -47,20 +47,32 @@ export default function Sidebar() {
       </section>
       <section className="Section">
         <h1 className="Title">Workshops</h1>
-
         <div className="Item">
           <a
             className="Abstract"
-            href="https://www.web-developer-conference.de/programm/#/talk/einfuhrung-in-react-und-redux"
+            href="https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/"
             target="_blank"
           >
-            Einführung in React und Redux
+            GraphQL für Java – eine praktische Einführung
+          </a>
+          <p className="Location">
+            W-JAX, München,
+            <br /> November 2019
+          </p>
+        </div>
+        <div className="Item">
+          <a
+            className="Abstract"
+            href="https://jobs.eos-karriere.de/techlab"
+            target="_blank"
+          >
+            Hands-on React (Hackathon)
           </a>
 
           <p className="Location">
-            Web Developer Conference, Hamburg
+            EOS Tech Lab, Hamburg
             <br />
-            16. Oktober 2019
+            15./16. November 2019
           </p>
         </div>
 
@@ -77,19 +89,6 @@ export default function Sidebar() {
             OOSE, Hamburg,
             <br />
             27./28. Januar 2020
-          </p>
-        </div>
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/"
-            target="_blank"
-          >
-            GraphQL für Java – eine praktische Einführung
-          </a>
-          <p className="Location">
-            W-JAX, München,
-            <br /> November 2019
           </p>
         </div>
 
@@ -110,7 +109,7 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>Code Talks, Hamburg, Oktober 2019</b>
+            <b>Code Talks, Hamburg, 24. Oktober 2019</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
@@ -136,6 +135,22 @@ export default function Sidebar() {
             </a>
           </p>
         </div>
+
+        <div className="Item">
+          <p>
+            <b>Java User Group, Bremen, 29. Oktober 2019</b>
+          </p>
+          <p style={{ marginBottom: '0.5em' }}>
+            <a
+              className="ReadMore"
+              href="https://www.meetup.com/de-DE/jugbremen/events/265264392/"
+              target="_blank"
+            >
+              GraphQL für Java-Anwendungen
+            </a>
+          </p>
+        </div>
+
         <div className="Item">
           <p>
             <b>W-JAX München, November 2019</b>

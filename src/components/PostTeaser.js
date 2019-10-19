@@ -2,7 +2,7 @@
 // --- Nils Hartmann | http://nilshartmann.net                             ---
 // ---------------------------------------------------------------------------
 import React from 'react'
-import { Link, withPrefix, navigate } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 import {} from 'gatsby'
 
 export default function PostTeaser({ post }) {
@@ -14,24 +14,21 @@ export default function PostTeaser({ post }) {
   const postUrl = post.fields.slug
 
   return (
-    <div
-      onClick={() => navigate(postUrl)}
-      className="Row PostTeaser Selectable"
-    >
-      <header>
-        <div className="TitlePanel Clearfix">
-          {image}
-          {post.frontmatter.date}
-          <h1 className="Title">{post.frontmatter.title}</h1>
+    <div className="Row PostTeaser Selectable">
+      <Link className="PostTeaser" to={postUrl}>
+        <header>
+          <div className="TitlePanel Clearfix">
+            {image}
+            {post.frontmatter.date}
+            <h1 className="Title">{post.frontmatter.title}</h1>
+          </div>
+        </header>
+        <div>
+          <span dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
+          &nbsp;
+          <span className="ReadMore">Mehr...</span>
         </div>
-      </header>
-      <div>
-        <span dangerouslySetInnerHTML={{ __html: post.fields.summary }} />
-        &nbsp;
-        <Link className="ReadMore" to={postUrl}>
-          Mehr...
-        </Link>
-      </div>
+      </Link>
     </div>
   )
 }
