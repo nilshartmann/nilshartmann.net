@@ -30,6 +30,14 @@ export default function Sidebar() {
       <section className="Section">
         <h1 className="Title">Bücher</h1>
         <div className="Item">
+          <a className="ReadMore" href="https://reactbuch.de">
+            <img src={withPrefix('/uploads/react-buch-v2.png')} />
+            React - Grundlagen, fortgeschrittene Techniken und Praxistipps – mit
+            TypeScript und Redux
+            <br /> 2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
+          </a>
+        </div>
+        <div className="Item">
           <a className="ReadMore" href="/posts/react-buch-erschienen">
             <img src={withPrefix('/uploads/react-buch-titel.jpg')} />
             React - Die praktische Einf&uuml; hrung in React, React Router und

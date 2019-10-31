@@ -53,16 +53,15 @@ export default function About() {
                 width: '60px',
                 float: 'left',
               }}
-              src="/uploads/react-buch-titel.jpg"
+              src="/uploads/react-buch-v2.png"
             />
             <p>
-              React - Die praktische Einführung
+              React - Grundlagen, fortgeschrittene Techniken und Praxistipps –
+              mit TypeScript und Redux
               <br />
-              dpunkt-Verlag, 2016
+              2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
               <br />
-              <Link to="/posts/react-buch-erschienen">
-                Weitere Informationen
-              </Link>
+              <a href="https://reactbuch.de">Weitere Informationen</a>
             </p>
           </section>
           <section style={{ clear: 'both' }} className="Clearfix">
