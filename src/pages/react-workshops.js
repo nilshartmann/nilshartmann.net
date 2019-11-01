@@ -37,15 +37,12 @@ export default function Angebot() {
           React und TypeScript Schulungen, Workshops und Beratung
         </h1>
         <div className="Summary Clearfix Dienstleistungen">
-          Im Juni 2016 erschien die 1. Auflage meines{' '}
-          <Link to="/posts/react-buch-erschienen/">React-Buches</Link>, in dem
-          ihr einen Einstieg in die Entwicklung von React-Anwendungen bekommt.
-          Ich biete aber auch individuelle In-House-Schulungen und Workshops
-          rund um das Thema Single-Page-Anwendungen mit React an, um dich und
-          dein Team beim Einstieg und der Arbeit mit React zu unterstützen.
-          Falls ihr schon React im Einsatz habt, führe ich auch Code-Reviews mit
-          Euch durch (auch remote) oder berate Euch bei konkreten
-          Fragestellungen, zum Beispiel zur Architektur oder Technologieauswahl.
+          <p>
+            Seit 2016 führe ich regelmäßig Schulungen und Workshops rund um das
+            Thema Single-Page-Anwendungen mit React durch. Die Schwerpunkte
+            liegen neben React selbst unter anderem auf TypeScript, Redux und
+            der Strukturierung und Architektur von großen React-Anwendungen.
+          </p>
         </div>
         <div class="title">
           <h2>Individuelle In-House-Schulungen</h2>
@@ -54,11 +51,13 @@ export default function Angebot() {
           Ich biete Schulungen für dich und dein Team zur Entwicklung von{' '}
           <b>Frontends</b> und <b>Single-Page-Applications (SPAs)</b> mit{' '}
           <b>React</b>, <b>TypeScript</b>, und <b>GraphQL</b> an (weitere Themen
-          auf Anfrage). Im Vorwege legen wir gemeinsam eine für Euch passende
-          Agenda fest, je nachdem, wie lange das Training dauern soll, welche
-          Vorkenntnisse vorhanden sind und welche Inhalte euch besonders wichtig
-          sind. Beispielhafte Inhalte einer React Schulung findest Du{' '}
-          <Link to="/react-workshops#react-schulungen-inhalte">unten</Link>.
+          auf Anfrage). Im Vorwege legen wir gemeinsam eine für Euch
+          individuelle Agenda fest. Dabei berücksichtigen wir, welche
+          Vorkenntnisse vorhanden und welche Schwerpunkte gewünscht sind.
+          Beispielhafte Inhalte einer React Schulung findest Du{' '}
+          <Link to="/react-workshops#react-schulungen-inhalte">unten</Link>,
+          aber natürlich helfe ich Euch bei der Erstellung der Agenda und
+          Auswahl der Themen.
         </p>
         <div class="title">
           <h2>Workshops und Beratungen</h2>
@@ -116,10 +115,28 @@ export default function Angebot() {
           <h2>Mehr zum Thema Frontend-Entwicklung</h2>
 
           <p>
-            Neben dem React-Buch und den Schulungen habe ich Artikel zur
-            Entwicklung von React-basierten Frontends geschrieben und mehrere
-            Vorträge dazu gehalten. Hier findest Du eine Auswahl:
+            Neben den Schulungen habe ich ein Buch sowie mehrere Artikel rund um
+            die Entwicklung moderner Frontends mit React geschrieben.
           </p>
+
+          <div style={{ clear: 'both', marginBottom: '20px' }}>
+            <img
+              style={{
+                marginRight: '20px',
+                width: '60px',
+                float: 'left',
+              }}
+              src="/uploads/react-buch-v2.png"
+            />
+            <p>
+              React - Grundlagen, fortgeschrittene Techniken und Praxistipps –
+              mit TypeScript und Redux
+              <br />
+              2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
+              <br />
+              <a href="https://reactbuch.de">Weitere Informationen</a>
+            </p>
+          </div>
 
           <ul style={ulStyle}>
             <li>
@@ -176,7 +193,7 @@ export default function Angebot() {
         </div>
 
         <div class="title" id="react-schulungen-inhalte">
-          <h2>Mögliche Inhalte einer React Schulung</h2>
+          <h1>Mögliche Inhalte einer React Schulung</h1>
         </div>
         <p>
           Hier findest Du beispielhaft mögliche Inhalte einer React Schulung.
@@ -292,7 +309,8 @@ export default function Angebot() {
 
         <p>
           React Anwendungen lassen sich sehr gut testen, und zwar auch ohne,
-          dass du dafür einen Browser benötigst.
+          dass du dafür einen Browser benötigst. Populäre Bibliotheken sind zum
+          Beispiel Enzyme oder React Testing Library, die ich Euch zeigen kann.
         </p>
         <div class="title">
           <h3>Arbeiten mit dem React Router und der History</h3>
@@ -324,7 +342,7 @@ export default function Angebot() {
           </li>
           <li>
             Ausblick auf kommende React-Features, wie z.B. konkurrierendes
-            Rendering oder Suspense{' '}
+            Rendering oder Suspense
           </li>
           <li>
             Möglichkeiten zur Analyse und Optimierung der Performance (React

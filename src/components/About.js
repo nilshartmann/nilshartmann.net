@@ -71,42 +71,14 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.meetup.com/de-DE/Java-User-Group-Freiburg/events/265652699/"
+                  href="https://jax.de/web-development-javascript/react-2019-alles-neu/"
                   target="_blank"
                 >
-                  Einführung in GraphQL für Java
+                  React 2019 - alles neu?
                 </a>{' '}
-                (JUG Freiburg, 21. Oktober 2019)
+                (W-JAX München, 5. November 2019)
               </li>
 
-              <li>
-                <a
-                  href="https://www.codetalks.de/program#talk-701?event=5"
-                  target="_blank"
-                >
-                  State of the Art React 2019
-                </a>{' '}
-                (Code Talks, Hamburg, 24. Oktober 2019)
-              </li>
-
-              <li>
-                <a
-                  href="https://www.oose.de/abendvortrag/keine-angst-vor-der-single-page-anwendung/"
-                  target="_blank"
-                >
-                  Keine Angst vor der Single-Page-Anwendung!
-                </a>{' '}
-                (OOSE Abendvortrag, Hamburg, 28. Oktober 2019)
-              </li>
-              <li>
-                <a
-                  href="https://www.meetup.com/de-DE/jugbremen/events/265264392/"
-                  target="_blank"
-                >
-                  GraphQL für Java-Anwendungen
-                </a>{' '}
-                (JUG Bremen, 29. Oktober 2019)
-              </li>
               <li>
                 <a
                   href="https://jax.de/web-development-javascript/mit-welchem-framework-soll-ich-meine-single-page-app-bauen/"
@@ -115,6 +87,25 @@ export default function About() {
                   Mit welchem Framework soll ich meine Single-Page-App bauen?
                 </a>{' '}
                 (Mit Oliver Zeigermann, W-JAX, München, November 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.meetup.com/de-DE/softwarearchitektur-hamburg/events/265875130/"
+                  target="_blank"
+                >
+                  GraphQL: Teufelszeug oder Heilsbringer - Eine interaktive
+                  Einführung
+                </a>{' '}
+                (Softwarearchitektur Meetup, Hamburg, 11. November 2019)
+              </li>
+              <li>
+                <a
+                  href="https://www.ittage.informatik-aktuell.de/programm/2019/moderne-apis-mit-graphql/"
+                  target="_blank"
+                >
+                  Moderne APIs mit GraphQL
+                </a>{' '}
+                (IT Tage, Frankfurt, 10. Dezember 2019)
               </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
