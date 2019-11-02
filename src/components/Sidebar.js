@@ -9,9 +9,9 @@ export default function Sidebar() {
         <div className="Item">
           <a className="ReadMore" href="https://reactbuch.de">
             <img src={withPrefix('/uploads/react-buch-v2.png')} />
-            React - Grundlagen, fortgeschrittene Techniken und Praxistipps – mit
-            TypeScript und Redux
-            <br /> 2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
+            React - Grundlagen, fortgeschrittene Techniken und Praxistipps
+            <br />
+            (2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, Dez. 2019)
           </a>
         </div>
         <div className="Item">
@@ -74,6 +74,22 @@ export default function Sidebar() {
             OOSE, Hamburg,
             <br />
             27./28. Januar 2020
+          </p>
+        </div>
+
+        <div className="Item">
+          <a
+            className="Abstract"
+            href="https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3"
+            target="_blank"
+          >
+            React - Eine praktische Einführung mit Hooks und TypeScript
+          </a>
+
+          <p className="Location">
+            ct webdev, Köln,
+            <br />
+            4. Februar 2020
           </p>
         </div>
 

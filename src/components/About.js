@@ -139,6 +139,15 @@ export default function About() {
                 </a>{' '}
                 (OOSE, Hamburg, Januar 2020)
               </li>
+              <li>
+                <a
+                  href="https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3"
+                  target="_blank"
+                >
+                  React - Eine praktische Einführung mit Hooks und TypeScript
+                </a>{' '}
+                (c't webdev, Köln, 4. Februar 2020)
+              </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:
