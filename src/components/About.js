@@ -70,11 +70,12 @@ export default function About() {
             </p>
             <ul style={ulStyle}>
               <li>
+                React 2019 - alles neu?{' '}
                 <a
-                  href="https://jax.de/web-development-javascript/react-2019-alles-neu/"
+                  href="https://github.com/nilshartmann/react-talk/raw/master/wjax2019-react-alles-neu.pdf"
                   target="_blank"
                 >
-                  React 2019 - alles neu?
+                  Slides (PDF)
                 </a>{' '}
                 (W-JAX München, 5. November 2019)
               </li>

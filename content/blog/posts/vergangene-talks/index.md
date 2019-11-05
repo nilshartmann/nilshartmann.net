@@ -15,6 +15,7 @@ tags:
   - GraphQL
 ---
 
+- [Hooks, Suspense, Lazy, Concurrent Mode - React 2019:Alles neu? (PDF)](https://github.com/nilshartmann/react-talk/raw/master/wjax2019-react-alles-neu.pdf), W-JAX München, 5. November 2019
 - [One year React Hooks - a (critical) review](https://nils.buzz/react-meetup-hooks), React Meetup Hamburg, 8. Oktober 2019
 - [Architektur für Single-Page Applications](https://nils.buzz/jug_saxony_spa.html), JUG Saxony Day, Radebeul, September 2019
 - [React 2019 - Alles neu?](https://nils.buzz/bedcon19-react), BedCon, Berlin, September 2019
