@@ -15,7 +15,10 @@ tags:
   - GraphQL
 ---
 
+- [GraphQL - Heilsbringer oder Teufelszeug? (PDF)](https://nils.buzz/arch-meetup-graphql), Softwarearchitektur Meetup Hamburg, 11. November 2019
+- [Mit welchem Framework soll ich meine Single-Page-App bauen? (Slides)](https://djcordhose.github.io/spa-workshop/2019_frameworks_wjax.html#/), W-JAX München, 6. November 2019
 - [Hooks, Suspense, Lazy, Concurrent Mode - React 2019:Alles neu? (PDF)](https://github.com/nilshartmann/react-talk/raw/master/wjax2019-react-alles-neu.pdf), W-JAX München, 5. November 2019
+- [Keine Angst vor der Single-Page-Anwendung (PDF)](https://nils.buzz/oose-keine-angst), OOSE Abendvortrag, Hamburg, 28. Oktober 2019
 - [One year React Hooks - a (critical) review](https://nils.buzz/react-meetup-hooks), React Meetup Hamburg, 8. Oktober 2019
 - [Architektur für Single-Page Applications](https://nils.buzz/jug_saxony_spa.html), JUG Saxony Day, Radebeul, September 2019
 - [React 2019 - Alles neu?](https://nils.buzz/bedcon19-react), BedCon, Berlin, September 2019

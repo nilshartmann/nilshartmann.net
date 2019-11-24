@@ -32,34 +32,6 @@ export default function Sidebar() {
       </section>
       <section className="Section">
         <h1 className="Title">Workshops</h1>
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://jax.de/software-architecture/workshop-graphql-fuer-java-eine-praktische-einfuehrung/"
-            target="_blank"
-          >
-            GraphQL für Java – eine praktische Einführung
-          </a>
-          <p className="Location">
-            W-JAX, München,
-            <br /> November 2019
-          </p>
-        </div>
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://jobs.eos-karriere.de/techlab"
-            target="_blank"
-          >
-            Hands-on React (Hackathon)
-          </a>
-
-          <p className="Location">
-            EOS Tech Lab, Hamburg
-            <br />
-            15./16. November 2019
-          </p>
-        </div>
 
         <div className="Item">
           <a
@@ -110,59 +82,15 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>Code Talks, Hamburg, 24. Oktober 2019</b>
+            <b>OOSE Abendveranstaltung, Hamburg, 20. Januar 2020</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.codetalks.de/program#talk-701?event=5"
+              href="https://www.oose.de/abendvortrag/moderne-react-patterns/"
               target="_blank"
             >
-              State of the Art React 2019
-            </a>
-          </p>
-        </div>
-        <div className="Item">
-          <p>
-            <b>OOSE Abendvortrag, Hamburg, 28. Oktober 2019</b>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://www.oose.de/abendvortrag/keine-angst-vor-der-single-page-anwendung/"
-              target="_blank"
-            >
-              Keine Angst vor der Single-Page-Anwendung!
-            </a>
-          </p>
-        </div>
-
-        <div className="Item">
-          <p>
-            <b>Java User Group, Bremen, 29. Oktober 2019</b>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://www.meetup.com/de-DE/jugbremen/events/265264392/"
-              target="_blank"
-            >
-              GraphQL für Java-Anwendungen
-            </a>
-          </p>
-        </div>
-
-        <div className="Item">
-          <p>
-            <b>W-JAX München, November 2019</b>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://jax.de/web-development-javascript/mit-welchem-framework-soll-ich-meine-single-page-app-bauen/"
-              target="_blank"
-            >
-              Mit welchem Framework soll ich meine Single-Page-App bauen?
+              Moderne React Patterns
             </a>
           </p>
         </div>
