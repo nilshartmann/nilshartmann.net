@@ -1,7 +1,7 @@
 ---
 title: 'React Buch: 2. Auflage erschienen!'
-date: '2019-12-10T22:00:00.000Z'
-summaryMarkdown: 'Seit heute ist die zweite, vollständig überarbeitete und erweiterte Auflage des React Buchs erhältlich!'
+date: '2019-12-12T06:00:00.000Z'
+summaryMarkdown: 'Seit heute ist die zweite, vollständig überarbeitete und erweiterte Auflage meines React Buchs "React - Grundlagen, fortgeschrittene Techniken und Praxistipps" erhältlich'
 image: '/uploads/react-buch-v2-klein.png'
 image_position: 'left'
 image_expanded: 'false'

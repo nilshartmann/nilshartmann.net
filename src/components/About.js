@@ -58,7 +58,9 @@ export default function About() {
               <br />
               2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
               <br />
-              <a href="https://reactbuch.de">Weitere Informationen</a>
+              <Link to="/posts/react-buch-zweite-auflage">
+                Weitere Informationen
+              </Link>
             </p>
           </section>
           <section style={{ clear: 'both' }} className="Clearfix">
