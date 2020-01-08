@@ -70,12 +70,12 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.ittage.informatik-aktuell.de/programm/2019/moderne-apis-mit-graphql/"
+                  href="https://www.meetup.com/de-DE/Jungheinrich-Digital-Salon/events/267685480/"
                   target="_blank"
                 >
-                  Moderne APIs mit GraphQL
+                  GraphQL API - an introduction
                 </a>{' '}
-                (IT Tage, Frankfurt, 10. Dezember 2019)
+                (Jungheinrich Digital Salon Meetup, Hamburg, 22. Januar 2020)
               </li>
               <li>
                 <a
@@ -85,6 +85,15 @@ export default function About() {
                   Moderne React Patterns
                 </a>{' '}
                 (OOSE Abendveranstaltung, Hamburg, Januar 2020)
+              </li>
+              <li>
+                <a
+                  href="https://www.meetup.com/de-DE/DevTalk-TK/events/267723443/"
+                  target="_blank"
+                >
+                  Let's Type - Eine interaktive Einführung in TypeScript
+                </a>{' '}
+                (DevTalkTK Meetup, Hamburg, 28. Januar 2020)
               </li>
 
               <li style={{ marginTop: '1rem' }}>

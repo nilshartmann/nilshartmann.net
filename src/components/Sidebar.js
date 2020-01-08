@@ -88,6 +88,21 @@ export default function Sidebar() {
             </a>
           </p>
         </div>
+
+        <div className="Item">
+          <p>
+            <b>DevTalkTK Meetup, Hamburg, 28. Januar 2020</b>
+          </p>
+          <p style={{ marginBottom: '0.5em' }}>
+            <a
+              className="ReadMore"
+              href="https://www.meetup.com/de-DE/DevTalk-TK/events/267723443/"
+              target="_blank"
+            >
+              Let's Type - Eine interaktive Einführung in TypeScript
+            </a>
+          </p>
+        </div>
         <div className="Item">
           <img
             src={withPrefix('/uploads/1498424152641_nils-im-workshop.jpeg')}
