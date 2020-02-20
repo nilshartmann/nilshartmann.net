@@ -13,6 +13,7 @@ tags:
   - React
   - Apollo
   - TypeScript
+  - Artikel
 ---
 
 ### Workshop: Fullstack GraphQL mit Apollo und React (JavaScript)

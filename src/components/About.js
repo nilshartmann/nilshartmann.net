@@ -70,30 +70,27 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://www.meetup.com/de-DE/Jungheinrich-Digital-Salon/events/267685480/"
+                  href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
                   target="_blank"
                 >
-                  GraphQL API - an introduction
+                  Moderne React Pattern in der Praxis
                 </a>{' '}
-                (Jungheinrich Digital Salon Meetup, Hamburg, 22. Januar 2020)
+                (JAX, Mainz, 12. Mai 2020)
               </li>
               <li>
                 <a
-                  href="https://www.oose.de/abendvortrag/moderne-react-patterns/"
+                  href="https://jax.de/software-architecture/moderne-frontend-architekturen-fuer-single-page-anwendungen/"
                   target="_blank"
                 >
-                  Moderne React Patterns
+                  Moderne Frontend-Architekturen für Single-Page-Anwendungen
                 </a>{' '}
-                (OOSE Abendveranstaltung, Hamburg, Januar 2020)
+                (JAX, Mainz, 13. Mai 2020)
               </li>
               <li>
-                <a
-                  href="https://www.meetup.com/de-DE/DevTalk-TK/events/267723443/"
-                  target="_blank"
-                >
-                  Let's Type - Eine interaktive Einführung in TypeScript
+                <a href="https://www.developer-week.de" target="_blank">
+                  GraphQL für Java-Anwendungen
                 </a>{' '}
-                (DevTalkTK Meetup, Hamburg, 28. Januar 2020)
+                (Developer Week 2020, Nürnberg, 3. Juli 2020)
               </li>
 
               <li style={{ marginTop: '1rem' }}>
@@ -107,20 +104,21 @@ export default function About() {
             </p>
             <ul style={ulStyle}>
               <li>
+                <a
+                  href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
+                  target="_blank"
+                >
+                  Einsteiger Workshop: Single-Page-Anwendungen mit React und
+                  TypeScript
+                </a>{' '}
+                (JAX Konferenz, Mainz, 11. Mai 2020)
+              </li>
+              <li>
                 <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
                   Single-Page-Anwendungen mit React, Redux und TypeScript
                   entwickeln
                 </a>{' '}
-                (OOSE, Hamburg, Januar 2020)
-              </li>
-              <li>
-                <a
-                  href="https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3"
-                  target="_blank"
-                >
-                  React - Eine praktische Einführung mit Hooks und TypeScript
-                </a>{' '}
-                (c't webdev, Köln, 4. Februar 2020)
+                (OOSE, Hamburg, September 2020)
               </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
@@ -136,6 +134,25 @@ export default function About() {
             </p>
 
             <ul style={ulStyle}>
+              <li>
+                <a
+                  href="https://www.heise.de/hintergrund/Ein-Jahr-React-Hooks-API-eine-Bilanz-4643554.html"
+                  target="_blank"
+                >
+                  Ein Jahr React Hooks-API – eine Bilanz
+                </a>{' '}
+                (heise developer, Januar 2020)
+              </li>
+              <li>
+                <a
+                  href="https://webreader.javaspektrum.de/de/profiles/4967c6d5eae1-javaspektrum/editions/javaspektrum-06-2019"
+                  target="_blank"
+                >
+                  GraphQL entschlüsselt - Konzepte der Abfragesprache am
+                  Beispiel einer Java-Anwendung
+                </a>{' '}
+                (Java Spektrum 6/2019, November 2020)
+              </li>
               <li>
                 <a
                   href="https://www.heise.de/select/ix/2019/6/1909808311106276205?wt_mc=rss.ix.beitrag.atom"
@@ -163,12 +180,6 @@ export default function About() {
                   GraphQL mit Java Anwendungen
                 </Link>{' '}
                 (heise developer, November 2018)
-              </li>
-              <li>
-                <Link to="/posts/hilfe-ich-muss-javascript-programmieren">
-                  Hilfe, ich muss JavaScript programmieren!
-                </Link>{' '}
-                (Java Aktuell, 5/2018)
               </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/tags/Artikel">Artikel Übersicht</Link>

@@ -30,6 +30,21 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
+            href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
+            target="_blank"
+          >
+            Single-Page-Anwendungen mit React und TypeScript
+          </a>
+
+          <p className="Location">
+            JAX, Mainz,
+            <br />
+            11. Mai 2020
+          </p>
+        </div>
+        <div className="Item">
+          <a
+            className="Abstract"
             href="https://www.oose.de/seminar/web-apps/"
             target="_blank"
           >
@@ -39,23 +54,7 @@ export default function Sidebar() {
           <p className="Location">
             OOSE, Hamburg,
             <br />
-            27./28. Januar 2020
-          </p>
-        </div>
-
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3"
-            target="_blank"
-          >
-            React - Eine praktische Einführung mit Hooks und TypeScript
-          </a>
-
-          <p className="Location">
-            ct webdev, Köln,
-            <br />
-            4. Februar 2020
+            September 2020
           </p>
         </div>
 
@@ -76,30 +75,30 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>OOSE Abendveranstaltung, Hamburg, 20. Januar 2020</b>
+            <b>JAX Konferenz, Mainz, 12. Mai 2020</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.oose.de/abendvortrag/moderne-react-patterns/"
+              href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
               target="_blank"
             >
-              Moderne React Patterns
+              Moderne React Pattern in der Praxis
             </a>
           </p>
         </div>
 
         <div className="Item">
           <p>
-            <b>DevTalkTK Meetup, Hamburg, 28. Januar 2020</b>
+            <b>Developer Week, Nürnberg, 3. Juli 2020</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
               className="ReadMore"
-              href="https://www.meetup.com/de-DE/DevTalk-TK/events/267723443/"
+              href="https://www.developer-week.de"
               target="_blank"
             >
-              Let's Type - Eine interaktive Einführung in TypeScript
+              GraphQL für Java-Anwendungen
             </a>
           </p>
         </div>

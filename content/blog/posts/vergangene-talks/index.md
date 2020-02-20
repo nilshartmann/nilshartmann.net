@@ -15,6 +15,13 @@ tags:
   - GraphQL
 ---
 
+- [Workshop: React - eine praktische Einführung mit Hooks und TypeScript](https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3), c't webdev, Köln, 4. Februar 2020, [Slides (HTML)](https://nilshartmann.github.io/react-training/2020_ct_webdev.html#/)
+- [Let’s Type! Eine interaktive Einführung in TypeScript](https://www.meetup.com/de-DE/DevTalk-TK/), DevTalk@TK, Hamburg, 28. Januar, [Beispiel Code auf GitHub](https://github.com/nilshartmann/typescript-intro/)
+- [GraphQL API - an introduction](https://www.meetup.com/de-DE/Jungheinrich-Digital-Salon/events/267685480/), Jungheinrich Digital Salon Hamburg, 22. Januar 2020, [Slides als PDF](https://nils.buzz/jds-graphql)
+- [Moderne React Patterns](https://www.oose.de/abendvortrag/moderne-react-patterns/), OOSE Abendvortrag Hamburg, 20. Januar 2020, [Slides als PDF](https://nils.buzz/oose2020-react)
+- [JavaScript ohne Schrecken? Eine praktische Einführung in TypeScript](https://www.meetup.com/de-DE/jug-hamburg/events/267229244/), Java User Group Hamburg, 9. Januar 2020 [Slides als PDF](https://nils.buzz/jughh-typescript)
+- [Moderne APIs mit GraphQL](https://www.ittage.informatik-aktuell.de/programm/2019/moderne-apis-mit-graphql/), IT Tage Frankfurt, 10. Dezember 2019 [Slides als PDF](https://nils.buzz/it-tage-graphql)
+- [GraphQL (für Java-Anwendungen)](https://www.meetup.com/de-DE/jugbremen/events/265264392/), Java User Group Bremen/Oldenburg, 29. Oktober 2019 [(PDF)](https://nils.buzz/jug-bremen-graphql)
 - [GraphQL - Heilsbringer oder Teufelszeug? (PDF)](https://nils.buzz/arch-meetup-graphql), Softwarearchitektur Meetup Hamburg, 11. November 2019
 - [Mit welchem Framework soll ich meine Single-Page-App bauen? (Slides)](https://djcordhose.github.io/spa-workshop/2019_frameworks_wjax.html#/), W-JAX München, 6. November 2019
 - [Hooks, Suspense, Lazy, Concurrent Mode - React 2019:Alles neu? (PDF)](https://github.com/nilshartmann/react-talk/raw/master/wjax2019-react-alles-neu.pdf), W-JAX München, 5. November 2019
