@@ -21,10 +21,11 @@ tags:
 - [Moderne React Patterns](https://www.oose.de/abendvortrag/moderne-react-patterns/), OOSE Abendvortrag Hamburg, 20. Januar 2020, [Slides als PDF](https://nils.buzz/oose2020-react)
 - [JavaScript ohne Schrecken? Eine praktische Einführung in TypeScript](https://www.meetup.com/de-DE/jug-hamburg/events/267229244/), Java User Group Hamburg, 9. Januar 2020 [Slides als PDF](https://nils.buzz/jughh-typescript)
 - [Moderne APIs mit GraphQL](https://www.ittage.informatik-aktuell.de/programm/2019/moderne-apis-mit-graphql/), IT Tage Frankfurt, 10. Dezember 2019 [Slides als PDF](https://nils.buzz/it-tage-graphql)
-- [GraphQL (für Java-Anwendungen)](https://www.meetup.com/de-DE/jugbremen/events/265264392/), Java User Group Bremen/Oldenburg, 29. Oktober 2019 [(PDF)](https://nils.buzz/jug-bremen-graphql)
+- [Workshop: Hands-on React](https://jobs.eos-karriere.de/techlab), EOS TechLab, Hamburg, 15./16. November 2019, [Slides (HTML)](https://nilshartmann.github.io/react-training/2019_react_hands_on#/)
 - [GraphQL - Heilsbringer oder Teufelszeug? (PDF)](https://nils.buzz/arch-meetup-graphql), Softwarearchitektur Meetup Hamburg, 11. November 2019
 - [Mit welchem Framework soll ich meine Single-Page-App bauen? (Slides)](https://djcordhose.github.io/spa-workshop/2019_frameworks_wjax.html#/), W-JAX München, 6. November 2019
 - [Hooks, Suspense, Lazy, Concurrent Mode - React 2019:Alles neu? (PDF)](https://github.com/nilshartmann/react-talk/raw/master/wjax2019-react-alles-neu.pdf), W-JAX München, 5. November 2019
+- [GraphQL (für Java-Anwendungen)](https://www.meetup.com/de-DE/jugbremen/events/265264392/), Java User Group Bremen/Oldenburg, 29. Oktober 2019 [(PDF)](https://nils.buzz/jug-bremen-graphql)
 - [Keine Angst vor der Single-Page-Anwendung (PDF)](https://nils.buzz/oose-keine-angst), OOSE Abendvortrag, Hamburg, 28. Oktober 2019
 - [One year React Hooks - a (critical) review](https://nils.buzz/react-meetup-hooks), React Meetup Hamburg, 8. Oktober 2019
 - [Architektur für Single-Page Applications](https://nils.buzz/jug_saxony_spa.html), JUG Saxony Day, Radebeul, September 2019

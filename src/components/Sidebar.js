@@ -42,19 +42,20 @@ export default function Sidebar() {
             11. Mai 2020
           </p>
         </div>
+
         <div className="Item">
           <a
             className="Abstract"
-            href="https://www.oose.de/seminar/web-apps/"
+            href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
             target="_blank"
           >
-            Single-Page-Anwendungen mit React, Redux und TypeScript entwickeln
+            APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine Einführung
           </a>
 
           <p className="Location">
-            OOSE, Hamburg,
+            API Summit, München,
             <br />
-            September 2020
+            9. Juni 2020
           </p>
         </div>
 

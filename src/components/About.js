@@ -114,6 +114,16 @@ export default function About() {
                 (JAX Konferenz, Mainz, 11. Mai 2020)
               </li>
               <li>
+                <a
+                  href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+                  target="_blank"
+                >
+                  APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
+                  Einführung
+                </a>{' '}
+                (API Summit, München, 9. Juni 2020)
+              </li>
+              <li>
                 <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
                   Single-Page-Anwendungen mit React, Redux und TypeScript
                   entwickeln
