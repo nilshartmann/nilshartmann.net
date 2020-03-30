@@ -63,6 +63,7 @@ export default function Sidebar() {
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
             <p className="Abstract">
               Interne Workshops und Coaching u.a. zu React, TypeScript, GraphQL
+              (auch online bzw. remote!)
             </p>
           </Link>
           <Link to="/react-workshops" style={{ textDecoration: 'none' }}>

@@ -32,7 +32,7 @@ export default function About() {
               <b>Trainings und Beratung</b> rund um die Themen{' '}
               <b>React/Redux</b>, <b>TypeScript</b>,{' '}
               <b>Entwicklung von Single-Page-Anwendungen</b> und <b>GraphQL</b>{' '}
-              an.
+              an (auch online bzw. remote).
               <br />
               Hier findest Du mein{' '}
               <Link to="/react-workshops">Trainings- und Workshopangebot</Link>,
@@ -63,9 +63,25 @@ export default function About() {
               </Link>
             </p>
           </section>
+
           <section style={{ clear: 'both' }} className="Clearfix">
             <p style={pStyle}>
-              <b>Aktuelle Vorträge</b>:
+              <b>Aktuelle Vorträge, Workshops, Trainings und Beratungen</b>:
+            </p>
+            <p>
+              Da auf Grund der aktuellen Situation und der vielen
+              Einschränkungen zum Schutz der Gesundheit nahezu alle
+              Vor-Ort-Veranstaltung unmöglich sind, biete ich meine
+              Dienstleistungen <b>auch online bzw. remote</b> an. Wenn ihr also
+              auch jetzt Beratungen, Workshops oder Schulungen benötigt, sprecht
+              mich gerne an, dann klären wir die organisatorischen und
+              technischen Voraussetzungen. In jedem Fall wünsche ich Euch, dass
+              ihr gut und unbeschadet durch diese Zeit kommt!
+            </p>
+          </section>
+          <section>
+            <p style={pStyle}>
+              <b>Kommende Vorträge</b>:
             </p>
             <ul style={ulStyle}>
               <li>
