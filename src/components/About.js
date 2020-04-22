@@ -66,17 +66,22 @@ export default function About() {
 
           <section style={{ clear: 'both' }} className="Clearfix">
             <p style={pStyle}>
-              <b>Aktuelle Vorträge, Workshops, Trainings und Beratungen</b>:
+              <b>+++ Online bzw. remote Angebote +++</b>:
             </p>
             <p>
               Da auf Grund der aktuellen Situation und der vielen
               Einschränkungen zum Schutz der Gesundheit nahezu alle
               Vor-Ort-Veranstaltung unmöglich sind, biete ich meine
               Dienstleistungen <b>auch online bzw. remote</b> an. Wenn ihr also
-              auch jetzt Beratungen, Workshops oder Schulungen benötigt, sprecht
-              mich gerne an, dann klären wir die organisatorischen und
-              technischen Voraussetzungen. In jedem Fall wünsche ich Euch, dass
-              ihr gut und unbeschadet durch diese Zeit kommt!
+              auch jetzt{' '}
+              <a href="/react-workshops">
+                Beratungen, Workshops oder Schulungen
+              </a>{' '}
+              benötigt, sprecht mich gerne an, dann klären wir die
+              organisatorischen und technischen Voraussetzungen - dabei gehe ich
+              natürlich flexibel auf Eure Anforderungen ein. In jedem Fall
+              wünsche ich Euch, dass ihr gut und unbeschadet durch diese Zeit
+              kommt!
             </p>
           </section>
           <section>
@@ -91,7 +96,7 @@ export default function About() {
                 >
                   Moderne React Pattern in der Praxis
                 </a>{' '}
-                (JAX, Mainz, 12. Mai 2020)
+                (JAX, Mainz, September 2020)
               </li>
               <li>
                 <a
@@ -100,7 +105,7 @@ export default function About() {
                 >
                   Moderne Frontend-Architekturen für Single-Page-Anwendungen
                 </a>{' '}
-                (JAX, Mainz, 13. Mai 2020)
+                (JAX, Mainz, September 2020)
               </li>
               <li>
                 <a href="https://www.developer-week.de" target="_blank">
@@ -127,7 +132,7 @@ export default function About() {
                   Einsteiger Workshop: Single-Page-Anwendungen mit React und
                   TypeScript
                 </a>{' '}
-                (JAX Konferenz, Mainz, 11. Mai 2020)
+                (JAX Konferenz, Mainz, September 2020)
               </li>
               <li>
                 <a

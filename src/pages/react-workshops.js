@@ -47,6 +47,32 @@ export default function Angebot() {
             React-Anwendungen.
           </p>
         </div>
+        <div
+          style={{
+            backgroundColor: '#ffbb70',
+            padding: '0.1rem 0.5rem 0.25rem 0.5rem',
+          }}
+        >
+          <div class="title">
+            <h2>Online bzw. Remote-Angebote</h2>
+          </div>
+          <p>
+            <b>
+              Da in der derzeitigen (Corona-)Situation vielfach keine Arbeit
+              Vor-Ort möglich oder empfehlenswert ist, biete ich meine
+              Workshops, Schulungen und Beratungen auch online bzw. remote an.
+            </b>
+          </p>
+          <p>
+            Bei Interesse sendet mir eine Mail oder ruft mich an, dann klären
+            wir neben den inhaltlichen auch die organisatorischen und
+            technischen Voraussetzungen. Natürlich tragen wir dabei den
+            erschwerten Bedingungen Rechnung, die sich durch das remote arbeiten
+            und andere organisatorische Probleme möglicherweise ergeben.
+            Beispielsweise können wir Workshops auch halbtags durchführen, um
+            zeitlich flexibel zu sein und auf diese Weise Stress zu minimieren.
+          </p>
+        </div>
         <div class="title">
           <h2>Individuelle In-House-Schulungen</h2>
         </div>
@@ -62,16 +88,7 @@ export default function Angebot() {
           aber natürlich helfe ich Euch bei der Erstellung der Agenda und
           Auswahl der Themen.
         </p>
-        <p>
-          <b>
-            <em>
-              Die Workshops können auch online bzw. remote durchgeführt werden
-            </em>
-          </b>
-          , wenn in der aktuellen (Corona-)Situation keine Vor-Ort-Schulungen
-          möglich sind. Sprecht mich einfach an, dann klären wir die
-          organisatorischen und technischen Voraussetzungen.
-        </p>
+
         <div class="title">
           <h2>Workshops und Beratungen</h2>
         </div>

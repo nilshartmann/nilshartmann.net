@@ -39,7 +39,7 @@ export default function Sidebar() {
           <p className="Location">
             JAX, Mainz,
             <br />
-            11. Mai 2020
+            September 2020
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>JAX Konferenz, Mainz, 12. Mai 2020</b>
+            <b>JAX Konferenz, Mainz, September 2020</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
