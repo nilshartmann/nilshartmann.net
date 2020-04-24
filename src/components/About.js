@@ -65,7 +65,7 @@ export default function About() {
           </section>
 
           <section style={{ clear: 'both' }} className="Clearfix">
-            <p style={pStyle}>
+            <p style={{ backgroundColor: '#ffbb70', ...pStyle }}>
               <b>
                 <a href="/react-workshops">
                   +++ Online bzw. remote Angebote +++
@@ -89,7 +89,7 @@ export default function About() {
               kommt!
             </p>
           </section>
-          <section>
+          <section style={{ marginTop: '1rem' }}>
             <p style={pStyle}>
               <b>Kommende Vorträge</b>:
             </p>
