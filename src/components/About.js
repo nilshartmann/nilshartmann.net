@@ -66,7 +66,12 @@ export default function About() {
 
           <section style={{ clear: 'both' }} className="Clearfix">
             <p style={pStyle}>
-              <b>+++ Online bzw. remote Angebote +++</b>:
+              <b>
+                <a href="/react-workshops">
+                  +++ Online bzw. remote Angebote +++
+                </a>
+              </b>
+              :
             </p>
             <p>
               Da auf Grund der aktuellen Situation und der vielen

@@ -26,6 +26,19 @@ export default function Sidebar() {
       </section>
       <section className="Section">
         <h1 className="Title">Workshops</h1>
+        <div className="Item">
+          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
+            <p className="Abstract">
+              Interne Workshops und Coaching u.a. zu React, TypeScript, GraphQL
+              (auch online bzw. remote!)
+            </p>
+          </Link>
+          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
+            <p className="Location">
+              <b>Auf Anfrage, hier weitere Informationen</b>
+            </p>
+          </Link>
+        </div>
 
         <div className="Item">
           <a
@@ -57,20 +70,6 @@ export default function Sidebar() {
             <br />
             9. Juni 2020
           </p>
-        </div>
-
-        <div className="Item">
-          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
-            <p className="Abstract">
-              Interne Workshops und Coaching u.a. zu React, TypeScript, GraphQL
-              (auch online bzw. remote!)
-            </p>
-          </Link>
-          <Link to="/react-workshops" style={{ textDecoration: 'none' }}>
-            <p className="Location">
-              <b>Auf Anfrage, hier weitere Informationen</b>
-            </p>
-          </Link>
         </div>
       </section>
       <section className="Section">

@@ -65,12 +65,32 @@ export default function Angebot() {
           </p>
           <p>
             Bei Interesse sendet mir eine Mail oder ruft mich an, dann klären
-            wir neben den inhaltlichen auch die organisatorischen und
+            wir neben den inhaltlichen auch die besonderen rganisatorischen und
             technischen Voraussetzungen. Natürlich tragen wir dabei den
             erschwerten Bedingungen Rechnung, die sich durch das remote arbeiten
-            und andere organisatorische Probleme möglicherweise ergeben.
-            Beispielsweise können wir Workshops auch halbtags durchführen, um
-            zeitlich flexibel zu sein und auf diese Weise Stress zu minimieren.
+            und damit verbundene Probleme möglicherweise ergeben. Da remote
+            arbeiten häufig anstregender ist, als Vor-Ort gemeinsam zu lernen,
+            können wir auch die Workshops auch halbtags durchführen. Auf diese
+            Weise seid ihr auch zeitlich flexibler.
+          </p>
+          <p>
+            <b>
+              Dabei kommen die "gewohnten" Bausteine eines Workshops natürlich
+              nicht zu kurz.
+            </b>{' '}
+            Wir besprechen im Vorweg eure gewünschten Inhalte, so dass ihr ein
+            passgenaues Training bekommt. Während der Schulung gibt es eine
+            Mischung aus Slides, viel Live Coding und arbeiten am Whiteboard,
+            ganz so, wie im Schulungsraum oder Büro. Natürlich könnt ihr
+            jederzeit Eure Fragen stellen, wir diskutieren gemeinsam über
+            Problem- und Fragestellungen und machen natürlich auch Übungen, die
+            ihr einzeln oder in Gruppen bearbeiten könnt und bei denen ich euch
+            jederzeit per Screensharing unterstützen kann.
+          </p>
+          <p>
+            Das alles gilt übrigens nicht nur für Schulungen sondern auch für
+            andere Arten von Workshops oder Beratung, zum Beispiel Code Reviews
+            oder Unterstützung bei Fragen der Anwendungsarchitektur.
           </p>
         </div>
         <div class="title">
