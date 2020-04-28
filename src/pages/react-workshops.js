@@ -48,8 +48,8 @@ export default function Angebot() {
           </p>
         </div>
         <div
+          className="Online"
           style={{
-            backgroundColor: '#ffbb70',
             padding: '0.1rem 0.5rem 0.25rem 0.5rem',
           }}
         >

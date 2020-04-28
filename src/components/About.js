@@ -64,8 +64,14 @@ export default function About() {
             </p>
           </section>
 
-          <section style={{ clear: 'both' }} className="Clearfix">
-            <p style={{ backgroundColor: '#ffbb70', ...pStyle }}>
+          <section
+            style={{
+              clear: 'both',
+              padding: '0.2rem 0.5rem',
+            }}
+            className="Clearfix Online"
+          >
+            <p style={{ ...pStyle }}>
               <b>
                 <a href="/react-workshops">
                   +++ Online bzw. remote Angebote +++
@@ -116,7 +122,7 @@ export default function About() {
                 <a href="https://www.developer-week.de" target="_blank">
                   GraphQL für Java-Anwendungen
                 </a>{' '}
-                (Developer Week 2020, Nürnberg, 3. Juli 2020)
+                (Developer Week 2020, Nürnberg, November 2020)
               </li>
 
               <li style={{ marginTop: '1rem' }}>
@@ -131,6 +137,26 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+                  target="_blank"
+                >
+                  APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
+                  Einführung
+                </a>{' '}
+                (API Summit, München oder <b className="Online">Online</b>, 9.
+                Juni 2020)
+              </li>
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React, Redux und TypeScript
+                  entwickeln
+                </a>{' '}
+                (OOSE, <b className="Online">Online-Seminar</b>, 25./26. Juni
+                2020)
+              </li>
+
+              <li>
+                <a
                   href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
                   target="_blank"
                 >
@@ -139,23 +165,7 @@ export default function About() {
                 </a>{' '}
                 (JAX Konferenz, Mainz, September 2020)
               </li>
-              <li>
-                <a
-                  href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
-                  target="_blank"
-                >
-                  APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
-                  Einführung
-                </a>{' '}
-                (API Summit, München, 9. Juni 2020)
-              </li>
-              <li>
-                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
-                  Single-Page-Anwendungen mit React, Redux und TypeScript
-                  entwickeln
-                </a>{' '}
-                (OOSE, Hamburg, September 2020)
-              </li>
+
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:
