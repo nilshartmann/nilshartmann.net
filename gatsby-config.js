@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Nils Hartmann`,
+    title: `Nils Hartmann, Software-Entwicklung, Beratung und Schulungen`,
     author: `Nils Hartmann`,
-    description: `Homepage of Nils Hartmann, Software Developer from Hamburg`,
+    description: `Nils Hartmann, Software-Entwicklung, Beratung, Schulungen`,
     siteUrl: `https://nilshartmann.net/`,
     social: {
       twitter: `nilshartmann`,
