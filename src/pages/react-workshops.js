@@ -247,8 +247,38 @@ export default function Angebot() {
         </div>
         <p>
           Hier findest Du beispielhaft mögliche Inhalte einer React Schulung.
+          <br />
           Die genauen Schwerpunkte und die Agenda lege ich mit euch gemeinsam im
           Vorweg fest, um auf eure individuellen Bedürfnisse einzugehen.
+        </p>
+
+        <div class="title">
+          <h3>JavaScript Grundlagen und Vertiefung: ES6+</h3>
+        </div>
+        <p>
+          Je nach Vorkenntnissen können wir in die Sprache JavaScript
+          beschäftigen und Kenntnisse vertiefen bzw. auf den neusten Stand
+          bringen.
+        </p>
+        <ul>
+          <li>Was ist ES5, ES6, ES.next?</li>
+          <li>
+            "Moderne" JavaScript-Sprachfeatures, die häufig in React-Anwendungen
+            eingesetzt werden, wie z.B. const/let, Arrow Functions,
+            Destructuring und Spread-Operator
+          </li>
+          <li>Module und Klassen</li>
+          <li>Asynchrones Arbeiten mit Promises und async/await</li>
+          <li>
+            Grundlagen der Web-Entwicklung mit "pure" JavaScript, die DOM API
+          </li>
+        </ul>
+
+        <p>
+          Das Herzstück jeder React Anwendung sind Komponenten. Angefangen wird
+          mit kleinen, isolierten Komponenten, die sich gut wiederverwenden
+          lassen. Diese Komponenten werden dann zu kompletten Anwendungen
+          zusammengesteckt.
         </p>
 
         <div class="title">
@@ -263,11 +293,12 @@ export default function Angebot() {
         </p>
         <ul>
           <li>Deklarativ Komponenten beschreiben</li>
-          <li>Komponenten als ES6 Klassen und Funktionen</li>
+          <li>Komponenten als Funktionen mit der Hooks API</li>
           <li>Interaktionen mit dem Benutzer</li>
           <li>Zustand und Eigenschaften von Komponenten</li>
+          <li>Was ist der Virtual DOM?</li>
           <li>Lebenszyklus von Komponenten</li>
-          <li>Hooks</li>
+          <li>Komponenten als ES6 Klassen</li>
         </ul>
 
         <div class="title">
@@ -313,23 +344,28 @@ export default function Angebot() {
         </p>
 
         <div class="title">
-          <h3>Das Flux Architekturmodell - am Beispiel von Redux</h3>
+          <h3>Externes Statemangement mit Redux</h3>
         </div>
 
         <p>
           Wenn deine React Anwendung größer wird, benötigst du eine solide
-          Architektur um deine Anwendung verständlich und wartbar zu halten. Mit{' '}
-          <b>Flux</b> hat Facebook ein Architekturmodell vorgestellt, das
-          typische Probleme von (React-basierten) Webanwendungen lösen soll.
+          Architektur um deine Anwendung verständlich und wartbar zu halten; das
+          betrifft insbesondere die Verwaltung des Zustands.
         </p>
         <p>
-          In der Schulung schauen wir uns dazu die Bibliothek <b>Redux</b> an,
-          die mittlerweile im React-Umfeld etabliert ist. Wir schauen uns an,
-          wie du mit Redux den kompletten Zustand deiner Anwendung aus deinen
-          Komponenten herausziehen und zentral verwalten kann. Wir diskutieren
-          die Vorteile (und Nachteile) dieser Idee, sehen uns an was das für
-          deinen Code und die Entwicklung sowie das Testen bedeutet.
+          In der Schulung diskutieren wir typische Probleme, die bei der
+          Entwicklung von React-Anwendungen entstehen können und gucken uns
+          mögliche Lösungen an.
         </p>
+        <p>
+          Dazu gehört der <b>React Context</b>, der <b>useReducer-Hook</b> und
+          die Bibliotheken wie <b>Redux</b> und <b>MobX</b>, die alle Ansätze
+          bieten, um den Zustand einer React-Anwendung zu verwalten. Wir
+          diskutieren die Vorteile (und Nachteile) der jeweiligen Ansätze, sehen
+          uns an was sie jeweils für deinen Code und die Entwicklung sowie das
+          Testen bedeuten.
+        </p>
+
         <div class="title">
           <h3>Serverzugriffe</h3>
         </div>
@@ -399,12 +435,13 @@ export default function Angebot() {
             Profiler, Code-Splitting mit React.lazy, useMemo-Hook etc)
           </li>
           <li>
-            Ansätze zum Komponenten-basierten, modularen Styling (CSS Modules,
-            Styled Components, ggf. mit SASS/LESS)
+            Tooling und Entwicklungsumgebung für React (welche Editoren und
+            Tools bieten sich an, welche Browser-Erweiterungen? Wie kann der
+            Browser oder die IDE für das Debuggen benutzt werden?)
           </li>
           <li>
-            ECMAScript 2015ff - Einführung und Vertiefung in die Sprache
-            JavaScript
+            Ansätze zum Komponenten-basierten, modularen Styling (CSS Modules,
+            Styled Components, ggf. mit SASS/LESS)
           </li>
           <li>
             Universal Webanwendungen mit React entwickeln - Webanwendungen, die
