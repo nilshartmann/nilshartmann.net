@@ -102,12 +102,23 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://devtalks.de/ep-4-nils-hartmann/"
+                  target="_blank"
+                >
+                  Single Page Applications, React und TypeScript - Gespräch und
+                  Diskussion
+                </a>{' '}
+                (Devs Talk, <b className="Online">Online</b>, 2. Juni 2020)
+              </li>
+
+              <li>
+                <a
                   href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
                   target="_blank"
                 >
                   Moderne React Pattern in der Praxis
                 </a>{' '}
-                (JAX, Mainz, September 2020)
+                (JAX, Mainz, 8. September 2020)
               </li>
               <li>
                 <a
@@ -116,15 +127,50 @@ export default function About() {
                 >
                   Moderne Frontend-Architekturen für Single-Page-Anwendungen
                 </a>{' '}
-                (JAX, Mainz, September 2020)
+                (JAX, Mainz, 9. September 2020)
+              </li>
+
+              <li>
+                <a href="https://cyberjug.de/vortrag/graphql/" target="_blank">
+                  GraphQL für Java-Anwendungen
+                </a>{' '}
+                (CyberJUG, <b className="Online">Online</b>, 21. September 2020)
+              </li>
+
+              <li>
+                <a
+                  href="https://enterjs.de/lecture.php?id=11214&source="
+                  target="_blank"
+                >
+                  Fortgeschrittene React Patterns
+                </a>{' '}
+                (EnterJS, Darmstadt, 29. September 2020)
+              </li>
+              <li>
+                <a
+                  href="https://www.bettercode.eu/lecture.php?id=11905&source="
+                  target="_blank"
+                >
+                  APIs mit GraphQL
+                </a>{' '}
+                (betterCode, Darmstadt, 30. September 2020)
+              </li>
+
+              <li>
+                <a
+                  href="https://www.web-developer-conference.de/programm-2020/#/talk/advanced-react-patterns"
+                  target="_blank"
+                >
+                  Advanced React Patterns
+                </a>{' '}
+                (Web Developer Conference, Hamburg, 14. Oktober 2020)
               </li>
               <li>
                 <a href="https://www.developer-week.de" target="_blank">
                   GraphQL für Java-Anwendungen
                 </a>{' '}
-                (Developer Week 2020, Nürnberg, November 2020)
+                (Developer Week 2020, Nürnberg, 5. November 2020)
               </li>
-
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
               </li>
@@ -154,7 +200,6 @@ export default function About() {
                 (OOSE, <b className="Online">Online-Seminar</b>, 25./26. Juni
                 2020)
               </li>
-
               <li>
                 <a
                   href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
@@ -163,9 +208,27 @@ export default function About() {
                   Einsteiger Workshop: Single-Page-Anwendungen mit React und
                   TypeScript
                 </a>{' '}
-                (JAX Konferenz, Mainz, September 2020)
+                (JAX Konferenz, Mainz, 7. September 2020)
+              </li>
+              <li>
+                <a
+                  href="https://www.bettercode.eu/lecture.php?id=11780&source="
+                  target="_blank"
+                >
+                  Der praktische Einstieg in React und TypeScript
+                </a>{' '}
+                (betterCode, Darmstadt, 2. Oktober 2020)
               </li>
 
+              <li>
+                <a
+                  href="https://www.web-developer-conference.de/programm-2020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
+                  target="_blank"
+                >
+                  Ein praktischer Einstieg in React und TypeScript
+                </a>{' '}
+                (Web Developer Conference, Hamburg, 12. Oktober 2020)
+              </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:
