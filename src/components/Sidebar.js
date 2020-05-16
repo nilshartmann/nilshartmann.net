@@ -66,7 +66,7 @@ export default function Sidebar() {
           </a>
 
           <p className="Location">
-            API Summit, München oder <b className="Online">Online</b>,
+            API Summit, <b className="Online">Online</b>,
             <br />
             9. Juni 2020
           </p>

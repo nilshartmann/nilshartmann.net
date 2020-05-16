@@ -189,8 +189,7 @@ export default function About() {
                   APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
                   Einführung
                 </a>{' '}
-                (API Summit, München oder <b className="Online">Online</b>, 9.
-                Juni 2020)
+                (API Summit, <b className="Online">Online</b>, 9. Juni 2020)
               </li>
               <li>
                 <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
