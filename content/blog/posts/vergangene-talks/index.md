@@ -15,6 +15,7 @@ tags:
   - GraphQL
 ---
 
+- [State of the Art - Zustandsmanagement in React Anwendungen](https://www.meetup.com/de-DE/oose-Events-im-Schanzenviertel/events/270458748/?comment_table_id=509858252&comment_table_name=event_comment), OOSE Abendvortrag (online), 12. Mai 2020, [Slides (PDF)](https://nils.buzz/oose2020-react-state)
 - [Workshop: React - eine praktische Einführung mit Hooks und TypeScript](https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3), c't webdev, Köln, 4. Februar 2020, [Slides (HTML)](https://nilshartmann.github.io/react-training/2020_ct_webdev.html#/)
 - [Let’s Type! Eine interaktive Einführung in TypeScript](https://www.meetup.com/de-DE/DevTalk-TK/), DevTalk@TK, Hamburg, 28. Januar, [Beispiel Code auf GitHub](https://github.com/nilshartmann/typescript-intro/)
 - [GraphQL API - an introduction](https://www.meetup.com/de-DE/Jungheinrich-Digital-Salon/events/267685480/), Jungheinrich Digital Salon Hamburg, 22. Januar 2020, [Slides als PDF](https://nils.buzz/jds-graphql)

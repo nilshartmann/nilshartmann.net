@@ -91,6 +91,21 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
+            <b>DevTalk@TK, 23. Juni 2020</b>
+          </p>
+          <p style={{ marginBottom: '0.5em' }}>
+            <a
+              className="ReadMore"
+              href="https://www.meetup.com/de-DE/DevTalk-TK/events/271085700/"
+              target="_blank"
+            >
+              GraphQL: Einführung in die Querysprache für APIs{' '}
+              <span className="Online">Online</span>
+            </a>
+          </p>
+        </div>
+        <div className="Item">
+          <p>
             <b>JAX Konferenz, Mainz, September 2020</b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>

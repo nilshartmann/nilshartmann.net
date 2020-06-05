@@ -108,7 +108,17 @@ export default function About() {
                   Single Page Applications, React und TypeScript - Gespräch und
                   Diskussion
                 </a>{' '}
-                (Devs Talk, <b className="Online">Online</b>, 2. Juni 2020)
+                (Devs Talk, <b className="Online">Online</b>, 11. Juni 2020)
+              </li>
+
+              <li>
+                <a
+                  href="https://www.meetup.com/de-DE/DevTalk-TK/events/271085700/"
+                  target="_blank"
+                >
+                  GraphQL: Einführung in die Querysprache für APIs
+                </a>{' '}
+                (DevTalk@TK, <b className="Online">Online</b>, 23. Juni 2020)
               </li>
 
               <li>
@@ -242,6 +252,16 @@ export default function About() {
             </p>
 
             <ul style={ulStyle}>
+              <li>
+                <a
+                  href="https://www.linux-magazin.de/ausgaben/2020/07/graphql-2/"
+                  target="_blank"
+                >
+                  GraphQL: Klienten am Infopoint
+                </a>{' '}
+                (Linux Magazin 07/2020)
+              </li>
+
               <li>
                 <a
                   href="https://www.heise.de/hintergrund/Ein-Jahr-React-Hooks-API-eine-Bilanz-4643554.html"
