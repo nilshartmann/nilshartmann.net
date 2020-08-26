@@ -43,34 +43,19 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
-            href="https://www.oose.de/seminar/web-apps/"
+            href="https://www.web-developer-conference.de/programm%202020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
             target="_blank"
           >
-            Single-Page-Anwendungen mit React, Redux und TypeScript entwickeln
+            Ein praktischer Einstieg in React und TypeScript
           </a>
 
           <p className="Location">
-            OOSE, <b className="Online">Online Seminar</b>,
+            Web Developer Conference, <b className="Online">Online</b>,
             <br />
-            25./26. Juni 2020
+            12. Oktober 2020
           </p>
         </div>
 
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
-            target="_blank"
-          >
-            APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine Einführung
-          </a>
-
-          <p className="Location">
-            API Summit, <b className="Online">Online</b>,
-            <br />
-            9. Juni 2020
-          </p>
-        </div>
         <div className="Item">
           <a
             className="Abstract"
@@ -81,7 +66,7 @@ export default function Sidebar() {
           </a>
 
           <p className="Location">
-            JAX, Mainz,
+            JAX, <b className="Online">Online</b>,
             <br />
             September 2020
           </p>
@@ -91,22 +76,9 @@ export default function Sidebar() {
         <h1 className="Title">Talks</h1>
         <div className="Item">
           <p>
-            <b>DevTalk@TK, 23. Juni 2020</b>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://www.meetup.com/de-DE/DevTalk-TK/events/271085700/"
-              target="_blank"
-            >
-              GraphQL: Einführung in die Querysprache für APIs{' '}
-              <span className="Online">Online</span>
-            </a>
-          </p>
-        </div>
-        <div className="Item">
-          <p>
-            <b>JAX Konferenz, Mainz, September 2020</b>
+            <b>
+              JAX Konferenz, <b className="Online">Online</b>, September 2020
+            </b>
           </p>
           <p style={{ marginBottom: '0.5em' }}>
             <a
@@ -115,6 +87,23 @@ export default function Sidebar() {
               target="_blank"
             >
               Moderne React Pattern in der Praxis
+            </a>
+          </p>
+        </div>
+
+        <div className="Item">
+          <p>
+            <b>
+              EnterJS, <b className="Online">Online</b>, 29. September 2020
+            </b>
+          </p>
+          <p style={{ marginBottom: '0.5em' }}>
+            <a
+              className="ReadMore"
+              href="https://enterjs.de/lecture.php?id=11214&source="
+              target="_blank"
+            >
+              Fortgeschrittene React Patterns
             </a>
           </p>
         </div>
