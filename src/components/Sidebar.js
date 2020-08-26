@@ -59,16 +59,16 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
-            href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
+            href="https://www.jvm-con.de/programm%202020/#/talk/graphql-fur-java-anwendungen-ein-praktischer-einstieg"
             target="_blank"
           >
-            Single-Page-Anwendungen mit React und TypeScript
+            GraphQL für Java-Anwendungen: ein praktischer Einstieg
           </a>
 
           <p className="Location">
-            JAX, <b className="Online">Online</b>,
+            JVM CON, Köln/<b className="Online">Online</b>,
             <br />
-            September 2020
+            25. November 2020v
           </p>
         </div>
       </section>
