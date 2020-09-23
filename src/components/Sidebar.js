@@ -43,6 +43,38 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
+            href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+            target="_blank"
+          >
+            APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine Einführung
+          </a>
+
+          <p className="Location">
+            API Summit, <b className="Online">Online</b>,
+            <br />
+            November 2020
+          </p>
+        </div>
+
+        <div className="Item">
+          <a
+            className="Abstract"
+            href="https://www.oose.de/seminar/web-apps/"
+            target="_blank"
+          >
+            Single-Page-Anwendungen mit React und TypeScript
+          </a>
+
+          <p className="Location">
+            OOSE, <b className="Online">Online</b>,
+            <br />
+            27.-29. Januar 2021
+          </p>
+        </div>
+
+        {/* <div className="Item">
+          <a
+            className="Abstract"
             href="https://www.web-developer-conference.de/programm%202020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
             target="_blank"
           >
@@ -70,11 +102,11 @@ export default function Sidebar() {
             <br />
             25. November 2020v
           </p>
-        </div>
+        </div> */}
       </section>
       <section className="Section">
         <h1 className="Title">Talks</h1>
-        <div className="Item">
+        {/* <div className="Item">
           <p>
             <b>
               JAX Konferenz, <b className="Online">Online</b>, September 2020
@@ -89,7 +121,7 @@ export default function Sidebar() {
               Moderne React Pattern in der Praxis
             </a>
           </p>
-        </div>
+        </div> */}
 
         <div className="Item">
           <p>

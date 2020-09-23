@@ -15,6 +15,10 @@ tags:
   - GraphQL
 ---
 
+- GraphQL für Java-Anwendungen, CyberJUG, 21. September 2020 (online) [Slides (PDF)](https://react.schule/cyberjug-graphql) [Aufzeichnung (YouTube)](https://youtu.be/QSxwS9bmz_4)
+- Moderne React Pattern in der Praxis, Jax, September 2020 (online), [Slides (PDF)](https://react.schule/jax-2020-react)
+- Workshop: Single-Page-Anwendungen mit React und TypeScript, JAX Mainz/online, September 2020 [Slides (HTML)](https://react.schule/jax_2020_react.html)
+- Heilsbringer oder Teufelszeug? GraphQL - Eine Einführung, API Summit, Berlin/online, Juni 2020 [Slides (PDF)](https://react.schule/api-summit-graphql)
 - [State of the Art - Zustandsmanagement in React Anwendungen](https://www.meetup.com/de-DE/oose-Events-im-Schanzenviertel/events/270458748/?comment_table_id=509858252&comment_table_name=event_comment), OOSE Abendvortrag (online), 12. Mai 2020, [Slides (PDF)](https://nils.buzz/oose2020-react-state)
 - [Workshop: React - eine praktische Einführung mit Hooks und TypeScript](https://ctwebdev.de/programm.html?lectureId=MK33ARcAvSfEyfMiMvF3), c't webdev, Köln, 4. Februar 2020, [Slides (HTML)](https://nilshartmann.github.io/react-training/2020_ct_webdev.html#/)
 - [Let’s Type! Eine interaktive Einführung in TypeScript](https://www.meetup.com/de-DE/DevTalk-TK/), DevTalk@TK, Hamburg, 28. Januar, [Beispiel Code auf GitHub](https://github.com/nilshartmann/typescript-intro/)

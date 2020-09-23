@@ -164,6 +164,22 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+                  target="_blank"
+                >
+                  APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
+                  Einführung
+                </a>{' '}
+                (API Summit, <b className="Online">Online</b>, November 2020)
+              </li>
+              <li>
+                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                  Single-Page-Anwendungen mit React und TypeScript
+                </a>{' '}
+                (OOSE, <b className="Online">Online</b>, 21.-29. Januar 2021)
+              </li>
+              {/* <li>
+                <a
                   href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
                   target="_blank"
                 >
@@ -172,8 +188,8 @@ export default function About() {
                 </a>{' '}
                 (JAX Konferenz, Mainz bzw. <b className="Online">Online</b>, 7.
                 September 2020)
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="https://www.web-developer-conference.de/programm-2020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
                   target="_blank"
@@ -182,16 +198,8 @@ export default function About() {
                 </a>{' '}
                 (Web Developer Conference, <b className="Online">Online</b>, 12.
                 Oktober 2020)
-              </li>
-              <li>
-                <a
-                  href="https://www.jvm-con.de/programm%202020/#/talk/graphql-fur-java-anwendungen-ein-praktischer-einstieg"
-                  target="_blank"
-                >
-                  GraphQL für Java-Anwendungen: ein praktischer Einstieg
-                </a>{' '}
-                (JVM CON, Köln, 25. November 2020)
-              </li>
+              </li> */}
+
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:
