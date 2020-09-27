@@ -406,6 +406,19 @@ export default function PrivacyPage() {
           </span>
         </p>
         <p />
+        <h3 id="dsg-thirdparty-googlefonts">Netlify</h3>
+        <p />
+        <p>
+          <span className="ts-muster-content">
+            Diese Seite wird auf https://www.netlify.com/ gehostet. Weitere
+            Details zum Datenschutz von Netlify entnehmen Sie bitte{' '}
+            <a href="https://www.netlify.com/gdpr/" target="_blank">
+              https://www.netlify.com/gdpr/
+            </a>
+            .
+          </span>
+        </p>
+
         <h3 id="dsg-thirdparty-googlefonts">Google Fonts</h3>
         <p />
         <p>
