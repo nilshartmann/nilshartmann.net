@@ -202,13 +202,13 @@ export default function Sidebar() {
             <a href="mailto:nils@nilshartmann.net">nils@nilshartmann.net</a>
           </p>
           <p className="ReadMore" style={{ marginTop: '5px' }}>
-            <a href="https://twitter.com/nilshmann">Twitter</a>
+            <a href="https://twitter.com/nilshartmann">Twitter</a>
           </p>
           <p className="ReadMore" style={{ marginTop: '5px' }}>
             <a href="https://www.xing.com/profile/Nils_Hartmann2">Xing</a>
           </p>
           <p className="ReadMore" style={{ marginTop: '5px' }}>
-            <a href="https://github.com/nilshmann">GitHub</a>
+            <a href="https://github.com/nilshartmann">GitHub</a>
           </p>
         </div>
       </section>

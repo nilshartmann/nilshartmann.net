@@ -465,7 +465,7 @@ export default function Angebot() {
             </p>
             <p className="SocialMedia">
               <i className="fa fa-twitter fa-lg" />
-              <a href="https://twitter.com/nilshmann">Twitter</a>
+              <a href="https://twitter.com/nilshartmann">Twitter</a>
             </p>
             <p className="SocialMedia">
               <i className="fa fa-xing fa-lg" />
@@ -473,7 +473,7 @@ export default function Angebot() {
             </p>
             <p className="SocialMedia">
               <i className="fa fa-github fa-lg" />
-              <a href="https://github.com/nilshmann">GitHub</a>
+              <a href="https://github.com/nilshartmann">GitHub</a>
             </p>
           </div>
         </div>
