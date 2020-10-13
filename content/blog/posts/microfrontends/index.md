@@ -6,7 +6,7 @@ einen enormen Funktionsumfang. Bisweilen werden die Anwendungen sogar so umfangr
 durch mehrere Teams in Module aufgeteilt werden sollen. Dieser Artikel stellt drei Szenarien zur Integration dieser
 Frontend-Module vor, die versuchen, unterschiedlichen Anforderungen zwischen der bestmöglichen Erfahrung für
 Benutzer einerseits und einem unabhängigen Entwicklungsprozess andererseits gerecht zu werden.'
-image: '/uploads/microfrontends/abb-01-anwendersicht.png'
+image: '/uploads/microfrontends/abb-01-anwendersicht-klein.png'
 image_position: 'before_summary'
 image_expanded: 'true'
 tags:

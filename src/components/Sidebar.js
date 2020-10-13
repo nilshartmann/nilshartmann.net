@@ -8,7 +8,7 @@ export default function Sidebar() {
         <h1 className="Title">Bücher</h1>
         <div className="Item">
           <a className="ReadMore" href="/posts/react-buch-zweite-auflage">
-            <img src={withPrefix('/uploads/react-buch-v2.png')} />
+            <img src={withPrefix('/uploads/react-buch-v2-ganz-klein.png')} />
             React - Grundlagen, fortgeschrittene Techniken und Praxistipps
             <br />
             (2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, Dez. 2019)

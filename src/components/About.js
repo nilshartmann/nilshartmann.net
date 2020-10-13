@@ -50,7 +50,7 @@ export default function About() {
                 width: '60px',
                 float: 'left',
               }}
-              src="/uploads/react-buch-v2.png"
+              src="/uploads/react-buch-v2-ganz-klein.png"
             />
             <p>
               React - Grundlagen, fortgeschrittene Techniken und Praxistipps –
