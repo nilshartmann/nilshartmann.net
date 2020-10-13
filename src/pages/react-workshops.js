@@ -226,6 +226,7 @@ export default function Angebot() {
               <a
                 href="https://www.youtube.com/watch?v=IadZyDwfwWI"
                 target="_blank"
+                rel="noopener"
               >
                 Let’s type! A practical introduction to TypeScript (Video)
               </a>{' '}
@@ -235,6 +236,7 @@ export default function Angebot() {
               <a
                 href="https://www.youtube.com/watch?v=g4Q9M9mrVDY"
                 target="_blank"
+                rel="noopener"
               >
                 W-JAX Interview zur JavaScript-Session auf einer Java-Konferenz
                 (Video)

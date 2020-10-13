@@ -426,12 +426,17 @@ export default function PrivacyPage() {
             Wir binden die Schriftarten ("Google Fonts") des Anbieters Google
             LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein.
             Datenschutzerklärung:{' '}
-            <a target="_blank" href="https://www.google.com/policies/privacy/">
+            <a
+              target="_blank"
+              href="https://www.google.com/policies/privacy/"
+              rel="noopener"
+            >
               https://www.google.com/policies/privacy/
             </a>
             , Opt-Out:{' '}
             <a
               target="_blank"
+              rel="noopener"
               href="https://adssettings.google.com/authenticated"
             >
               https://adssettings.google.com/authenticated

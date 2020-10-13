@@ -108,6 +108,7 @@ export default function About() {
                 <a
                   href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
                   target="_blank"
+                  rel="noopener"
                 >
                   Moderne React Pattern in der Praxis
                 </a>{' '}
@@ -117,6 +118,7 @@ export default function About() {
                 <a
                   href="https://jax.de/software-architecture/moderne-frontend-architekturen-fuer-single-page-anwendungen/"
                   target="_blank"
+                  rel="noopener"
                 >
                   Moderne Frontend-Architekturen für Single-Page-Anwendungen
                 </a>{' '}
@@ -124,7 +126,11 @@ export default function About() {
               </li>
 
               <li>
-                <a href="https://cyberjug.de/vortrag/graphql/" target="_blank">
+                <a
+                  href="https://cyberjug.de/vortrag/graphql/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   GraphQL für Java-Anwendungen
                 </a>{' '}
                 (CyberJUG, <b className="Online">Online</b>, 21. September 2020)
@@ -134,6 +140,7 @@ export default function About() {
                 <a
                   href="https://enterjs.de/lecture.php?id=11214&source="
                   target="_blank"
+                  rel="noopener"
                 >
                   Fortgeschrittene React Patterns
                 </a>{' '}
@@ -144,6 +151,7 @@ export default function About() {
                 <a
                   href="https://www.web-developer-conference.de/programm-2020/#/talk/advanced-react-patterns"
                   target="_blank"
+                  rel="noopener"
                 >
                   Advanced React Patterns
                 </a>{' '}
@@ -151,7 +159,11 @@ export default function About() {
                 Oktober 2020)
               </li>
               <li>
-                <a href="https://www.developer-week.de" target="_blank">
+                <a
+                  href="https://www.developer-week.de"
+                  target="_blank"
+                  rel="noopener"
+                >
                   GraphQL für Java-Anwendungen
                 </a>{' '}
                 (Developer Week 2020, Nürnberg, 5. November 2020)
@@ -170,6 +182,7 @@ export default function About() {
                 <a
                   href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
                   target="_blank"
+                  rel="noopener"
                 >
                   APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
                   Einführung
@@ -177,32 +190,15 @@ export default function About() {
                 (API Summit, <b className="Online">Online</b>, November 2020)
               </li>
               <li>
-                <a href="https://www.oose.de/seminar/web-apps/" target="_blank">
+                <a
+                  href="https://www.oose.de/seminar/web-apps/"
+                  target="_blank"
+                  rel="noopener"
+                >
                   Single-Page-Anwendungen mit React und TypeScript
                 </a>{' '}
                 (OOSE, <b className="Online">Online</b>, 21.-29. Januar 2021)
               </li>
-              {/* <li>
-                <a
-                  href="https://jax.de/web-development-javascript/einsteiger-workshop-single-page-anwendungen-mit-react-und-typescript/"
-                  target="_blank"
-                >
-                  Einsteiger Workshop: Single-Page-Anwendungen mit React und
-                  TypeScript
-                </a>{' '}
-                (JAX Konferenz, Mainz bzw. <b className="Online">Online</b>, 7.
-                September 2020)
-              </li> */}
-              {/* <li>
-                <a
-                  href="https://www.web-developer-conference.de/programm-2020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
-                  target="_blank"
-                >
-                  Ein praktischer Einstieg in React und TypeScript
-                </a>{' '}
-                (Web Developer Conference, <b className="Online">Online</b>, 12.
-                Oktober 2020)
-              </li> */}
 
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
@@ -222,6 +218,7 @@ export default function About() {
                 <a
                   href="https://www.linux-magazin.de/ausgaben/2020/07/graphql-2/"
                   target="_blank"
+                  rel="noopener"
                 >
                   GraphQL: Klienten am Infopoint
                 </a>{' '}
@@ -232,6 +229,7 @@ export default function About() {
                 <a
                   href="https://www.heise.de/hintergrund/Ein-Jahr-React-Hooks-API-eine-Bilanz-4643554.html"
                   target="_blank"
+                  rel="noopener"
                 >
                   Ein Jahr React Hooks-API – eine Bilanz
                 </a>{' '}
@@ -241,6 +239,7 @@ export default function About() {
                 <a
                   href="https://webreader.javaspektrum.de/de/profiles/4967c6d5eae1-javaspektrum/editions/javaspektrum-06-2019"
                   target="_blank"
+                  rel="noopener"
                 >
                   GraphQL entschlüsselt - Konzepte der Abfragesprache am
                   Beispiel einer Java-Anwendung
@@ -251,6 +250,7 @@ export default function About() {
                 <a
                   href="https://www.heise.de/select/ix/2019/6/1909808311106276205?wt_mc=rss.ix.beitrag.atom"
                   target="_blank"
+                  rel="noopener"
                 >
                   Gezielte Auswahl - Typsichere GraphQL-APIs mit Java und React
                 </a>{' '}

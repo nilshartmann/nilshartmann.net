@@ -49,6 +49,7 @@ export default function Sidebar() {
             className="Abstract"
             href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
             target="_blank"
+            rel="noopener"
           >
             APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine Einführung
           </a>
@@ -65,6 +66,7 @@ export default function Sidebar() {
             className="Abstract"
             href="https://www.oose.de/seminar/web-apps/"
             target="_blank"
+            rel="noopener"
           >
             Single-Page-Anwendungen mit React und TypeScript
           </a>
@@ -75,57 +77,9 @@ export default function Sidebar() {
             27.-29. Januar 2021
           </p>
         </div>
-
-        {/* <div className="Item">
-          <a
-            className="Abstract"
-            href="https://www.web-developer-conference.de/programm%202020/#/talk/ein-praktischer-einstieg-in-react-und-typescript"
-            target="_blank"
-          >
-            Ein praktischer Einstieg in React und TypeScript
-          </a>
-
-          <p className="Location">
-            Web Developer Conference, <b className="Online">Online</b>,
-            <br />
-            12. Oktober 2020
-          </p>
-        </div>
-
-        <div className="Item">
-          <a
-            className="Abstract"
-            href="https://www.jvm-con.de/programm%202020/#/talk/graphql-fur-java-anwendungen-ein-praktischer-einstieg"
-            target="_blank"
-          >
-            GraphQL für Java-Anwendungen: ein praktischer Einstieg
-          </a>
-
-          <p className="Location">
-            JVM CON, Köln/<b className="Online">Online</b>,
-            <br />
-            25. November 2020v
-          </p>
-        </div> */}
       </section>
       <section className="Section">
         <h1 className="Title">Talks</h1>
-        {/* <div className="Item">
-          <p>
-            <b>
-              JAX Konferenz, <b className="Online">Online</b>, September 2020
-            </b>
-          </p>
-          <p style={{ marginBottom: '0.5em' }}>
-            <a
-              className="ReadMore"
-              href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
-              target="_blank"
-            >
-              Moderne React Pattern in der Praxis
-            </a>
-          </p>
-        </div> */}
 
         <div className="Item">
           <p>
@@ -138,6 +92,7 @@ export default function Sidebar() {
               className="ReadMore"
               href="https://enterjs.de/lecture.php?id=11214&source="
               target="_blank"
+              rel="noopener"
             >
               Fortgeschrittene React Patterns
             </a>
@@ -153,6 +108,7 @@ export default function Sidebar() {
               className="ReadMore"
               href="https://www.developer-week.de"
               target="_blank"
+              rel="noopener"
             >
               GraphQL für Java-Anwendungen
             </a>
