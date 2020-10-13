@@ -8,7 +8,10 @@ export default function Sidebar() {
         <h1 className="Title">Bücher</h1>
         <div className="Item">
           <a className="ReadMore" href="/posts/react-buch-zweite-auflage">
-            <img src={withPrefix('/uploads/react-buch-v2-ganz-klein.png')} />
+            <img
+              src={withPrefix('/uploads/react-buch-v2-ganz-klein.png')}
+              alt="Cover React Buch"
+            />
             React - Grundlagen, fortgeschrittene Techniken und Praxistipps
             <br />
             (2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, Dez. 2019)
@@ -19,6 +22,7 @@ export default function Sidebar() {
           <Link className="ReadMore" to="/posts/das-osgi-buch">
             <img
               src={withPrefix('/uploads/die_osgi_service_platform_01.jpg')}
+              alt="Cover OSGi Buch"
             />
             Die OSGi Service Platform (April 2008){' '}
           </Link>
@@ -156,6 +160,7 @@ export default function Sidebar() {
         </div>
         <div className="Item">
           <img
+            alt="Nils im Workshop"
             src={withPrefix('/uploads/1498424152641_nils-im-workshop.jpeg')}
           />
           <p>

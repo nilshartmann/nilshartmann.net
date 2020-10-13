@@ -163,29 +163,37 @@ export default function Angebot() {
 
         <div class="title">
           <h2>Mehr zum Thema Frontend-Entwicklung</h2>
-
-          <p>
-            Neben den Schulungen habe ich ein Buch sowie mehrere Artikel rund um
-            die Entwicklung moderner Frontends mit React geschrieben.
-          </p>
-
-          <div style={{ clear: 'both', marginBottom: '20px' }}>
+          <div
+            style={{
+              display: 'flex',
+              marginBottom: '20px',
+              alignItems: 'flex-start',
+            }}
+          >
             <img
               style={{
                 marginRight: '20px',
-                width: '60px',
-                float: 'left',
+                maxWidth: '90px',
               }}
-              src="/uploads/react-buch-v2.png"
+              src="/uploads/react-buch-v2-ganz-klein.png"
+              alt="Cover React Buch (dpunkt-Verlag)"
             />
-            <p>
-              React - Grundlagen, fortgeschrittene Techniken und Praxistipps –
-              mit TypeScript und Redux
-              <br />
-              2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
-              <br />
-              <a href="https://reactbuch.de">Weitere Informationen</a>
-            </p>
+            <div>
+              <p>
+                Neben den Schulungen habe ich ein Buch sowie mehrere Artikel
+                rund um die Entwicklung moderner Frontends mit React
+                geschrieben.
+              </p>
+
+              <p>
+                React - Grundlagen, fortgeschrittene Techniken und Praxistipps –
+                mit TypeScript und Redux
+                <br />
+                2., überarbeitete und erweiterte Auflage, dpunkt-Verlag, 2019
+                <br />
+                <a href="https://reactbuch.de">Weitere Informationen</a>
+              </p>
+            </div>
           </div>
 
           <ul style={ulStyle}>

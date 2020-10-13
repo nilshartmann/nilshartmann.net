@@ -7,7 +7,11 @@ import {} from 'gatsby'
 
 export default function PostTeaser({ post }) {
   const image = post.frontmatter.image ? (
-    <img className="Image" src={withPrefix(post.frontmatter.image)} />
+    <img
+      className="Image"
+      src={withPrefix(post.frontmatter.image)}
+      alt={`Teaser-Bild ${post.frontmatter.title}`}
+    />
   ) : (
     false
   )

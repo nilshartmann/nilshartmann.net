@@ -37,7 +37,7 @@ export default function Angebot() {
       <div className="Row FullPost">
         <h1 className="Title">Meine Dienstleistungen</h1>
         <div className="Summary Clearfix Dienstleistungen">
-          <img src="/uploads/nh.jpg" />
+          <img src="/uploads/nh.jpg" alt="Nils Hartmann" />
           Ich entwickle seit zwanzig Jahren Software in unterschiedlichen
           Programmiersprachen und Technologien. Dabei habe ich in
           unterschiedlichen Firmen und Branchen gearbeitet und neben der{' '}

@@ -24,7 +24,11 @@ export default function About() {
           </header>
           <section>
             <p style={pStyle}>
-              <img className="ProfilePic" src="/uploads/nh.jpg" />
+              <img
+                className="ProfilePic"
+                src="/uploads/nh.jpg"
+                alt="Nils Hartmann"
+              />
               Ich bin Nils Hartmann, freiberuflicher Softwareentwickler,
               -Architekt, Trainer und Coach aus Hamburg und habe Erfahrung in
               der Entwicklung von Client- und Serveranwendungen

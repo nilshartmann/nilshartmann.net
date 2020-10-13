@@ -33,6 +33,7 @@ export default class FullPost extends React.Component {
         image_position.charAt(0).toUpperCase() + image_position.substring(1)
       return (
         <img
+          alt={`Teaser-Bild ${post.frontmatter.title}`}
           className={`ImageFloating ${positionClassName}`}
           src={`${withPrefix(image)}`}
         />
@@ -44,6 +45,7 @@ export default class FullPost extends React.Component {
       return (
         <div className="ImageFullWidth-Full">
           <img
+            alt={`Teaser-Bild ${post.frontmatter.title}`}
             className="ImageFullWidth-Full"
             src={`${imgUrl}`}
             onClick={this.toggleExpandedImage}
