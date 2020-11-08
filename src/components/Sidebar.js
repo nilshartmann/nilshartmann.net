@@ -80,7 +80,7 @@ export default function Sidebar() {
       </section>
       <section className="Section">
         <h1 className="Title">Talks</h1>
-
+        {/*
         <div className="Item">
           <p>
             <b>
@@ -97,9 +97,9 @@ export default function Sidebar() {
               Fortgeschrittene React Patterns
             </a>
           </p>
-        </div>
+        </div> */}
 
-        <div className="Item">
+        {/* <div className="Item">
           <p>
             <b>Developer Week, Nürnberg, November 2020</b>
           </p>
@@ -113,7 +113,7 @@ export default function Sidebar() {
               GraphQL für Java-Anwendungen
             </a>
           </p>
-        </div>
+        </div> */}
         <div className="Item">
           <img
             alt="Nils im Workshop"
