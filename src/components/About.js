@@ -99,7 +99,7 @@ export default function About() {
               kommt!
             </p>
           </section>
-          <section style={{ marginTop: '1rem' }}>
+          {/* <section style={{ marginTop: '1rem' }}>
             <p style={pStyle}>
               <b>Kommende Vorträge</b>:
             </p>
@@ -172,7 +172,7 @@ export default function About() {
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
               </li>
             </ul>
-          </section>
+          </section> */}
           <section>
             <p style={pStyle}>
               <b>Schulungen und Workshops</b>:
@@ -197,7 +197,7 @@ export default function About() {
                 >
                   Single-Page-Anwendungen mit React und TypeScript
                 </a>{' '}
-                (OOSE, <b className="Online">Online</b>, 21.-29. Januar 2021)
+                (OOSE, <b className="Online">Online</b>, 27.-29. Januar 2021)
               </li>
 
               <li style={{ marginTop: '1rem' }}>
@@ -214,6 +214,16 @@ export default function About() {
             </p>
 
             <ul style={ulStyle}>
+              <li>
+                <a
+                  href="https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendungen-4934595.html"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  The Art of State: Zustandsmanagement in React-Anwendungen
+                </a>{' '}
+                (heise developer, online, 30.10.2020)
+              </li>
               <li>
                 <a
                   href="https://www.linux-magazin.de/ausgaben/2020/07/graphql-2/"
