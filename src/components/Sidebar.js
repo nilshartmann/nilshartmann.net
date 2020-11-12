@@ -156,9 +156,6 @@ export default function Sidebar() {
           <p className="ReadMore">Buckhorn 41b</p>
           <p className="ReadMore">22359 Hamburg</p>
           <p className="ReadMore" style={{ marginTop: '5px' }}>
-            Tel: 0173 / 286 30 76
-          </p>
-          <p className="ReadMore" style={{ marginTop: '5px' }}>
             E-Mail:{' '}
             <a href="mailto:nils@nilshartmann.net">nils@nilshartmann.net</a>
           </p>

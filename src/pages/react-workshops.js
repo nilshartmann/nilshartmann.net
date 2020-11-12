@@ -466,7 +466,6 @@ export default function Angebot() {
             <p>Nils Hartmann</p>
             <p>Buckhorn 41b</p>
             <p>22359 Hamburg</p>
-            <p>Tel: 0173 / 286 30 76</p>
           </div>
           <div>
             <p className="SocialMedia">
