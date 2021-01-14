@@ -99,80 +99,37 @@ export default function About() {
               kommt!
             </p>
           </section>
-          {/* <section style={{ marginTop: '1rem' }}>
+          <section style={{ marginTop: '1rem' }}>
             <p style={pStyle}>
               <b>Kommende Vorträge</b>:
             </p>
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://jax.de/web-development-javascript/javascript-moderne-react-pattern-in-der-praxis/"
+                  href="https://programm.javaland.eu/2021/#/scheduledEvent/606327"
                   target="_blank"
                   rel="noopener"
                 >
-                  Moderne React Pattern in der Praxis
+                  GraphQL: Außenseiter oder Mainstream?
                 </a>{' '}
-                (JAX, <b className="Online">Online</b>, 8. September 2020)
+                (JavaLand, <b className="Online">Online</b>, 17. März 2021)
               </li>
               <li>
                 <a
-                  href="https://jax.de/software-architecture/moderne-frontend-architekturen-fuer-single-page-anwendungen/"
+                  href="https://programm.javaland.eu/2021/#/scheduledEvent/606464"
                   target="_blank"
                   rel="noopener"
                 >
-                  Moderne Frontend-Architekturen für Single-Page-Anwendungen
+                  TypeScript: Grundlagen und fortgeschrittene Techniken
                 </a>{' '}
-                (JAX, <b className="Online">Online</b>, 9. September 2020)
+                (JavaLand, <b className="Online">Online</b>, 17. März 2021)
               </li>
 
-              <li>
-                <a
-                  href="https://cyberjug.de/vortrag/graphql/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  GraphQL für Java-Anwendungen
-                </a>{' '}
-                (CyberJUG, <b className="Online">Online</b>, 21. September 2020)
-              </li>
-
-              <li>
-                <a
-                  href="https://enterjs.de/lecture.php?id=11214&source="
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Fortgeschrittene React Patterns
-                </a>{' '}
-                (EnterJS, <b className="Online">Online</b>, 29. September 2020)
-              </li>
-
-              <li>
-                <a
-                  href="https://www.web-developer-conference.de/programm-2020/#/talk/advanced-react-patterns"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Advanced React Patterns
-                </a>{' '}
-                (Web Developer Conference, <b className="Online">Online</b>, 14.
-                Oktober 2020)
-              </li>
-              <li>
-                <a
-                  href="https://www.developer-week.de"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  GraphQL für Java-Anwendungen
-                </a>{' '}
-                (Developer Week 2020, Nürnberg, 5. November 2020)
-              </li>
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
               </li>
             </ul>
-          </section> */}
+          </section>
           <section>
             <p style={pStyle}>
               <b>Schulungen und Workshops</b>:
@@ -180,14 +137,14 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
-                  href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+                  href="https://apiconference.net/api-development/graphql-apis-a-practical-introduction-with-java/"
                   target="_blank"
                   rel="noopener"
                 >
-                  APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine
-                  Einführung
+                  GraphQL APIs – A practical introduction with Java
                 </a>{' '}
-                (API Summit, <b className="Online">Online</b>, November 2020)
+                (API Conference Den Haag, <b className="Online">Online</b>, 12.
+                April 2021)
               </li>
               <li>
                 <a
@@ -197,7 +154,7 @@ export default function About() {
                 >
                   Single-Page-Anwendungen mit React und TypeScript
                 </a>{' '}
-                (OOSE, <b className="Online">Online</b>, 27.-29. Januar 2021)
+                (OOSE, Hamburg, 22.-24. September 2021)
               </li>
 
               <li style={{ marginTop: '1rem' }}>
@@ -216,13 +173,25 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendung-Teil-2-4990188.html"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  The Art of State: Zustandsmanagement in React-Anwendungen,
+                  Teil 2
+                </a>{' '}
+                (heise developer, 18.12.2020)
+              </li>
+              <li>
+                <a
                   href="https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendungen-4934595.html"
                   target="_blank"
                   rel="noopener"
                 >
-                  The Art of State: Zustandsmanagement in React-Anwendungen
+                  The Art of State: Zustandsmanagement in React-Anwendungen,
+                  Teil 1
                 </a>{' '}
-                (heise developer, online, 30.10.2020)
+                (heise developer, 30.10.2020)
               </li>
               <li>
                 <a

@@ -47,17 +47,17 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
-            href="https://api-summit.de/api/apis-mit-graphql-teufelszeug-oder-heilsbringer-eine-einfuehrung/"
+            href="https://apiconference.net/api-development/graphql-apis-a-practical-introduction-with-java/"
             target="_blank"
             rel="noopener"
           >
-            APIs mit GraphQL: Teufelszeug oder Heilsbringer – Eine Einführung
+            GraphQL APIs – A practical introduction with Java
           </a>
 
           <p className="Location">
-            API Summit, <b className="Online">Online</b>,
+            API Conference Den Haag, <b className="Online">Online</b>,
             <br />
-            November 2020
+            12. April 2021
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function Sidebar() {
           <p className="Location">
             OOSE, <b className="Online">Online</b>,
             <br />
-            27.-29. Januar 2021
+            22.-24. September 2021
           </p>
         </div>
       </section>
