@@ -1,3 +1,14 @@
+# RUN AND DEPLOY
+
+`nvm use 10`
+`yarn start` (http://localhost:8000)
+
+Deploy:
+
+Commit + push
+
+Depyloment is done via netlify direct from GitHub
+
 # My Homepage
 
 This is my homepage that runs at [https://nilshartmann.net](https://nilshartmann.net). The site is built with [Gatsby](https://gatsbyjs.org) and React.
