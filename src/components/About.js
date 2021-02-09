@@ -124,6 +124,27 @@ export default function About() {
                 </a>{' '}
                 (JavaLand, <b className="Online">Online</b>, 17. März 2021)
               </li>
+              <li>
+                <a
+                  href="https://www.web-developer-conference.de/programm-2/#/talk/react-server-components"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  React Server Components
+                </a>{' '}
+                (Web Developer Conference, <b className="Online">Online</b>, 28.
+                April 2021)
+              </li>
+              <li>
+                <a
+                  href="https://jax.de/web-development-javascript/einsteigen-und-loslegen-eine-praktische-einfuehrung-in-react/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Einsteigen und loslegen – eine praktische Einführung in React
+                </a>{' '}
+                (JAX, Mainz <b className="Online">Online</b>, 6. Mai 2021)
+              </li>
 
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/posts/vergangene-talks/">Vergangene Vorträge</Link>
@@ -137,6 +158,17 @@ export default function About() {
             <ul style={ulStyle}>
               <li>
                 <a
+                  href="https://api.bettercode.eu/lecture_compact1.php?id=12807&source=0"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Workshop: GraphQL für Java-Anwendungen
+                </a>{' '}
+                (BetterCode API 2021, <b className="Online">Online</b>, 24. März
+                2021)
+              </li>
+              <li>
+                <a
                   href="https://apiconference.net/api-development/graphql-apis-a-practical-introduction-with-java/"
                   target="_blank"
                   rel="noopener"
@@ -148,15 +180,15 @@ export default function About() {
               </li>
               <li>
                 <a
-                  href="https://www.oose.de/seminar/web-apps/"
+                  href="https://www.web-developer-conference.de/programm-2/#/talk/modernes-statemanagement-fur-react"
                   target="_blank"
                   rel="noopener"
                 >
-                  Single-Page-Anwendungen mit React und TypeScript
+                  Modernes Statemanagement für React (DevSession)
                 </a>{' '}
-                (OOSE, Hamburg, 22.-24. September 2021)
+                (Web Developer Conference, <b className="Online">Online</b>, 28.
+                April 2021)
               </li>
-
               <li style={{ marginTop: '1rem' }}>
                 <Link to="/react-workshops">
                   Individuelle In-House Trainings, Workshops und Coaching:

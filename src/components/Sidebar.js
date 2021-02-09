@@ -47,6 +47,23 @@ export default function Sidebar() {
         <div className="Item">
           <a
             className="Abstract"
+            href="https://api.bettercode.eu/lecture_compact1.php?id=12807&source=0"
+            target="_blank"
+            rel="noopener"
+          >
+            GraphQL für Java-Anwendungen
+          </a>
+
+          <p className="Location">
+            BetterCode API 2021, <b className="Online">Online</b>,
+            <br />
+            24. März 2021
+          </p>
+        </div>
+
+        <div className="Item">
+          <a
+            className="Abstract"
             href="https://apiconference.net/api-development/graphql-apis-a-practical-introduction-with-java/"
             target="_blank"
             rel="noopener"
