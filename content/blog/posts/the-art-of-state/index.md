@@ -1,6 +1,6 @@
 ---
 title: 'The Art of State: Zustandsmanagement in React-Anwendungen'
-date: '2020-12-18T07:30:00.000Z'
+date: '2021-02-18T07:30:00.000Z'
 summaryMarkdown: 'Die Verwaltung von Zustand in React-Anwendungen ist ein wichtiges Thema. Für heise developer habe ich aufgeschrieben, welche Möglichkeiten es sowohl mit React selbst als auch mit Bibliotheken gibt.'
 image_position: 'before_summary'
 image_expanded: 'true'
@@ -20,3 +20,5 @@ In einer Artikel-Serie für _heise developer_ habe ich aufgeschrieben, welche Ar
 - Teil eins beschäftigt sich mit der Frage, welche Arten von State und welche unterschiedlichen Anforderungen es daran gibt und stellt React-eigene Mitteln zum State-Management vor **[online lesen](https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendungen-4934595.html)**
 
 - Teil zwei stellt die React Context API vor und wirft einen Blick auf Redux **[online lesen](https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendung-Teil-2-4990188.html)**
+
+- Teil drei behandelt MobX und Recoil und es wird die Frage besprochen, wie man sich zwischen all den Möglichkeiten entscheiden kann **[online lesen](https://www.heise.de/ratgeber/The-Art-of-State-Zustandsmanagement-in-React-Anwendung-Teil-3-5054351.html)**
